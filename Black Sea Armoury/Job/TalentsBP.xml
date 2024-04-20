@@ -827,7 +827,6 @@
     </AbilityGroupEffect>
     <AddedRecipe itemidentifier="bandolierbw3"/>
     <AddedRecipe itemidentifier="armored_miningsuit_bw2"/>
-    <AddedRecipe itemidentifier="armored_miningsuit_bw3"/>
   </Talent>
   <Talent identifier="revengesquad_deffense">
     <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,7" sheetelementsize="128,128"/>
@@ -879,6 +878,7 @@
         <CharacterAbilityGivePermanentStat statidentifier="trustbuildingbw" stattype="MaximumHealthMultiplier" value="0.015" maxvalue="0.1" targetallies="false" removeondeath="true"/>
       </Abilities>
     </AbilityGroupEffect>
+		<AddedRecipe itemidentifier="armored_miningsuit_bw3"/>
   </Talent>
   <!-- 后勤精通 -->
   <Talent identifier="olympian_logistic">
@@ -962,9 +962,6 @@
     <Description tag="talentdescription.unlockrecipe">
       <Replace tag="[itemname]" value="entityname.pio_bw_med" color="gui.orange"/>
     </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.armored_hardsuit_bw_med" color="gui.orange"/>
-    </Description>
     <Description tag="talentdescription.firemanscarry"/>
     <Description tag="talentdescription.increaseappliedbuffduration">
       <Replace tag="[amount]" value="10" color="gui.green" />
@@ -978,7 +975,6 @@
     <AddedRecipe itemidentifier="bandolierbw2"/>
     <AddedRecipe itemidentifier="pio_bw"/>
     <AddedRecipe itemidentifier="pio_bw_med"/>
-    <AddedRecipe itemidentifier="armored_hardsuit_bw_med"/>
   </Talent>
   <Talent identifier="custommachinebw">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,2" sheetelementsize="128,128" />
@@ -1054,6 +1050,28 @@
     <AddedRecipe itemidentifier="handcannon" />
     <AddedRecipe itemidentifier="handcannonround" />
   </Talent>
+	<Talent identifier="revengesquad_logistic">
+		<Icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,7" sheetelementsize="128,128"/>
+		<Description tag="talentdescription.revengesquad_logistic">
+			<Replace tag="[amount]" value="40" color="gui.green"/>
+			<Replace tag="[amount2]" value="20" color="gui.green"/>
+			<Replace tag="[duration]" value="120" color="gui.green"/>
+		</Description>
+		<AbilityGroupInterval interval="0.5">
+			<Conditions>
+				<AbilityConditionCrewMemberUnconscious />
+			</Conditions>
+			<Abilities>
+				<CharacterAbilityApplyStatusEffects>
+					<StatusEffects>
+						<StatusEffect type="OnAbility"  target="Character">
+							<Affliction identifier="revengesquad_logistic" amount="120"/>
+						</StatusEffect>
+					</StatusEffects>
+				</CharacterAbilityApplyStatusEffects>
+			</Abilities>
+		</AbilityGroupInterval>
+	</Talent>
   <Talent identifier="miracleworker_bw">
     <Description tag="talentdescription.miracleworker_bw">
       <Replace tag="[value]" value="5" color="gui.green" />
@@ -1087,7 +1105,7 @@
         <AbilityConditionHasItem tags="apolloassistsystem" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyAffliction afflictionidentifiers="acidburn" addedmultiplier="1" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="acidburn" addedmultiplier="0.25" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnApplyTreatment">
@@ -1097,6 +1115,20 @@
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="bedsidemanner_bw" strength="600" setvalue="true" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+	<Talent identifier="circeassistsystem_bw">
+    <Description tag="talentdescription.circeassistsystem_bw"/>
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="7,2" sheetelementsize="128,128"/>
+    <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasItem tags="circeassistsystem" />
+      </Conditions>
+      <Abilities>
+				<CharacterAbilityModifyAffliction afflictionidentifiers="burn" addedmultiplier="1" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="acidburn" addedmultiplier="1" />
+				<CharacterAbilityGiveAffliction affliction="acidreaction" strength="50" setvalue="true" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<huskappendage>
+  <limb name="Heavy" id="20" height="30" width="10" ignorecollisions="True" flip="True">
+    <!-- strong protection, otherwise gaining a husk appendage is a liability as it cannot be protected with armor -->
+    <damagemodifier armorsector="0,360" afflictiontypes="damage" damagemultiplier="0.1" />
+    <damagemodifier armorsector="0,360" afflictiontypes="bleeding" damagemultiplier="0.1" />
+    <damagemodifier armorsector="0,360" afflictiontypes="burn" damagemultiplier="0.1" />
+		<attack Stickchance="0" StructureSoundType="StructureBlunt" Context="Any" TargetType="Character" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="IdleUntilCanAttack" AfterAttackDelay="5" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="60" DamageRange="60" MinRange="0" Duration="1" CoolDown="4" SecondaryCoolDown="0.5" CoolDownRandomFactor="02" FullSpeedAfterAttack="True" StructureDamage="0" EmitStructureDamageParticles="True" ItemDamage="0" Penetration="0" LevelWallDamage="0" Ranged="True" AvoidFriendlyFire="False" RequiredAngle="360" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="-1" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="" Force="100" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="100" TargetImpulseWorld="100,0" TargetForce="100" TargetForceWorld="100,0" SubmarineImpactMultiplier="0" SeverLimbsProbability="0" Priority="1" Blink="False" >
+			<Affliction Strength="10" Identifier="blunttrauma" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
+			<Affliction Strength="1" Identifier="stun" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
+			<Affliction Strength="10" Identifier="stun" Probability="0.05" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
+		</attack>
+  </limb>
+  <joint name="Hand to Heavy" limb1="5" limb2="20" limb1anchor="0,9" limb2anchor="0,-10" upperlimit="0" lowerlimit="0" canbesevered="False" limitenabled="True" />
+</huskappendage>

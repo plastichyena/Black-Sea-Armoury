@@ -71,7 +71,7 @@
   <Item name="黑海武库" identifier="arsenal_bw" aliases="shield, boarding shiled, backpack" scale="0.35" category="Equipment,gunsmith" description="" tags="mediumitem,toolbelt" waterproof="true" impactsoundtag="impact_metal_heavy" health="2000" damagedbyprojectiles="true">
     <Fabricate suitablefabricators="fabricator" requiredtime="50" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="100" />
-      <RequiredItem identifier="bcs_bw" amount="2" />
+      <RequiredItem identifier="bca_bw" amount="2" />
       <RequiredItem identifier="shield_bw" />
       <RequiredItem identifier="bandolierbw4" />
     </Fabricate>
@@ -86,6 +86,7 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.2" setvalue="true" disabledeltatime="true">
         <Conditional recoilstabilized="gte 0.5" />
         <Affliction identifier="DEFbw3" amount="10.0" />
+				<Affliction identifier="shieldmeleeweapon_bw" amount="100.0" />
       </StatusEffect>
       <StatusEffect type="OnActive" target="This,Character" SpeedMultiplier="0" setvalue="true">
         <Conditional recoilstabilized="eq 0" />
@@ -114,10 +115,7 @@
       <SubContainer capacity="3" maxstacksize="1">
         <Containable items="weapon,smallitem,mph_ammo,ammo,ammobox"/>
       </SubContainer>
-      <SubContainer capacity="1" maxstacksize="1">
-        <Containable items="mobilecontainer"/>
-      </SubContainer>
-      <SubContainer capacity="11">
+      <SubContainer capacity="12">
         <Containable items="smallitem,mph_ammo,ammo"/>
       </SubContainer>
     </ItemContainer>
@@ -313,9 +311,8 @@
       <Sound file="Content/Items/Weapons/ExplosionSmall1.ogg" type="OnUse" range="2000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/ExplosionSmall2.ogg" type="OnUse" range="2000" />
       <Sound file="Content/Items/Weapons/ExplosionSmall3.ogg" type="OnUse" range="2000" />
-      <StatusEffect type="OnUse" targettype="UseTarget" targets="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-25.0" Condition="-25.0" />
-      <StatusEffect type="OnUse" targettype="UseTarget" targets="ore" Condition="-40.0" />
-      <StatusEffect type="OnSuccess" targettype="UseTarget" Condition="-20.0" />
+		  <StatusEffect type="OnSuccess" targettype="UseTarget" targets="weldable" Stuck="-25.0" />
+      <StatusEffect type="OnSuccess" targettype="UseTarget" Condition="-35.0" />
       <StatusEffect type="OnUse" targettype="Limb" severlimbsprobability="0.5">
         <Affliction identifier="burn" strength="20" />
       </StatusEffect>

@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+	<!--tips-->
+	<loadingscreentip>"Even gunpowder serves as a remedy" - Quack Doctor Andy</loadingscreentip>
+	<loadingscreentip>"Who actually read these tips?" - Assistant Andy</loadingscreentip>
+	<loadingscreentip>Precision sniper rifles can often switch to semi-automatic mode for better accuracy - Black Sea Armory</loadingscreentip>
+	<loadingscreentip>The armor-piercing capability of a weapon often depends on the barrel length and bullet type - Black Sea Armory</loadingscreentip>
+	<loadingscreentip>Spread increases quickly with rapid consecutive firing - Black Sea Armory</loadingscreentip>
+	<loadingscreentip>Exosuit can often reduce recoil - Black Sea Armory</loadingscreentip>
+	<loadingscreentip>Rare materials may be found in scrap - Black Sea Armory</loadingscreentip>
   <!--Job.xml-->
   <jobName.Pilot>Iron Rider</jobName.Pilot>
   <jobdescription.Pilot>Elite Soldiers of the Iron League, Iron Riders serve as stalwart defenders of humanity on Europa.</jobdescription.Pilot>
@@ -21,6 +29,9 @@
   <talentname.trustbuildingbw>Veteran</talentname.trustbuildingbw>
   <talentdescription.trustbuildingbw>Every time you complete a task, you increase [smallgain]% of your maximum life. If all crew members survive, increase the maximum life of [largegain]%, up to [maxgain]%. </talentdescription.trustbuildingbw>
   <talentname.buccaneerbw>White Soldier Battle</talentname.buccaneerbw>
+	<talentname.swordwarriorbw>Sword Warriorbw</talentname.swordwarriorbw>
+	<talentdescription.crafthighqualityswordwarriorbw>The quality of longswords you craft is increased by [qualitybonus].</talentdescription.crafthighqualityswordwarriorbw>
+	<talentdescription.swordwarriorbw>When attacking with melee weapons, each [itemname] you carry increases your damage by [powerincrease]%, up to a maximum of [maxpowerincrease]%.</talentdescription.swordwarriorbw>
   <talentname.enforcerbw>Reload Hunter</talentname.enforcerbw>
   <talentdescription.enforcerbw>When attacking with a shotgun,causes additional [damage]% damage and [armorpenetration]% armor penetration.</talentdescription.enforcerbw>
   <talentname.steelruler>Steel Ruler</talentname.steelruler>
@@ -61,6 +72,7 @@
   <talentname.logistic_system>Logistics Core</talentname.logistic_system>
   <talentname.revengesquad_offense>Desperate Assault</talentname.revengesquad_offense>
   <talentname.revengesquad_deffense>Redemption Shield</talentname.revengesquad_deffense>
+	<talentname.revengesquad_logistic>Dire Response</talentname.revengesquad_logistic>
   <talentname.warlordbw_offense>Ace</talentname.warlordbw_offense>
   <talentname.warlordbw_deffense>Armor Citadel</talentname.warlordbw_deffense>
   <talentname.miracleworker_bw>Leadership</talentname.miracleworker_bw>
@@ -73,53 +85,90 @@
   <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when piloting a mech.</talentdescription.miracleworker_bw>
   <talentdescription.revengesquad_offense> When a alloy is dying, you get [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
   <talentdescription.revengesquad_deffense> When a alloy is dying, you get [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
-  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum life of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
+	<talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]%的‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
   <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life.  If all crew members survive, increase the maximum life of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
   <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
   <stattypenames.penetration>Armor Penetration</stattypenames.penetration>
   <stattypenames.flowresistance>Flow Resistance</stattypenames.flowresistance>
   <Afflictionname.revengesquad_offense>Wish for Vengeance</Afflictionname.revengesquad_offense>
   <Afflictionname.revengesquad_deffense>Wish for Guardian</Afflictionname.revengesquad_deffense>
+	<Afflictionname.revengesquad_logistic>Wish for Maintenance</Afflictionname.revengesquad_logistic>
   <Afflictiondescription.revengesquad_offense>The only way to save a life is to take another life</Afflictiondescription.revengesquad_offense>
   <Afflictiondescription.revengesquad_deffense>The only way to save a life is to suffer all the pain</Afflictiondescription.revengesquad_deffense>
+	<Afflictiondescription.revengesquad_logistic>The only way to save a life is to defend the last hope</Afflictiondescription.revengesquad_logistic>
   <talentname.apolloassistsystem_bw>Apollo Assistance System</talentname.apolloassistsystem_bw>
-  <talentdescription.apolloassistsystem_bw> When driving Apollo, inflict additional 100% chemical burns, and after healing the wounded, the wounded will be assisted by Apollo nanobots within 60 seconds. </talentdescription.apolloassistsystem_bw>
+  <talentdescription.apolloassistsystem_bw> When wearing Apollo, inflict additional 25% chemical burns, and after healing the wounded, the wounded will be assisted by Apollo nanobots within 60 seconds. </talentdescription.apolloassistsystem_bw>
+	<talentname.circeassistsystem_bw>Circe Assist System</talentname.circeassistsystem_bw>
+	<talentdescription.circeassistsystem_bw>When wearing Circe, deal an additional 100% chemical burn and burn damage.</talentdescription.circeassistsystem_bw>
   <!--AR.xml-->
+  <label.semiautomatic>Semi-auto</label.semiautomatic>
+  <label.lighting>Lighting system</label.lighting>
   <entityname.spar-408>SPAR-408 Special Designated Marksman Rifle</entityname.spar-408>
   <entitydescription.spar-408>A designated marksman rifle designed by the Iron Alliance to annihilate high-threat targets. </entitydescription.spar-408>
-  <entityname.spar_7magazine>SPAR-408 Kraken Armor-Piercing Magazine(7)</entityname.spar_7magazine>
-  <entitydescription.spar_7magazine>7 rounds of .408 rifle magazines, the armor-piercing rounds used are enough to penetrate the armor of most creatures. </entitydescription.spar_7magazine>
-  <entityname.spar_7magazine_fmj>SPAR-408 Kun Full Metal Jacket Magazine(7)</entityname.spar_7magazine_fmj>
-  <entitydescription.spar_7magazine_fmj>7 rounds .408 rifle magazine, using full metal jacket bullets capable of inflicting a lot of damage inside the target.</entitydescription.spar_7magazine_fmj>
-  <entityname.spar_7magazine_jhp>SPAR-408 Scylla Full Metal Jacket Hollow Point Magazine(7)</entityname.spar_7magazine_jhp>
-  <entitydescription.spar_7magazine_jhp>7 rounds of .408 rifle magazines, using full metal jacketed hollow point bullets, capable of inflicting massive damage and massive stopping power inside the target. </entitydescription.spar_7magazine_jhp>
+  <entityname.408_7magazine_bw>SPAR-408 Kraken Armor-Piercing Magazine(7)</entityname.408_7magazine_bw>
+  <entitydescription.408_7magazine_bw>7 rounds of .408 rifle magazines, the armor-piercing rounds used are enough to penetrate the armor of most creatures. </entitydescription.408_7magazine_bw>
+  <entityname.408fmj_7magazine_bw>SPAR-408 Kun Full Metal Jacket Magazine(7)</entityname.408fmj_7magazine_bw>
+  <entitydescription.408fmj_7magazine_bw>7 rounds .408 rifle magazine, using full metal jacket bullets capable of inflicting a lot of damage inside the target.</entitydescription.408fmj_7magazine_bw>
+  <entityname.408jhp_7magazine_bw>SPAR-408 Scylla Full Metal Jacket Hollow Point Magazine(7)</entityname.408jhp_7magazine_bw>
+  <entitydescription.408jhp_7magazine_bw>7 rounds of .408 rifle magazines, using full metal jacketed hollow point bullets, capable of inflicting massive damage and massive stopping power inside the target. </entitydescription.408jhp_7magazine_bw>
   <entityname.spar-338>SPAR-338 Special Machine Gun</entityname.spar-338>
   <entitydescription.spar-338>A precise and deadly machine gun designed by the Iron Alliance to defend against the ever-increasing danger of monsters.</entitydescription.spar-338>
-  <entityname.spar_24magazine>SPAR-338 Magazine (24)</entityname.spar_24magazine>
-  <entitydescription.spar_24magazine>24 rounds titanium .338 Lapua Magnum magazine. </entitydescription.spar_24magazine>
-  <entityname.spar_60magazine>SPAR-338 Magazine (60)</entityname.spar_60magazine>
-  <entitydescription.spar_60magazine>60 rounds titanium .338 Lapua Magnum Extended machine gun magazine for suppressing fire. </entitydescription.spar_60magazine>
-  <entityname.spar-8s>SPAR-8S Special Automatic Team Sniper Rifle</entityname.spar-8s>
+  <entityname.338_24magazine_bw>SPAR-338 Magazine (24)</entityname.338_24magazine_bw>
+  <entitydescription.338_24magazine_bw>24 rounds titanium .338 Lapua Magnum magazine. </entitydescription.338_24magazine_bw>
+  <entityname.338_60magazine_bw>SPAR-338 Magazine (60)</entityname.338_60magazine_bw>
+  <entitydescription.338_60magazine_bw>60 rounds titanium .338 Lapua Magnum Extended machine gun magazine for suppressing fire. </entitydescription.338_60magazine_bw>
+	<entityname.spar-93>SPAR-93 Special Assault Rifle</entityname.spar-93>
+	<entitydescription.spar-93>Based on the significant success of the SPAR-76 in the market, the Iron Alliance has launched a new heavy assault rifle. This rifle is characterized by its robust construction and efficient combat capabilities, capable of quickly subduing enemies with a few high-power bullets.</entitydescription.spar-93>
+	<entityname.93_30magazine_bw>SPAR-93 Magazine (30)</entityname.93_30magazine_bw>
+	<entitydescription.93_30magazine_bw>A 30-round 9.3×63mm rifle magazine, each round hits like a sledgehammer.</entitydescription.93_30magazine_bw>
+	<entityname.93ap_30magazine_bw>SPAR-93 Armor-Piercing Magazine (30)</entityname.93ap_30magazine_bw>
+	<entitydescription.93ap_30magazine_bw>A 30-round 9.3×63mm armor-piercing rifle magazine, using specially made armor-piercing bullets.</entitydescription.93ap_30magazine_bw>
+	<entityname.spar-8s>SPAR-8S Special Designated Marksman Rifle</entityname.spar-8s>
   <entitydescription.spar-8s>A fully automatic squad designated marksman rifle designed by the Iron Alliance, with an extended barrel and improved muzzle brake for significantly improved accuracy and armor penetration.</entitydescription.spar-8s>
   <entityname.spar-8>SPAR-8 Special Designated Marksman Rifle</entityname.spar-8>
   <entitydescription.spar-8>A fully automatic designated marksman rifle designed by the Iron Alliance, favored by elite troops. </entitydescription.spar-8>
-  <entityname.spar_45magazine>SPAR-8 Magazine (45)</entityname.spar_45magazine>
-  <entitydescription.spar_45magazine>A 45-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds, suitable for standard models.</entitydescription.spar_45magazine>
-  <entityname.spar_20magazine>SPAR-8 Magazine (20)</entityname.spar_20magazine>
-  <entitydescription.spar_20magazine>A 20-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds.</entitydescription.spar_20magazine>
-  <entityname.spar-65>SPAR-65 Special Assault Rifle</entityname.spar-65>
-  <entitydescription.spar-65>Based on the SPAR-556A, this rifle features a 65mm heavy barrel and optimized ergonomic design.</entitydescription.spar-65>
-  <entityname.spar_50magazine>SPAR-65 Drum Magazine (50)</entityname.spar_50magazine>
-  <entitydescription.spar_50magazine>A 50-round 6.5×52mm rifle drum magazine that serves as a firepower suppressor within tactical teams.</entitydescription.spar_50magazine>
-  <entityname.spar-556a>SPAR-556A Special Assault Rifle</entityname.spar-556a>
+  <entityname.8_45magazine_bw>SPAR-8 Magazine (45)</entityname.8_45magazine_bw>
+  <entitydescription.8_45magazine_bw>A 45-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds, suitable for standard models.</entitydescription.8_45magazine_bw>
+  <entityname.8_20magazine_bw>SPAR-8 Magazine (20)</entityname.8_20magazine_bw>
+  <entitydescription.8_20magazine_bw>A 20-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds.</entitydescription.8_20magazine_bw>
+	<entityname.8ap_20magazine_bw>SPAR-8 Armor-Piercing Magazine (20)</entityname.8ap_20magazine_bw>
+	<entitydescription.8ap_20magazine_bw>20-round titanium alloy 8×75mm armor-piercing rifle magazine, using specially made armor-piercing bullets.</entitydescription.8ap_20magazine_bw>
+	<entityname.spar-76>SPAR-76 Special Assault Rifle</entityname.spar-76>
+	<entitydescription.spar-76>A heavy assault rifle designed by the Iron Alliance, robust and durable, intended to incapacitate an opponent with just a few shots.</entitydescription.spar-76>
+	<entityname.762_30magazine_bw>SPAR-76 Magazine (30)</entityname.762_30magazine_bw>
+	<entitydescription.762_30magazine_bw>30-round 7.62×54mm rifle magazine, each round hits like a sledgehammer.</entitydescription.762_30magazine_bw>
+	<entityname.762ap_30magazine_bw>SPAR-76 Armor-Piercing Magazine (30)</entityname.762ap_30magazine_bw>
+	<entitydescription.762ap_30magazine_bw>30-round 7.62×54mm armor-piercing rifle magazine, using titanium alloy armor-piercing bullets.</entitydescription.762ap_30magazine_bw>
+	<entityname.spar-65>SPAR-65 Special Assault Rifle</entityname.spar-65>
+  <entitydescription.spar-65>Based on the spar-556a, this rifle features a 65mm heavy barrel and optimized ergonomic design.</entitydescription.spar-65>
+  <entityname.65_50magazine_bw>SPAR-65 Drum Magazine (50)</entityname.65_50magazine_bw>
+  <entitydescription.65_50magazine_bw>A 50-round 6.5×52mm rifle drum magazine that serves as a firepower suppressor within tactical teams.</entitydescription.65_50magazine_bw>
+	<entityname.65ap_50magazine_bw>SPAR-65 Armor Piercing Drum (50)</entityname.65ap_50magazine_bw>
+	<entitydescription.65ap_50magazine_bw>50-round 6.5×52mm armor piercing rifle drum, utilizing titanium alloy bullets.</entitydescription.65ap_50magazine_bw>
+	<entityname.spar-556a>spar-556a Special Assault Rifle</entityname.spar-556a>
   <entitydescription.spar-556a>An assault rifle designed by the Steel Alliance during its early formation, later upgraded with an extended barrel.</entitydescription.spar-556a>
-  <entityname.spar-556>SPAR-556 Special Assault Rifle</entityname.spar-556>
+  <entityname.spar-556>spar-556 Special Assault Rifle</entityname.spar-556>
   <entitydescription.spar-556>An assault rifle designed during the early formation of the Steel Alliance, criticized for lacking sufficient stopping power.</entitydescription.spar-556>
-  <entityname.spar_30magazine>SPAR-556 Magazine (30)</entityname.spar_30magazine>
-  <entitydescription.spar_30magazine>A 30-round 5.56×45mm rifle magazine using steel-core rounds.</entitydescription.spar_30magazine>
-  <entityname.spar_150magazine>SPAR-556 Drum Magazine (150)</entityname.spar_150magazine>
-  <entitydescription.spar_150magazine>A 150-round 5.56×45mm rifle drum magazine capable of providing firepower suppression within tactical teams.</entitydescription.spar_150magazine>
-  <entityname.spsg-15>SPSG-15 Special Assault Shotgun</entityname.spsg-15>
+  <entityname.556_30magazine_bw>spar-556 Magazine (30)</entityname.556_30magazine_bw>
+  <entitydescription.556_30magazine_bw>A 30-round 5.56×45mm rifle magazine using steel-core rounds.</entitydescription.556_30magazine_bw>
+	<entityname.556ap_30magazine_bw>SPAR-556 Armor Piercing Magazine (30)</entityname.556ap_30magazine_bw>
+	<entitydescription.556ap_30magazine_bw>30-round 5.56×45mm armor piercing rifle magazine, utilizing armor-piercing titanium alloy bullets.</entitydescription.556ap_30magazine_bw>
+	<entityname.556_150magazine_bw>spar-556 Drum Magazine (150)</entityname.556_150magazine_bw>
+  <entitydescription.556_150magazine_bw>A 150-round 5.56×45mm rifle drum magazine capable of providing firepower suppression within tactical teams.</entitydescription.556_150magazine_bw>
+	<entityname.asmg-300>AG-300 Special Submachine Gun</entityname.asmg-300>
+	<entitydescription.asmg-300>Subsonic submachine gun developed for tactical squads dealing with indoor CQC environments, heavily used by the Alliance Long Spike Division's Judges.</entitydescription.asmg-300>
+	<entityname.300blk_24magazine_bw>AG-300 Magazine (24)</entityname.300blk_24magazine_bw>
+	<entitydescription.300blk_24magazine_bw>24-round .300 BLK submachine gun magazine, offering excellent subsonic performance.</entitydescription.300blk_24magazine_bw>
+	<entityname.asmg-45>AG-45 Submachine Gun</entityname.asmg-45>
+	<entitydescription.asmg-45>Defensive weapon widely used inside submarines, favored by security companies for its high stopping power and low recoil.</entitydescription.asmg-45>
+	<entityname.45_50magazine_bw>AG-45 Magazine (50)</entityname.45_50magazine_bw>
+	<entitydescription.45_50magazine_bw>50-round .45 ACP submachine gun magazine, classic and reliable.</entitydescription.45_50magazine_bw>
+	<entityname.asmg-50>AG-50 Assault Submachine Gun</entityname.asmg-50>
+	<entitydescription.asmg-50>Armed with high-charge .510 ammunition, this is a hard-to-control firearm with extremely high stopping power.</entitydescription.asmg-50>
+	<entityname.50lb_16magazine_bw>AG-50 Magazine (16)</entityname.50lb_16magazine_bw>
+	<entitydescription.50lb_16magazine_bw>16-round .510 LB submachine gun magazine.</entitydescription.50lb_16magazine_bw>
+	<entityname.spsg-15>SPSG-15 Special Assault Shotgun</entityname.spsg-15>
   <entitydescription.spsg-15>A fully automatic, stockless shotgun with a unique revolving magazine mechanism, boasting a capacity of up to 15 rounds, making it an ideal choice for indoor CQB.</entitydescription.spsg-15>
   <entityname.spsg-4>SPSG-4 Special "Heavy Hammer" Shotgun</entityname.spsg-4>
   <entitydescription.spsg-4>The SPSG-4 "Heavy Hammer" shotgun can instantly fire two shotgun rounds using a specially designed gas track, but its complex reset mechanism significantly reduces its versatility.</entitydescription.spsg-4>
@@ -129,14 +178,30 @@
   <entitydescription.mph_bw>The 4-inch Multi-Purpose "Stinky" Grenade Launcher can fire specially designed 4-inch grenades to address different situations.</entitydescription.mph_bw>
   <entityname.mph_ammo_cyanide>4-Inch "Prussian Blue" Grenade</entityname.mph_ammo_cyanide>
   <entitydescription.mph_ammo_cyanide>A toxic mixture of hydrogen cyanide and potassium cyanide, causing acute cyanide poisoning within the target area.</entitydescription.mph_ammo_cyanide>
-  <entityname.mph_ammo_stun>4-Inch "Black Sun" Grenade</entityname.mph_ammo_stun>
-  <entitydescription.mph_ammo_stun>Capable of generating intense flash and sound bursts, forcing targets to lose ability and releasing a paralyzing agent to immobilize them.</entitydescription.mph_ammo_stun>
-  <entityname.mph_ammo_radiation>4-Inch "Radiance" Grenade</entityname.mph_ammo_radiation>
-  <entitydescription.mph_ammo_radiation>Capable of creating a radiation cloud, severely contaminating the targeted area with radiation.</entitydescription.mph_ammo_radiation>
-  <entityname.mph_ammo_emp>4-Inch "Electro Surge" Grenade</entityname.mph_ammo_emp>
-  <entitydescription.mph_ammo_emp>Capable of producing a powerful EMP pulse, disabling all electrical facilities.</entitydescription.mph_ammo_emp>
-  <entityname.mph_ammo_exp>4-Inch "Thunderclap" Grenade</entityname.mph_ammo_exp>
-  <entitydescription.mph_ammo_exp>Art Is Explosion!</entitydescription.mph_ammo_exp>
+	<entityname.mph_ammo_cyanide_d>4-inch "Prussian Blue" Grenade (Delayed Fuse)</entityname.mph_ammo_cyanide_d>
+	<entitydescription.mph_ammo_cyanide_d>A highly toxic grenade combining hydrogen cyanide and potassium cyanide, causing acute cyanide poisoning within its range. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_cyanide_d>
+	<entityname.mph_ammo_stun>4-Inch "Black Sun" Grenade</entityname.mph_ammo_stun>
+	<entitydescription.mph_ammo_stun>Capable of generating intense flash and sound bursts, forcing targets to lose ability and releasing a paralyzing agent to immobilize them.</entitydescription.mph_ammo_stun>
+	<entityname.mph_ammo_stun_d>4-inch "Black Sun" Grenade (Delayed Fuse)</entityname.mph_ammo_stun_d>
+	<entitydescription.mph_ammo_stun_d>Generates large flash and sound bursts, incapacitating targets and releasing a paralyzing agent. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_stun_d>
+	<entityname.mph_ammo_radiation>4-Inch "Radiance" Grenade</entityname.mph_ammo_radiation>
+	<entitydescription.mph_ammo_radiation>Capable of creating a radiation cloud, severely contaminating the targeted area with radiation.</entitydescription.mph_ammo_radiation>
+	<entityname.mph_ammo_radiation_d>4-inch "Radiance" Grenade (Delayed Fuse)</entityname.mph_ammo_radiation_d>
+	<entitydescription.mph_ammo_radiation_d>Creates a radiation cloud, heavily contaminating any objects in the targeted area. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_radiation_d>
+	<entityname.mph_ammo_emp>4-Inch "Electro Surge" Grenade</entityname.mph_ammo_emp>
+	<entitydescription.mph_ammo_emp>Capable of producing a powerful EMP pulse, disabling all electrical facilities.</entitydescription.mph_ammo_emp>
+	<entityname.mph_ammo_exp>4-Inch "Thunderclap" Grenade</entityname.mph_ammo_exp>
+	<entitydescription.mph_ammo_exp>Art Is Explosion!</entitydescription.mph_ammo_exp>
+	<entityname.mph_ammo_exp_vt>4-inch "Thunderclap" Grenade (VT)</entityname.mph_ammo_exp_vt>
+	<entitydescription.mph_ammo_exp_vt>Explosion is art, using a proximity fuse to detonate near targets and create a metal storm, cutting everything but the launcher.</entitydescription.mph_ammo_exp_vt>
+	<entityname.mph_ammo_exp_pg>4-inch "Thunderclap" Grenade (PG)</entityname.mph_ammo_exp_pg>
+	<entitydescription.mph_ammo_exp_pg>Explosion is art, using a timed fuse to detonate at a designated target location and create a metal storm, cutting everything but the launcher.</entitydescription.mph_ammo_exp_pg>
+	<entityname.mph_ammo_breaching>4-inch "Bull" Grenade</entityname.mph_ammo_breaching>
+	<entitydescription.mph_ammo_breaching>FBI BREACHING!!!</entitydescription.mph_ammo_breaching>
+	<entityname.mph_ammo_base>4-inch Grenade</entityname.mph_ammo_base>
+	<entitydescription.mph_ammo_base>Unloaded warhead, but still very bad to be stabbed with this thing.</entitydescription.mph_ammo_base>
+	<entityname.mph_ammo_heathesh>4-inch Tandem HESH Grenade</entityname.mph_ammo_heathesh>
+	<entitydescription.mph_ammo_heathesh>Penetrates armor with a HEAT warhead and detonates a fragmentation charge inside, extremely effective against both armor and behemoths.</entitydescription.mph_ammo_heathesh>
   <!--AXE.xml-->
   <entityname.PFbw>Power Combat System</entityname.PFbw>
   <entitydescription.PFbw>All Iron League recruits are trained in hand-to-hand combat.</entitydescription.PFbw>
@@ -182,6 +247,12 @@
   <entitydescription.armored_miningsuit_bw3>The Hercules is an excellent weapon platform, but the sluggish nature of the armor meant that anyone who wielded it was often simply outmaneuvered by lighter forces. Thus a new iteration on the armor was developed, removing all of the intneral ammo storage and loading assistance in exchange for a more powerful movement system. It's still incredibly slow, but you will at least be able to reach the end of the hallway before the day is done. Requires an X01 Oxygen Cell for optimal performance.</entitydescription.armored_miningsuit_bw3>
   <entityname.apollo_bw>Apollo</entityname.apollo_bw>
   <entitydescription.apollo_bw>A light field medic mech, which can carry a large amount of medical supplies, move quickly in the battlefield, and provide a huge bonus to medicine and research. </entitydescription.apollo_bw>
+	<entityname.circe_bw>Circe</entityname.circe_bw>
+	<entitydescription.circe_bw>Lightweight chemical warfare mech, capable of carrying large amounts of medical supplies, quickly moving across the battlefield, and offering excellent resistance to poison and burns.</entitydescription.circe_bw>
+	<entityname.armored_hardsuit_bw_med>X01 Battle Armor (Combat Medic)</entityname.armored_hardsuit_bw_med>
+	<entitydescription.armored_hardsuit_bw_med>Advanced armor designed for a variety of military tasks, powered by X01 oxygen cells. Equipped with an automatic health monitoring system.</entitydescription.armored_hardsuit_bw_med>
+	<entityname.pio_bw_med>Pioneer Model II</entityname.pio_bw_med>
+	<entitydescription.pio_bw_med>Specialized in medical assistance. use oxygen tanks.</entitydescription.pio_bw_med>
   <!--Shield.xml-->
   <entityname.bwapc>Reverse Engineering Alien Power Cell</entityname.bwapc>
   <entitydescription.bwapc>A man-made alien power cell.</entitydescription.bwapc>
@@ -283,6 +354,8 @@
   <entitydescription.>Living metal provide limitless rounds,but halfed the damage.</entitydescription.>
   <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
   <!--Materials-->
+	<entityname.bca_bw>Composite Armor Plate</entityname.bca_bw>
+	<entitydescription.bca_bw>Developed by the Iron Alliance, this advanced composite armor uses NERA (Non-Explosive Reactive Armor) technology to provide multi-layered defense. It includes compressed titanium alloy, armored silica, depleted materials, titanium metal fiber mesh, and rubber. Effectively withstands threats from explosives and armor-piercing weapons.</entitydescription.bca_bw>
   <entityname.pta_bw>Compressed Titanium</entityname.pta_bw>
   <entitydescription.pta_bw>The newest alloy developed by the Iron Alliance, has a material property that is unparalleled. But the cost is high, so it is only used by the Iron Federation to create high-end weapons to counter the growing threat. </entitydescription.pta_bw>
   <entityname.amu_bw>hardened aluminum alloy</entityname.amu_bw>
@@ -335,14 +408,20 @@
   <Afflictiondescription.architect>Repair speed and health increased 25%.</Afflictiondescription.architect>
   <Afflictionname.architect2>Fortification Architect</Afflictionname.architect2>
   <Afflictiondescription.architect2>Repair speed increased 25%,health increased 50%,very slowly repairs itself.</Afflictiondescription.architect2>
-  <Afflictionname.Swift>Swift</Afflictionname.Swift>
-  <Afflictiondescription.Swift>Attack speed increased 20%.</Afflictiondescription.Swift>
+	<Afflictionname.Hercules>Fortification Architect</Afflictionname.Hercules>
+	<Afflictiondescription.Hercules>Increases repair speed by 25%, health by 25%</Afflictiondescription.Hercules>
+	<Afflictionname.Hercules2>Fortification Architect</Afflictionname.Hercules2>
+	<Afflictiondescription.Hercules2>Increases repair speed by 25%, health by 25%, and reduces physical damage taken by 15%.</Afflictiondescription.Hercules2>
+	<Afflictionname.Swift>Swift</Afflictionname.Swift>
+  <Afflictiondescription.Swift>Melee Attack speed increased 20%.</Afflictiondescription.Swift>
   <Afflictionname.Alienpw>Toughness</Afflictionname.Alienpw>
   <Afflictiondescription.Alienpw>Health increased 50%,very slowly repairs itself.</Afflictiondescription.Alienpw>
   <Afflictionname.X01>Advanced Armor</Afflictionname.X01>
   <Afflictiondescription.X01>Damage increased by 10%,health increased by 10%.</Afflictiondescription.X01>
-  <Afflictionname.X01>Living Armor</Afflictionname.X01>
-  <Afflictiondescription.X01>Damage increased by 10%,health increased by 20%,very slowly repairs itself.</Afflictiondescription.X01>
+	<Afflictionname.X00>Assault Armor</Afflictionname.X00>
+  <Afflictiondescription.X00>Increases damage by 10%, attack speed by 20%, and health by 10%.</Afflictiondescription.X00>
+  <Afflictionname.X01D>Reactive Armor</Afflictionname.X01D>
+  <Afflictiondescription.X01D>Increases damage by 10%, health by 20%, and very slowly self-repairs after receiving damage.</Afflictiondescription.X01D>
   <Afflictionname.Hammer>Self repair</Afflictionname.Hammer>
   <Afflictiondescription.Hammer>Health increased 25%,very slowly repairs itself.</Afflictiondescription.Hammer>
   <Afflictionname.PCIA>Biological health care system</Afflictionname.PCIA>
@@ -351,7 +430,9 @@
   <Afflictiondescription.DEFbw>Increases health 50% and physical damage resistance increased 30%.</Afflictiondescription.DEFbw>
   <Afflictionname.DEFbw2>Additional Armor</Afflictionname.DEFbw2>
   <Afflictiondescription.DEFbw2>Increases health 25% and physical damage resistance increased 15%.</Afflictiondescription.DEFbw2>
-  <Afflictionname.Swift2>Assault armor</Afflictionname.Swift2>
+	<Afflictionname.DEFbw3>Extra Armor</Afflictionname.DEFbw3>
+	<Afflictiondescription.DEFbw3>Increases health by 50%, reduces physical damage taken by 30%, and increases attack speed by 20%.</Afflictiondescription.DEFbw3>
+	<Afflictionname.Swift2>Assault armor</Afflictionname.Swift2>
   <Afflictiondescription.Swift2>Damage increased 10%,attack speed increased 20%,health increases 25%.</Afflictiondescription.Swift2>
   <Afflictionname.steelruler>Steel ruler</Afflictionname.steelruler>
   <Afflictionname.quickdrawingbw>A full blow</Afflictionname.quickdrawingbw>
@@ -364,9 +445,13 @@
   <Afflictiondescription.sup3>Attack speed increased 20%,health increased 25%,physical damage resistance increased 15%.</Afflictiondescription.sup3>
   <Afflictionname.sup4>Arsenal Support System</Afflictionname.sup4>
   <Afflictiondescription.sup4> Attack speed increased by 20%, HP increased by 25%, and physical damage reduced by 20%. </Afflictiondescription.sup4>
-  <Afflictionname.Apollo_sys>Battle Physician System</Afflictionname.Apollo_sys>
-  <Afflictiondescription.Apollo_sys> Increases health by 10%, poison effects by 100%, and no risk of contamination when genetically merged. </Afflictiondescription.Apollo_sys>
-  <Afflictionname.bedsidemanner_bw>Apollo Support System</Afflictionname.bedsidemanner_bw>
+	<Afflictionname.Med_sys>Battle Medic System</Afflictionname.Med_sys>
+	<Afflictiondescription.Med_sys>Increases health by 10%, enhances poison effects by 10%.</Afflictiondescription.Med_sys>
+	<Afflictionname.Apollo_sys>Battle Physician System</Afflictionname.Apollo_sys>
+	<Afflictiondescription.Apollo_sys>Increases health by 10%, boosts poison effects by 100%, and eliminates the risk of contamination when genetically merged.</Afflictiondescription.Apollo_sys>
+	<Afflictionname.Circe_sys>Chemical Warfare System</Afflictionname.Circe_sys>
+	<Afflictiondescription.Circe_sys>Increases health by 10%, enhances poison and fire effects by 100%, and neutralizes toxins in the body over time.</Afflictiondescription.Circe_sys>
+	<Afflictionname.bedsidemanner_bw>Apollo Support System</Afflictionname.bedsidemanner_bw>
   <Afflictiondescription.bedsidemanner_bw> Increases movement speed by 10%, reduces physical damage by 10%, and will not die due to pain while in effect. </Afflictiondescription.bedsidemanner_bw>
   <entityname.railgunshellbw2>Empty Shell</entityname.railgunshellbw2>
   <!--Enemy Characters equipments-->
@@ -388,19 +473,41 @@
   <entitydescription.clownexosuitbw_e>Why so serious?</entitydescription.clownexosuitbw_e>
   <!--Enemy Characters-->
   <character.Pirateantisub>Pirate AntiSub</character.Pirateantisub>
+	<character.Pirateantisub_emp>Pirate AntiSub</character.Pirateantisub_emp>
   <character.Pirateboarder>Pirate Boarder</character.Pirateboarder>
   <character.Piratebombard>Pirate Bombard</character.Piratebombard>
+	<character.Piratecommando>Pirate Commando</character.Piratecommando>
+	<character.Piratecommandopod>Pirate Commando Pod</character.Piratecommandopod>
+	<character.Piratecommando2>Pirate Commando</character.Piratecommando2>
   <character.Piratedismantler>Pirate Dismantler</character.Piratedismantler>
+	<character.Piratedismantlerpod>Pirate Dismantler Pod</character.Piratedismantlerpod>
+	<character.Pirateenforcer>Pirate Enforcer</character.Pirateenforcer>
+	<character.Pirateenforcerpod>Pirate Enforcer Pod</character.Pirateenforcerpod>
   <character.Pirateforerunner>Pirate Forerunner</character.Pirateforerunner>
   <character.Pirategunner>Pirate Gunner</character.Pirategunner>
+	<character.Pirategunner2>Pirate Gunner</character.Pirategunner2>
+	<character.Pirategunnerpod>Pirate Gunner Pod</character.Pirategunnerpod>
   <character.Piratemarksman>Pirate Marksman</character.Piratemarksman>
+	<character.Piratemarksmanpod>Pirate Marksman Pod</character.Piratemarksmanpod>
   <character.Pirategrenadier>Pirate Grenadier</character.Pirategrenadier>
   <character.Piratenuker>Pirate AntiSub</character.Piratenuker>
   <character.Piraterifleman>Pirate Rifleman</character.Piraterifleman>
+	<character.Pirateriflemanpod>Pirate Rifleman Pod</character.Pirateriflemanpod>
   <character.Piratesharpshooter>Pirate Sharpshooter</character.Piratesharpshooter>
+	<character.Piratesharpshooterpod>Pirate Sharpshooter Pod</character.Piratesharpshooterpod>
   <character.Pirateveteran>Pirate Veteran</character.Pirateveteran>
+	<character.Pirateveteranpod>Pirate Veteran Pod</character.Pirateveteranpod>
   <character.Piratedesolator>Pirate Desolator</character.Piratedesolator>
   <character.Piratescavenger>Pirate Scavenger</character.Piratescavenger>
+	<character.Piratescavengerpod>Pirate Scavenger Pod</character.Piratescavengerpod>
+	<character.Piratetyrant>Pirate Tyrant</character.Piratetyrant>
+	<character.Piraterepressor>Pirate Repressor</character.Piraterepressor>
+	<character.Piratetyrantpod>Pirate Tyrant Pod</character.Piratetyrantpod>
+	<character.Piraterepressorpod>Pirate Repressor Pod</character.Piraterepressorpod>
+	<character.Pirateheavy>Pirate Heavy</character.Pirateheavy>
+	<character.Pirateheavypod>Pirate Heavy Pod</character.Pirateheavypod>
+	<character.Piraterecruits>Pirate Recruits</character.Piraterecruits>
+	<character.Piraterecruitspod>Pirate Recruits Pod</character.Piraterecruitspod>
   <character.Coalitionantisub>Coalition AntiSub</character.Coalitionantisub>
   <character.Coalitionheavy>Coalition Heavy</character.Coalitionheavy>
   <character.Coalitiongunner>Coalition Gunner</character.Coalitiongunner>
@@ -418,7 +525,17 @@
   <character.Cultistdevoter>Cultist Devoter</character.Cultistdevoter>
   <character.Cultistzealot>Cultist Zealot</character.Cultistzealot>
   <character.Technoprankster>Techno Prankster</character.Technoprankster>
-  <!--Mission text-->
+	<character.Coalitioneyeofear>Eye of Fear</character.Coalitioneyeofear>
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--Mission text-->
   <missionheader.killtarget>Targets terminated</missionheader.killtarget>
   <missionmessage.killmessage>The Targets have been neutralized. Navigate the submarine out of the cavern to claim the reward.</missionmessage.killmessage>
   <missionname.killnuker>Nuclear Emergency</missionname.killnuker>
@@ -491,4 +608,20 @@
   <missionfailure.abandonedoutpostassassinatebae>Eliminating the leader of the bandit group failed.</missionfailure.abandonedoutpostassassinatebae>
   <missionheader0.abandonedoutpostassassinatebae>Bandit leader killed</missionheader0.abandonedoutpostassassinatebae>
   <missionmessage0.abandonedoutpostassassinatebae>The leader of the bandit group has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinatebae>
+	<missionname.purgestation_small_2>Eliminate Elite Small Pirate Outpost</missionname.purgestation_small_2>
+	<missiondescription.purgestation_small_2>Destroy the pirate base located at [location1], which has been occupied by a group of armed pirates. Clear the outpost. Be advised, pirates are equipped with numerous automatic rifles, and a few mechs and precision/heavy weaponry.</missiondescription.purgestation_small_2>
+	<missionname.purgestation_small>Eliminate Small Pirate Outpost</missionname.purgestation_small>
+	<missiondescription.purgestation_small>Destroy the pirate base located at [location1], which has been occupied by a group of armed pirates. Clear the outpost. Note, pirates possess limited automatic rifle firepower, with possible presence of mechs and precision/heavy weaponry.</missiondescription.purgestation_small>
+	<missionheader0.purgestation_small>Outpost Cleared</missionheader0.purgestation_small>
+	<missionmessage0.purgestation_small>Our ships can now safely pass through this channel.</missionmessage0.purgestation_small>
+	<missionname.huntingground_eyeofear>Eye of Fear Unleashed</missionname.huntingground_eyeofear>
+	<missiondescription.huntingground_eyeofear>A rogue mechanical creature has lost control in the abyss, attacking all targets. If it remains alive, it will complicate the construction of new outposts nearby and may impact existing ones.</missiondescription.huntingground_eyeofear>
+	<missionsuccess.huntingground_eyeofears>The Eye of Fear is dead, securing the channel.</missionsuccess.huntingground_eyeofears>
+	<missionfailure.huntingground_eyeofears>The Eye of Fear continues to occupy the area, affecting lives.</missionfailure.huntingground_eyeofears>
+	<missionheader0.huntingground_eyeofears>Target Eliminated</missionheader0.huntingground_eyeofears>
+	<missionmessage0.huntingground_eyeofears>The Eye of Fear is dead, securing the channel.</missionmessage0.huntingground_eyeofears>
+	<missionname.kill_eyeofear>AI Crisis</missionname.kill_eyeofear>
+	<missiondescription.kill_eyeofear>A rogue Alliance weapon has blockaded this channel. There have been multiple reports of lost contact, and the threat needs to be eliminated immediately. The weapon can withstand most small caliber weaponry from submarines, and it launches specialty rounds in attacks. It also deploys drones and boarding pods to disrupt operations.</missiondescription.kill_eyeofear>
+	<missionsonarlabel.kill_eyeofear>Eye of Fear</missionsonarlabel.kill_eyeofear>
+	<missionsuccess.kill_eyeofear>The rogue weapon has been neutralized, awaiting recovery.</missionsuccess.kill_eyeofear>
 </infotexts>

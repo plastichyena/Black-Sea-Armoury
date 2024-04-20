@@ -87,4 +87,21 @@
     </Effect>
     <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="0,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
   </Affliction>
+	<Affliction
+    identifier="revengesquad_logistic"
+    type="talentbuff"
+    isbuff="true"
+    limbspecific="false"
+    maxstrength="120"
+    duration="120"
+    treatmentthreshold="1000"
+    iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+		<Effect minstrength="0" maxstrength="120" strengthchange="-1">
+			<StatValue stattype="RepairSpeed" minvalue="0" maxvalue="0.4"/>
+			<StatValue stattype="RepairToolStructureRepairMultiplier" minvalue="0" maxvalue="0.4"/>
+			<StatValue stattype="MovementSpeed" minvalue="0" maxvalue="0.2"/>
+			<StatValue stattype="MedicalItemApplyingMultiplier" minvalue="0" maxvalue="0.2"/>
+		</Effect>
+		<Icon texture="Content/UI/TalentsIcons4.png" sheetindex="0,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
+	</Affliction>
 </Afflictions>

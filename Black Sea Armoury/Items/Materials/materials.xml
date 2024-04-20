@@ -2,14 +2,14 @@
 <override>
   <Items>
     <!--
-  bcs_bw(NERA):1150
-  pta_bw:500
-  amu_bw:170
-  sst_bw:90
-  camp6_bw:170
-  camp7_bw:240
+  bca_bsa(NERA):1150
+  pta_bsa:500
+  amu_bsa:170
+  sst_bsa:90
+  camp6_bsa:170
+  camp7_bsa:240
   -->
-    <Item name="Black sea composite armor" identifier="bcs_bw" category="Material,Alien" Tags="smallitem" maxstacksize="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
+    <Item name="Black sea composite armor" identifier="bca_bw" category="Material,Alien" Tags="smallitem" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
       <PreferredContainer primary="storagecab" />
       <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.02" />
       <Price baseprice="1150" sold="false" minleveldifficulty="35">
@@ -33,8 +33,8 @@
         <Item identifier="ballisticfiber"  amount="2" copycondition="true" />
         <Item identifier="pta_bw"  amount="1" copycondition="true" />
       </Deconstruct>
-      <InventoryIcon texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="4,7,52,25" origin="0.5,0.5" />
-      <Sprite texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="4,7,52,25" depth="0.55" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="180,7,52,25" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="180,7,52,25" depth="0.55" origin="0.5,0.5" />
       <Body width="50" height="25" density="30" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" attachable="true" reattachable="false">
         <!-- Remove the item when fully used -->
@@ -44,7 +44,7 @@
       </Holdable>
       <AiTarget sightrange="1000" static="true" />
     </Item>
-    <Item name="Compressed titanium alloy" identifier="pta_bw" category="Material,Alien" Tags="smallitem" maxstacksize="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
+    <Item name="Compressed titanium alloy" identifier="pta_bw" category="Material,Alien" Tags="smallitem" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
       <PreferredContainer primary="storagecab" />
       <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.02" />
       <Price baseprice="500" sold="false" minleveldifficulty="30">
@@ -76,7 +76,7 @@
       </Holdable>
       <AiTarget sightrange="1000" static="true" />
     </Item>
-    <Item name="Hardened Aluminum Alloy" identifier="amu_bw" category="Material" Tags="smallitem" maxstacksize="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
+    <Item name="Hardened Aluminum Alloy" identifier="amu_bw" category="Material" Tags="smallitem" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
       <PreferredContainer primary="storagecab" />
       <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
       <Price baseprice="150" sold="false" minleveldifficulty="0">
@@ -108,7 +108,7 @@
       </Holdable>
       <AiTarget sightrange="1000" static="true" />
     </Item>
-    <Item name="Hardened Steel Alloy" identifier="sst_bw" category="Material" Tags="smallitem" maxstacksize="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
+    <Item name="Hardened Steel Alloy" identifier="sst_bw" category="Material" Tags="smallitem" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
       <PreferredContainer primary="storagecab" />
       <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
       <Price baseprice="75" sold="false" minleveldifficulty="10">
@@ -138,7 +138,7 @@
       </Holdable>
       <AiTarget sightrange="1000" static="true" />
     </Item>
-    <Item name="Compound 6" identifier="camp6_bw" category="Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+    <Item name="Compound 6" identifier="camp6_bw" category="Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
       <PreferredContainer primary="secarmcab" minamount="1" maxamount="4" spawnprobability="0.5" notcampaign="true"/>
       <PreferredContainer secondary="wreckarmcab,abandonedarmcab" amount="2" spawnprobability="0.05"/>
       <PreferredContainer secondary="armcab"/>
@@ -187,7 +187,7 @@
         <QualityStat stattype="ExplosionDamage" value="0.1"/>
       </Quality>
     </Item>
-    <Item name="Compound 7" identifier="camp7_bw" category="Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+    <Item name="Compound 7" identifier="camp7_bw" category="Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="32" maxstacksizecharacterinventory="8" scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
       <PreferredContainer primary="secarmcab" minamount="1" maxamount="1" spawnprobability="0.1" notcampaign="true"/>
       <PreferredContainer secondary="wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0.05"/>
       <PreferredContainer secondary="armcab"/>
@@ -237,11 +237,11 @@
         <QualityStat stattype="ExplosionDamage" value="0.1"/>
       </Quality>
     </Item>
-    <Item name="" identifier="scrap" sonarsize="2" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" aliases="scrap1,scrap2,scrap3,scrap4,scrap5,scrap6,scrap7,scrap8">
+    <Item name="" identifier="scrap" sonarsize="2" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" aliases="scrap1,scrap2,scrap3,scrap4,scrap5,scrap6,scrap7,scrap8">
       <PreferredContainer primary="storagecab" />
       <PreferredContainer secondary="wreckstoragecab,wreckreactorcab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.5" />
       <Price baseprice="5" sold="false" />
-      <Deconstruct time="0" chooserandom="true" amount="2">
+      <Deconstruct time="5" chooserandom="true" amount="2">
         <Item identifier="iron" commonness="0.8" />
         <Item identifier="thorium" commonness="0.2" />
         <Item identifier="steel" commonness="0.6" />
@@ -252,7 +252,7 @@
         <Item identifier="carbon" commonness="0.6" />
         <Item identifier="lead" commonness="0.7" />
         <Item identifier="silicon" commonness="0.5" />
-        <Item identifier="bcs_bw" commonness="0.06" />
+        <Item identifier="bca_bw" commonness="0.06" />
         <Item identifier="pta_bw" commonness="0.07" />
         <Item identifier="deepdiverduck" commonness="0.01" />
         <Item identifier="huskfigurine" commonness="0.01" />

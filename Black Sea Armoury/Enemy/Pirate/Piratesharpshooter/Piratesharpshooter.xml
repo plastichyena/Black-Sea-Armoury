@@ -60,7 +60,7 @@
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="rum" />
-    <Item Identifier="spar_7magazine" />
+    <Item Identifier="408_7magazine_bw" />
     <Item Identifier="alientrinket1" amount="2"/>
     <Item Identifier="scrap" amount="4"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-408ap-hide"/>
@@ -71,7 +71,7 @@
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="rum" />
-    <Item Identifier="spar_7magazine_fmj" />
+    <Item Identifier="408fmj_7magazine_bw" />
     <Item Identifier="alientrinket1" amount="2"/>
     <Item Identifier="scrap" amount="5"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-408fmj-hide"/>
@@ -82,7 +82,7 @@
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="rum" />
-    <Item Identifier="spar_7magazine_jhp" />
+    <Item Identifier="408jhp_7magazine_bw" />
     <Item Identifier="alientrinket1" amount="2"/>
     <Item Identifier="scrap" amount="4"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-408jhp-hide"/>

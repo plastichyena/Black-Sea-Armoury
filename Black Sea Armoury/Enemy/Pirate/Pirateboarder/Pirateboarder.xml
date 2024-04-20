@@ -65,7 +65,6 @@
     <Item Identifier="smgmagazine_bw" />
     <Item Identifier="lmgmagazine_bw" />
     <Item Identifier="scrap" amount="1"/>
-    <Item Identifier="lmgmagazine_bw" />
     <Item slot="RightHand" Identifier="lmg_bw_e" />
     <Item slot="LeftHand" Identifier="smg_bw_e" />
     <Item slot="Card" Identifier="idcard" />
@@ -74,7 +73,7 @@
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
-    <Item Identifier="spar_150magazine" />
+    <Item Identifier="556_150magazine_bw" />
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-556a-hide" />
     <Item slot="Card" Identifier="idcard" />
@@ -83,7 +82,7 @@
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
-    <Item Identifier="spar_150magazine" />
+    <Item Identifier="556_150magazine_bw" />
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-556-hide" />
     <Item slot="Card" Identifier="idcard" />

@@ -129,7 +129,7 @@
       </ItemSet>
     </npc>
   </npcset>
-  <!--Assault on Mech Labs by Parthenope-->
+  <!--Assault on Mech Labs-->
   <npcset identifier="assaultonmechlabs">
     <npc identifier="elmechlab_heavy" commonness="0" moduleflags="researchmodule" job="Pilot" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.5" aimspeed="1.5" aimaccuracy="0.8" reportrange="3000" skillmultiplier="5.0">
       <ItemSet commonness="1">
@@ -173,10 +173,10 @@
         <Item slot="OuterClothes" identifier="armored_hardsuit_bw_e" equip="true" >
           <Item identifier="oxygen_cell_bw" />
         </Item>
-        <Item identifier="spar_60magazine" amount="4" />
-        <Item identifier="spar_60magazine" amount="4" />
+        <Item identifier="338_60magazine_bw" amount="4" />
+        <Item identifier="338_60magazine_bw" amount="4" />
         <Item identifier="spar-338" >
-          <Item identifier="spar_60magazine" />
+          <Item identifier="338_60magazine_bw" />
         </Item>
       </ItemSet>
       <ItemSet commonness="1">
@@ -206,10 +206,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-408" equip="true">
-          <Item identifier="spar_7magazine"/>
+          <Item identifier="408_7magazine_bw"/>
         </Item>
-        <Item identifier="spar_7magazine" amount="2"/>
-        <Item identifier="spar_7magazine" amount="2"/>
+        <Item identifier="408_7magazine_bw" amount="2"/>
+        <Item identifier="408_7magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -221,10 +221,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-408" equip="true">
-          <Item identifier="spar_7magazine_fmj"/>
+          <Item identifier="408fmj_7magazine_bw"/>
         </Item>
-        <Item identifier="spar_7magazine_fmj" amount="2"/>
-        <Item identifier="spar_7magazine_fmj" amount="2"/>
+        <Item identifier="408fmj_7magazine_bw" amount="2"/>
+        <Item identifier="408fmj_7magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -236,10 +236,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-408" equip="true">
-          <Item identifier="spar_7magazine_jhp"/>
+          <Item identifier="408jhp_7magazine_bw"/>
         </Item>
-        <Item identifier="spar_7magazine_jhp" amount="2"/>
-        <Item identifier="spar_7magazine_jhp" amount="2"/>
+        <Item identifier="408jhp_7magazine_bw" amount="2"/>
+        <Item identifier="408jhp_7magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -267,10 +267,10 @@
           <Item identifier="oxygen_cell_bw" />
         </Item>
         <Item identifier="spar-8">
-          <Item identifier="spar_45magazine"/>
+          <Item identifier="8_45magazine_bw"/>
         </Item>
-        <Item identifier="spar_45magazine" amount="4"/>
-        <Item identifier="spar_45magazine" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
       </ItemSet>
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
@@ -282,10 +282,10 @@
           <Item identifier="oxygen_cell_bw" />
         </Item>
         <Item identifier="spar-556">
-          <Item identifier="spar_150magazine" />
+          <Item identifier="556_150magazine_bw" />
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -401,9 +401,9 @@
         <Item identifier="ballistichelmetbw" equip="true" />
         <Item identifier="captainsuniformbw" equip="true" />
         <Item slot="OuterClothes" identifier="armored_miningsuit_bw3_e" equip="true"/>
-        <Item identifier="spar_60magazine" amount="8" />
+        <Item identifier="338_60magazine_bw" amount="8" />
         <Item identifier="spar-338" >
-          <Item identifier="spar_60magazine" />
+          <Item identifier="338_60magazine_bw" />
         </Item>
       </ItemSet>
     </npc>
@@ -429,10 +429,10 @@
           <Item identifier="oxygen_cell_bw" />
         </Item>
         <Item identifier="spar-556">
-          <Item identifier="spar_150magazine" />
+          <Item identifier="556_150magazine_bw" />
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
     </npc>
     <npc identifier="coalition_overwatch" commonness="0" moduleflags="engineeringmodule,researchmodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1" aimaccuracy="0.8" reportrange="10000" skillmultiplier="3.0">
@@ -445,10 +445,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-8s" equip="true">
-          <Item identifier="spar_20magazine"/>
+          <Item identifier="8_20magazine_bw"/>
         </Item>
-        <Item identifier="spar_20magazine" amount="2"/>
-        <Item identifier="spar_20magazine" amount="2"/>
+        <Item identifier="8_20magazine_bw" amount="2"/>
+        <Item identifier="8_20magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -459,10 +459,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-556a" equip="true">
-          <Item identifier="spar_150magazine"/>
+          <Item identifier="556_150magazine_bw"/>
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
     </npc>
     <npc identifier="coalition_patrol" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule" job="securityofficer" behavior="Patrol" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1.6" aimaccuracy="0.6" reportrange="30000" skillmultiplier="3.0">
@@ -475,10 +475,10 @@
           <Item identifier="oxygen_cell_bw" />
         </Item>
         <Item identifier="spar-8">
-          <Item identifier="spar_45magazine"/>
+          <Item identifier="8_45magazine_bw"/>
         </Item>
-        <Item identifier="spar_45magazine" amount="4"/>
-        <Item identifier="spar_45magazine" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
       </ItemSet>
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
@@ -489,10 +489,10 @@
           <Item identifier="oxygen_cell_bw" />
         </Item>
         <Item identifier="spar-556">
-          <Item identifier="spar_150magazine" />
+          <Item identifier="556_150magazine_bw" />
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -550,9 +550,9 @@
         <Item slot="OuterClothes" identifier="armored_miningsuit_bw_e" equip="true">
           <Item identifier="fulguriumbatterycell" />
         </Item>
-        <Item identifier="spar_60magazine" amount="8" />
+        <Item identifier="338_60magazine_bw" amount="8" />
         <Item identifier="spar-338" >
-          <Item identifier="spar_60magazine" />
+          <Item identifier="338_60magazine_bw" />
         </Item>
       </ItemSet>
     </npc>
@@ -578,10 +578,10 @@
           <Item identifier="oxygentank" />
         </Item>
         <Item identifier="spar-556">
-          <Item identifier="spar_150magazine" />
+          <Item identifier="556_150magazine_bw" />
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
     </npc>
     <npc identifier="separatism_overwatch" commonness="0" moduleflags="engineeringmodule,securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1" aimaccuracy="0.8" reportrange="10000" skillmultiplier="2.0">
@@ -594,10 +594,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-8s" equip="true">
-          <Item identifier="spar_20magazine"/>
+          <Item identifier="8_20magazine_bw"/>
         </Item>
-        <Item identifier="spar_20magazine" amount="2"/>
-        <Item identifier="spar_20magazine" amount="2"/>
+        <Item identifier="8_20magazine_bw" amount="2"/>
+        <Item identifier="8_20magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -608,10 +608,10 @@
         </Item>
         <Item identifier="rum" />
         <Item slot="LeftHand+RightHand" identifier="spar-556a" equip="true">
-          <Item identifier="spar_150magazine"/>
+          <Item identifier="556_150magazine_bw"/>
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
     </npc>
     <npc identifier="separatism_patrol" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1.6" aimaccuracy="0.6" reportrange="30000" skillmultiplier="2.0">
@@ -624,10 +624,10 @@
           <Item identifier="oxygentank" />
         </Item>
         <Item identifier="spar-8">
-          <Item identifier="spar_45magazine"/>
+          <Item identifier="8_45magazine_bw"/>
         </Item>
-        <Item identifier="spar_45magazine" amount="4"/>
-        <Item identifier="spar_45magazine" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
+        <Item identifier="8_45magazine_bw" amount="4"/>
       </ItemSet>
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
@@ -638,10 +638,10 @@
           <Item identifier="oxygentank" />
         </Item>
         <Item identifier="spar-556">
-          <Item identifier="spar_150magazine" />
+          <Item identifier="556_150magazine_bw" />
         </Item>
-        <Item identifier="spar_150magazine" amount="2"/>
-        <Item identifier="spar_150magazine" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
       </ItemSet>
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
@@ -687,5 +687,695 @@
         </Item>
       </ItemSet>
     </npc>
+  </npcset>
+  <!--Pirate station-->
+  <npcset identifier="piratestation_bw">
+		<npc identifier="medic" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule" job="medicaldoctor" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="1" aimaccuracy="0.8" reportrange="1000" skillmultiplier="2.0">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item identifier="rum" />
+				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+				<Item identifier="revolver_bw">
+					<Item identifier="revolverammobw"/>
+				</Item>
+				<Item identifier="syringegun" equip="true">
+					<Item identifier="cyanide" amount="2" />
+				</Item>
+				<Item identifier="divingknife" />
+				<Item identifier="divingmask">
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="revolverammobw" amount="4" />
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+		</npc>
+		<npc identifier="mech_security_as" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1" aimaccuracy="1" reportrange="2000" skillmultiplier="1.5">
+			<ItemSet commonness="1">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item identifier="rum" />
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item slot="LeftHand+RightHand" identifier="spar-8s" equip="true">
+					<Item identifier="8_45magazine_bw"/>
+				</Item>
+				<Item identifier="8_45magazine_bw" amount="2"/>
+				<Item identifier="8_45magazine_bw" amount="2"/>
+			</ItemSet>
+		</npc>
+		<npc identifier="mech_security_ar2" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="0.8" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="rum" />
+        <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item slot="LeftHand+RightHand" identifier="spar-8" equip="true">
+          <Item identifier="8_45magazine_bw"/>
+        </Item>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="rum" />
+        <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item slot="LeftHand+RightHand" identifier="spar-93" equip="true">
+          <Item identifier="93_30magazine_bw"/>
+        </Item>
+        <Item identifier="93_30magazine_bw" amount="2"/>
+        <Item identifier="93_30magazine_bw" amount="2"/>
+      </ItemSet>
+    </npc>
+    <npc identifier="mech_security_ar" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+        <Item identifier="spar-65">
+          <Item identifier="65_50magazine_bw" />
+        </Item>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+        <Item identifier="spar-76">
+          <Item identifier="762_30magazine_bw" />
+        </Item>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+		<npc identifier="mech_security_laser" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="1" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+				<Item identifier="lasercannon_bw">
+					<Item identifier="oxygen_cell_bw" />
+				</Item>
+				<Item identifier="65_50magazine_bw" amount="2"/>
+				<Item identifier="65_50magazine_bw" amount="2"/>
+				<Item identifier="divingknife" />
+				<Item identifier="divingmask">
+					<Item identifier="oxygentank" />
+				</Item>
+			</ItemSet>
+		</npc>
+    <npc identifier="security_ar3" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="0.9" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="rum" />
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item slot="LeftHand+RightHand" identifier="spar-8" equip="true">
+          <Item identifier="8_45magazine_bw"/>
+        </Item>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="rum" />
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item slot="LeftHand+RightHand" identifier="spar-93" equip="true">
+          <Item identifier="93_30magazine_bw"/>
+        </Item>
+        <Item identifier="93_30magazine_bw" amount="2"/>
+        <Item identifier="93_30magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="security_ar2" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="0.9" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-65">
+          <Item identifier="65_50magazine_bw" />
+        </Item>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-76">
+          <Item identifier="762_30magazine_bw" />
+        </Item>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="security_ar" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.2" aimspeed="0.9" aimaccuracy="0.8" reportrange="2000" skillmultiplier="1.5">
+      <ItemSet commonness="4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-556">
+          <Item identifier="556_150magazine_bw" />
+        </Item>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-556a">
+          <Item identifier="556_150magazine_bw" />
+        </Item>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="security_as" commonness="0" moduleflags="securitymodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="1" aimaccuracy="0.8" reportrange="1000" skillmultiplier="2.0">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="rum" />
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item slot="LeftHand+RightHand" identifier="spar-8s" equip="true">
+          <Item identifier="8_45magazine_bw"/>
+        </Item>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+        <Item identifier="8_45magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+		<npc identifier="patrol_sg" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+				<Item identifier="spsg-8">
+					<Item identifier="shotgunshell" amount="8"/>
+				</Item>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="divingknife" />
+				<Item identifier="divingmask">
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+			<ItemSet commonness="4">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+				<Item identifier="spsg-4" amount="4">
+					<Item identifier="shotgunshell" />
+				</Item>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="divingknife" />
+				<Item identifier="divingmask">
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+			<ItemSet commonness="4">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+				<Item identifier="spsg-15" amount="15">
+					<Item identifier="shotgunshell" />
+				</Item>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="divingknife" />
+				<Item identifier="divingmask">
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+		</npc>
+		<npc identifier="patrol_ar" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+      <ItemSet commonness="4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-556">
+          <Item identifier="556_150magazine_bw" />
+        </Item>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-556a">
+          <Item identifier="556_150magazine_bw" />
+        </Item>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="556_150magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="patrol_ar2" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-65">
+          <Item identifier="65_50magazine_bw" />
+        </Item>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="spar-76">
+          <Item identifier="762_30magazine_bw" />
+        </Item>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="mech_patrol_ar" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+        <Item identifier="spar-65">
+          <Item identifier="65_50magazine_bw" />
+        </Item>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="65_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+        <Item identifier="spar-76">
+          <Item identifier="762_30magazine_bw" />
+        </Item>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="762_30magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+      </ItemSet>
+    </npc>
+		<npc identifier="mech_patrol_ar2" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item slot="LeftHand+RightHand" identifier="spar-8" equip="true">
+					<Item identifier="8_45magazine_bw"/>
+				</Item>
+				<Item identifier="8_45magazine_bw" amount="2"/>
+				<Item identifier="8_45magazine_bw" amount="2"/>
+				<Item identifier="divingknife" />
+			</ItemSet>
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item slot="LeftHand+RightHand" identifier="spar-93" equip="true">
+					<Item identifier="93_30magazine_bw"/>
+				</Item>
+				<Item identifier="93_30magazine_bw" amount="2"/>
+				<Item identifier="93_30magazine_bw" amount="2"/>
+				<Item identifier="divingknife" />
+			</ItemSet>
+		</npc>
+		<npc identifier="mech_patrol_sg" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="spsg-8">
+					<Item identifier="shotgunshell" amount="8"/>
+				</Item>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="shotgunshell" amount="12"/>
+				<Item identifier="divingknife" />
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+		</npc>
+		<npc identifier="mech_patrol_smg2" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.85" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+					<Item identifier="oxygentank" />
+				</Item>
+				<Item identifier="asmg-300">
+					<Item identifier="300blk_24magazine_bw"/>
+				</Item>
+				<Item identifier="300blk_24magazine_bw" amount="2"/>
+				<Item identifier="300blk_24magazine_bw" amount="2"/>
+				<Item identifier="300blk_24magazine_bw" amount="2"/>
+				<Item identifier="divingknife" />
+				<Item identifier="weldingtool">
+					<Item identifier="weldingfueltank" />
+				</Item>
+			</ItemSet>
+		</npc>
+    <npc identifier="patrol_smg" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.9" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+      <ItemSet commonness="4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="asmg-45" equip="true">
+          <Item identifier="45_50magazine_bw"/>
+        </Item>
+        <Item identifier="45_50magazine_bw" amount="2"/>
+        <Item identifier="45_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item slot="LeftHand" identifier="smg_bw" equip="true">
+          <Item identifier="smgmagazine_bw"/>
+        </Item>
+        <Item slot="RightHand" identifier="smg_bw" equip="true">
+          <Item identifier="smgmagazine_bw"/>
+        </Item>
+        <Item identifier="smgmagazine_bw" amount="2"/>
+        <Item identifier="smgmagazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="asmg-50" equip="true">
+          <Item identifier="50lb_16magazine_bw"/>
+        </Item>
+        <Item identifier="50lb_16magazine_bw" amount="2"/>
+        <Item identifier="50lb_16magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
+        <Item identifier="asmg-300" equip="true">
+          <Item identifier="300blk_24magazine_bw"/>
+        </Item>
+        <Item identifier="300blk_24magazine_bw" amount="2"/>
+        <Item identifier="300blk_24magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+      </ItemSet>
+    </npc>
+    <npc identifier="mech_patrol_smg" commonness="0" moduleflags="crewmodule,engineeringmodule,researchmodule,securitymodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1.1" aimspeed="0.9" aimaccuracy="0.6" reportrange="3000" skillmultiplier="1.2">
+      <ItemSet commonness="4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="asmg-45" equip="true">
+          <Item identifier="45_50magazine_bw"/>
+        </Item>
+        <Item identifier="45_50magazine_bw" amount="2"/>
+        <Item identifier="45_50magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="asmg-50" equip="true">
+          <Item identifier="50lb_16magazine_bw"/>
+        </Item>
+        <Item identifier="50lb_16magazine_bw" amount="2"/>
+        <Item identifier="50lb_16magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+      </ItemSet>
+      <ItemSet commonness="6">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="asmg-300" equip="true">
+          <Item identifier="300blk_24magazine_bw"/>
+        </Item>
+        <Item identifier="300blk_24magazine_bw" amount="2"/>
+        <Item identifier="300blk_24magazine_bw" amount="2"/>
+        <Item identifier="divingknife" />
+      </ItemSet>
+    </npc>
+    <npc identifier="mech_security_mg" commonness="0" moduleflags="researchmodule" job="securityofficer" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.35" aimspeed="2" aimaccuracy="1" reportrange="30000" skillmultiplier="2.0">
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="armored_miningsuit_bw_e" equip="true">
+					<Item identifier="fulguriumbatterycell" />
+				</Item>
+        <Item identifier="oxygen_cell_bw" amount="1" />
+        <Item identifier="spar-338" >
+          <Item identifier="338_60magazine_bw" />
+        </Item>
+        <Item identifier="338_60magazine_bw" amount="2" />
+        <Item identifier="338_60magazine_bw" amount="2" />
+        <Item identifier="bw_axe" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item slot="OuterClothes" identifier="armored_hardsuit_bw2" equip="true" >
+          <Item identifier="oxygen_cell_bw" />
+        </Item>
+        <Item identifier="oxygen_cell_bw" amount="1" />
+        <Item identifier="spar-338" >
+          <Item identifier="338_60magazine_bw" />
+        </Item>
+        <Item identifier="338_60magazine_bw" amount="2" />
+        <Item identifier="338_60magazine_bw" amount="2" />
+        <Item identifier="hammer_bw" equip="false">
+          <Item identifier="uex2" />
+        </Item>
+      </ItemSet>
+    </npc>
+		<npc identifier="mech_security_hmg" commonness="0" moduleflags="researchmodule" job="securityofficer" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.35" aimspeed="2" aimaccuracy="1" reportrange="30000" skillmultiplier="2.0">
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="armored_miningsuit_bw_e" equip="true">
+					<Item identifier="fulguriumbatterycell" />
+				</Item>
+				<Item identifier="oxygen_cell_bw" amount="1" />
+				<Item identifier="HMG1_mag_bw" amount="2" />
+				<Item identifier="HMG1_bw" >
+					<Item identifier="HMG1_mag_bw" />
+				</Item>
+				<Item identifier="bw_axe" equip="false" />
+			</ItemSet>
+			<ItemSet commonness="2">
+				<Item identifier="idcard" equip="true" />
+				<Item identifier="ballistichelmet1" equip="true" />
+				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="headset" equip="true" showpreview="false"/>
+				<Item slot="OuterClothes" identifier="armored_hardsuit_bw2" equip="true" >
+					<Item identifier="oxygen_cell_bw" />
+				</Item>
+				<Item identifier="oxygen_cell_bw" amount="1" />
+				<Item identifier="HMG1_mag_bw" amount="2" />
+				<Item identifier="HMG1_bw" >
+					<Item identifier="HMG1_mag_bw" />
+				</Item>
+				<Item identifier="hammer_bw" equip="false">
+					<Item identifier="uex2" />
+				</Item>
+			</ItemSet>
+		</npc>
   </npcset>
 </npcsets>

@@ -538,8 +538,8 @@
           <Affliction identifier="explosiondamage" strength="50" />
           <Affliction identifier="stun" strength="7" />
         </Explosion>
-        <Explosion range="1500" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
-          <Affliction identifier="emp" strength="25" multiplybymaxvitality="true" />
+        <Explosion range="2000" force="0.0" smoke="false" sparks="false" empstrength="0.5" applyfireeffects="false" ignorecover="true">
+          <Affliction identifier="emp" strength="20" multiplybymaxvitality="true" />
         </Explosion>
       </StatusEffect>
       <!-- Trigger explosions on contained items -->
@@ -804,97 +804,97 @@
     </Projectile>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-    <!-- Rocket Shell (Axe Rocket Cannon Magazine) enemy -->
-    <Item name="huskrocketmag" identifier="huskshell_bw_e" aliases="Rocketbox" scale="0.5" tags="ammo,mediumitem,gunsmith" description="" category="Equipment" linkable="false" impactsoundtag="impact_metal_heavy" hideinmenus="true" maxstacksize="2">
-      <InventoryIcon texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
-      <Sprite texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
-      <Body width="30" height="40" density="50" />
-      <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="cannonshell_bwr_e" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
-        <Containable items="huskshell_bwr_e" />
-        <StatusEffect type="OnUse" target="This" condition="-0" disabledeltatime="true">
-          <SpawnItem identifiers="huskshell_bwr_e" spawnposition="ThisInventory" />
-        </StatusEffect>
-        <StatusEffect type="OnBroken" target="This">
-          <Remove />
-        </StatusEffect>
-      </ItemContainer>
-      <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
-      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    </Item>
-    <Item name="huskrocket" identifier="huskshell_bwr_e" aliases="Rocket" scale="0.5" tags="ammo,mediumitem,heavyammotype" description="" category="Equipment" linkable="false" impactsoundtag="impact_metal_heavy" maxstacksize="1" hideinmenus="true">
-      <InventoryIcon texture="%ModDir%/PRG/rocket box.png" sourcerect="0,0,95,72" depth="0.55" />
-      <Sprite texture="%ModDir%/PRG/shellb.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
-      <Body width="160" height="10" density="15" />
-      <Holdable slots="Any,RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
-      <Projectile characterusable="false" launchimpulse="80.0" hitscan="true">
-        <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,50,175" scalemultiplier="1,2" />
-        <Attack structuredamage="90" itemdamage="20" severlimbsprobability="0.5" penetration="0.3">
-          <Affliction identifier="lacerations" strength="30" />
-          <Affliction identifier="bleeding" strength="1" />
-          <Affliction identifier="huskinfection" strength="1" probability="0.75"/>
-          <Affliction identifier="stun" strength="0.8" />
-          </Attack>
-        <StatusEffect type="OnActive" target="This" lifetime="2">
-          <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="-5" anglemax="5" particleamount="5" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
-          <Sound file="Content/Items/Weapons/FragGrenade40mmShot1.ogg" type="OnUse" range="6000" selectionmode="Random" />
-          <Sound file="Content/Items/Weapons/FragGrenade40mmShot2.ogg" type="OnUse" range="6000" />
-        </StatusEffect>
-        <StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
-          <Remove />
-        </StatusEffect>
-        <StatusEffect type="OnImpact" target="UseTarget" targetidentifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-10.0" Condition="-10.0" />
-        <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="17" />
-        <StatusEffect type="OnImpact" target="This">
-          <Explosion range="150.0" structuredamage="30" force="4.0" itemdamage="10" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
-            <Affliction identifier="burn" strength="5" />
-            <Affliction identifier="huskinfection" strength="1" probability="0.25"/>
-            <Affliction identifier="stun" strength="1" />
-              </Explosion>
-          <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="2000" scalemin="0.25" scalemax="0.5" />
-          <Remove />
-        </StatusEffect>
-        <StatusEffect type="OnBroken" target="This">
-          <Remove />
-        </StatusEffect>
-      </Projectile>
-      <Upgrade gameversion="0.10.0.0" scale="*0.5" />
-    </Item>
-    <!-- husk Double Shotgunshell for enemy -->
-    <Item name="huskdshotgunshelle" identifier="huskshotgunshellbw_e" category="Weapon" subcategory="Black Sea Armoury" maxstacksize="20" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammobw,gunsmith" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="True">
-      <InventoryIcon texture="%ModDir%/SG/DS.png" sourcerect="0,0,24,24" origin="0.5,0.5" />
-      <Sprite texture="%ModDir%/SG/DS.png" sourcerect="0,0,24,24" depth="0.55" origin="0.5,0.5" />
-      <Body width="23" height="10" density="40" />
-      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-      <Projectile characterusable="false" hitscan="true" hitscancount="12" removeonhit="true" spread="10">
-        <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,100" scalemultiplier="1,0.5" />
-        <Attack structuredamage="0.5" targetforce="5.0" itemdamage="0.6" severlimbsprobability="0.2" penetration="0.15">
-          <Affliction identifier="bleeding" strength="3" />
-          <Affliction identifier="gunshotwound" strength="6" />
-          <Affliction identifier="huskinfection" strength="1" probability="0.25"/>
-          <Affliction identifier="lacerations" strength="1" />
-          <Affliction identifier="stun" strength="0.2" />
+  <!-- Rocket Shell (Axe Rocket Cannon Magazine) enemy -->
+  <Item name="huskrocketmag" identifier="huskshell_bw_e" aliases="Rocketbox" scale="0.5" tags="ammo,mediumitem,gunsmith" description="" category="Equipment" linkable="false" impactsoundtag="impact_metal_heavy" hideinmenus="true" maxstacksize="2">
+    <InventoryIcon texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Sprite texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="cannonshell_bwr_e" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="huskshell_bwr_e" />
+      <StatusEffect type="OnUse" target="This" condition="-0" disabledeltatime="true">
+        <SpawnItem identifiers="huskshell_bwr_e" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+  </Item>
+  <Item name="huskrocket" identifier="huskshell_bwr_e" aliases="Rocket" scale="0.5" tags="ammo,mediumitem,heavyammotype" description="" category="Equipment" linkable="false" impactsoundtag="impact_metal_heavy" maxstacksize="1" hideinmenus="true">
+    <InventoryIcon texture="%ModDir%/PRG/rocket box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Sprite texture="%ModDir%/PRG/shellb.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <Body width="160" height="10" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="80.0" hitscan="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,50,175" scalemultiplier="1,2" />
+      <Attack structuredamage="90" itemdamage="20" severlimbsprobability="0.5" penetration="0.3">
+        <Affliction identifier="lacerations" strength="30" />
+        <Affliction identifier="bleeding" strength="1" />
+        <Affliction identifier="huskinfection" strength="1" probability="0.75"/>
+        <Affliction identifier="stun" strength="0.8" />
         </Attack>
-        <StatusEffect type="OnImpact" target="UseTarget">
-          <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
-        </StatusEffect>
-        <StatusEffect type="OnImpact" target="This">
-          <Explosion range="80.0" structuredamage="1" force="0.5" itemdamage="1" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
-            <Affliction identifier="burn" strength="1" />
-            <Affliction identifier="huskinfection" strength="1" probability="0.5"/>
-          </Explosion>
-          <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="2000" scalemin="0.25" scalemax="0.5" />
-          <Remove />
-        </StatusEffect>
-        <StatusEffect type="OnImpact" target="UseTarget">
-          <Conditional entitytype="eq Structure" />
-          <Conditional hastag="eq door" />
-          <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-        </StatusEffect>
-        <StatusEffect type="OnImpact" target="UseTarget" targetidentifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-8" Condition="-8" />
-        <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="0.95" />
-      </Projectile>
-      <Upgrade gameversion="0.10.0.0" scale="0.5" />
-    </Item>
+      <StatusEffect type="OnActive" target="This" lifetime="2">
+        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="-5" anglemax="5" particleamount="5" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
+        <Sound file="Content/Items/Weapons/FragGrenade40mmShot1.ogg" type="OnUse" range="6000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/FragGrenade40mmShot2.ogg" type="OnUse" range="6000" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget" targetidentifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-10.0" Condition="-10.0" />
+      <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="17" />
+      <StatusEffect type="OnImpact" target="This">
+        <Explosion range="150.0" structuredamage="30" force="4.0" itemdamage="10" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
+          <Affliction identifier="burn" strength="5" />
+          <Affliction identifier="huskinfection" strength="1" probability="0.25"/>
+          <Affliction identifier="stun" strength="1" />
+            </Explosion>
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="2000" scalemin="0.25" scalemax="0.5" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+  </Item>
+  <!-- husk Double Shotgunshell for enemy -->
+  <Item name="huskdshotgunshelle" identifier="huskshotgunshellbw_e" category="Weapon" subcategory="Black Sea Armoury" maxstacksize="20" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammobw,gunsmith" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="True">
+    <InventoryIcon texture="%ModDir%/SG/DS.png" sourcerect="0,0,24,24" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/SG/DS.png" sourcerect="0,0,24,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="23" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" hitscancount="12" removeonhit="true" spread="10">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,100" scalemultiplier="1,0.5" />
+      <Attack structuredamage="0.5" targetforce="5.0" itemdamage="0.6" severlimbsprobability="0.2" penetration="0.15">
+        <Affliction identifier="bleeding" strength="3" />
+        <Affliction identifier="gunshotwound" strength="6" />
+        <Affliction identifier="huskinfection" strength="1" probability="0.25"/>
+        <Affliction identifier="lacerations" strength="1" />
+        <Affliction identifier="stun" strength="0.2" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This">
+        <Explosion range="80.0" structuredamage="1" force="0.5" itemdamage="1" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
+          <Affliction identifier="burn" strength="1" />
+          <Affliction identifier="huskinfection" strength="1" probability="0.5"/>
+        </Explosion>
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="2000" scalemin="0.25" scalemax="0.5" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget" targetidentifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-8" Condition="-8" />
+      <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="0.95" />
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
   <!--annoying clown-->
   <Item name="railfunk" identifier="railgunshell_funk" tags="railgunequipment,railgunammo" showcontentsintooltip="true" category="Weapon" sonarsize="5" scale="0.5" hideinmenus="true" nonplayerteaminteractable="True" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammocontainer" minamount="0" maxamount="0" spawnprobability="0.00"/>

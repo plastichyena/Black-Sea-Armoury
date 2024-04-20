@@ -46,19 +46,19 @@
     <target damagethreshold="0" tag="leucocyte" state="Avoid" priority="80" reactdistance="1500" attackdistance="3000" />
     <SwarmBehavior mindistfromclosest="400" maxdistfromcenter="1000" cohesion="0.5" />
   </ai>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="riflebullet" amount="6"/>
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
+		<Item Identifier="8_45magazine_bw"/>
     <Item Identifier="cigar" />
     <Item Identifier="scrap" amount="2"/>
     <Item Identifier="fulguriumbatterycell" amount="2"/>
-    <Item slot="RightHand+LeftHand" Identifier="rifle_bae" />
+    <Item slot="RightHand+LeftHand" Identifier="spar-8-hide" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
     <Item slot="InnerClothes" Identifier="pirateclothes" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
-    <Item Identifier="spar_45magazine"/>
+    <Item Identifier="8_45magazine_bw"/>
     <Item Identifier="rum" />
     <Item Identifier="hyperzine" />
     <Item Identifier="scrap" amount="2"/>

@@ -16,18 +16,15 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
-      <StatusEffect type="OnUse" target="Contained">
-        <Use />
-      </StatusEffect>
       <StatusEffect type="OnUse" target="This" disabledeltatime="true">
-        <SpawnItem identifiers="300round_bw" spawnposition="ThisInventory" />
+        <SpawnItem identifiers="300blkround_bw" spawnposition="ThisInventory" />
       </StatusEffect>
       <StatusEffect type="OnNotContained" target="This">
         <Remove />
       </StatusEffect>
     </RangedWeapon>
-    <ItemContainer capacity="1" maxstacksize="1" spawnwithid="300round_bw">
-      <Containable items="300round_bw"/>
+    <ItemContainer capacity="1" maxstacksize="1" spawnwithid="300blkround_bw">
+      <Containable items="300blkround_bw"/>
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="3000" fadeouttime="5" />
   </Item>
@@ -46,9 +43,6 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
-      <StatusEffect type="OnUse" target="Contained">
-        <Use />
-      </StatusEffect>
       <StatusEffect type="OnUse" target="This" disabledeltatime="true">
         <SpawnItem identifiers="45round_bw" spawnposition="ThisInventory" />
       </StatusEffect>
@@ -76,18 +70,15 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
-      <StatusEffect type="OnUse" target="Contained">
-        <Use />
-      </StatusEffect>
       <StatusEffect type="OnUse" target="This" disabledeltatime="true">
-        <SpawnItem identifiers="50round_bw" spawnposition="ThisInventory" />
+        <SpawnItem identifiers="50lbround_bw" spawnposition="ThisInventory" />
       </StatusEffect>
       <StatusEffect type="OnNotContained" target="This">
         <Remove />
       </StatusEffect>
     </RangedWeapon>
-    <ItemContainer capacity="1" maxstacksize="1" spawnwithid="50round_bw">
-      <Containable items="50round_bw"/>
+    <ItemContainer capacity="1" maxstacksize="1" spawnwithid="50lbround_bw">
+      <Containable items="50lbround_bw"/>
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="3000" fadeouttime="5" />
   </Item>
@@ -99,7 +90,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="4">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,50,175" scalemultiplier="1,0.5" />
-      <Attack structuredamage="1" severlimbsprobability="0.35" itemdamage="0.5" targetforce="0.3" penetration="0.05">
+      <Attack structuredamage="1" severlimbsprobability="0.35" itemdamage="0.5" targetforce="0.3" penetration="0">
         <Affliction identifier="gunshotwound" strength="8.5" />
         <Affliction identifier="gunshotwound" strength="2" probability="0.2" />
         <Affliction identifier="bleeding" strength="2" />
@@ -190,6 +181,9 @@
       <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+			<StatusEffect type="OnUse">
+				<Explosion range="60.0" force="0.4" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
+			</StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
@@ -213,40 +207,26 @@
   </Item>
   <!--.300BLK SMG @apc300/MCX RATTLER LT-->
   <Item name="AG-300 " identifier="asmg-300" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <Deconstruct time="10">
-      <Item identifier="sst_bw"/>
-      <Item identifier="amu_bw"/>
-      <Item identifier="smg_bw" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="80">
-      <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="sst_bw" amount="1" />
-      <RequiredItem identifier="amu_bw" amount="2" />
-      <RequiredItem identifier="rubber" />
-      <RequiredItem identifier="smg_bw" />
-    </Fabricate>
     <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.11" barrelpos="14,6" spread="16" unskilledspread="32" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.11" reloadnoskill="0.18" barrelpos="14,6" spread="16" unskilledspread="32" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/items/SMG/Sounds/AG-300-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="2000" selectionmode="Random"/>
+      <StatusEffect type="OnUse">
+        <Explosion range="60.0" force="1.1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
+      </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
-      <RequiredItems items="300ammo" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredItems items="300blkammo" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" containedstateindicatorslot="0" containedstateindicatorstyle="bullet" containedspritedepth="0.56">
-      <Containable items="300ammo"/>
+      <Containable items="300blkammo"/>
       <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="256,448,64,64" origin="0.5,0.5" />
       <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="320,448,64,64" origin="0.5,0.5" />
       <SubContainer capacity="1" maxstacksize="1">
@@ -260,32 +240,22 @@
       </StatusEffect>
       <LightTexture texture="Content/Lights/lightcone.png" origin="-0.07, 0.5" size="1.0,1.0" />
     </LightComponent>
+    <SkillRequirementHint identifier="weapons" level="50" />
     <Quality>
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name=".300 24Rnd Mag" identifier="asmg_24magazine" maxstacksize="16" maxstacksizecharacterinventory="8" scale="0.5" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,300ammo" impactsoundtag="impact_metal_light">
-    <Price baseprice="56" sold="false" minleveldifficulty="0" displaynonempty="true">
-      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="4" maxavailable="16" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" />
-    </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" amount="2">
-      <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="magnesium" />
-      <RequiredItem identifier="lead" />
-      <RequiredItem identifier="steel"/>
-    </Fabricate>
-    <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/SPAR-556.png" sourcerect="273,77,19,32" />
-    <Sprite texture="%ModDir%/items/AR/SPAR-556.png" depth="0.54" sourcerect="273,77,19,32" origin="0.5,0.5" />
-    <Body width="19" height="32" density="25" />
-    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="300round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
-      <Containable items="300round_bw" />
+  <Item name=".300 24Rnd Mag" identifier="300blk_24magazine_bw" maxstacksize="16" maxstacksizecharacterinventory="8" scale="0.25" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,300blkammo" impactsoundtag="impact_metal_light">
+		<Deconstruct time="1">
+			<Item identifier="smgmagazine_bw"/>
+		</Deconstruct>
+    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="419,0,40,76" />
+    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
+    <Body width="20" height="38" density="25" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="300blkround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="300blkround_bw" />
       <StatusEffect type="OnUse" target="This" condition="-4.18" disabledeltatime="true">
-        <SpawnItem identifiers="300round_bw" spawnposition="ThisInventory" />
+        <SpawnItem identifiers="300blkround_bw" spawnposition="ThisInventory" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <Remove />
@@ -293,15 +263,15 @@
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name=".300 round" identifier="300round_bw" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
+  <Item name=".300 round" identifier="300blkround_bw" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="195,282,17,6" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="14" density="30" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,175" scalemultiplier="1,0.8" />
-      <Attack structuredamage="1" targetforce="2" itemdamage="3" severlimbsprobability="0.1" penetration="0.05">
-        <Affliction identifier="gunshotwound" strength="18" />
+      <Attack structuredamage="1" targetforce="2" itemdamage="3" severlimbsprobability="0.1" penetration="0.02">
+        <Affliction identifier="gunshotwound" strength="16" />
         <Affliction identifier="gunshotwound" strength="12" probability="0.2" />
         <Affliction identifier="bleeding" strength="14" />
         <Affliction identifier="bleeding" strength="8" probability="0.3" />
@@ -322,34 +292,26 @@
   </Item>
   <!--.50 LB SMG @Desert Eagle-->
   <Item name="AG-50" identifier="asmg-50" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <Deconstruct time="10">
-      <Item identifier="sst_bw"/>
-      <Item identifier="amu_bw"/>
-      <Item identifier="smg_bw" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="80">
-      <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="sst_bw"/>
-      <RequiredItem identifier="amu_bw"/>
-      <RequiredItem identifier="smg_bw" />
-    </Fabricate>
     <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.18" barrelpos="14,6" spread="22" unskilledspread="40" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.18" reloadnoskill="0.26" barrelpos="14,6" spread="18" unskilledspread="40" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
       <Sound file="%ModDir%/items/SMG/Sounds/AG-50-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="8.0" />
+      </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
-      <RequiredItems items="50ammo" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredItems items="50lbammo" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="50" />
     </RangedWeapon>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="false" containedstateindicatorslot="0" containedstateindicatorstyle="bullet" containedspritedepth="0.56">
-      <Containable items="50ammo"/>
+      <Containable items="50lbammo"/>
       <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="256,448,64,64" origin="0.5,0.5" />
       <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="320,448,64,64" origin="0.5,0.5" />
       <SubContainer capacity="1" maxstacksize="1">
@@ -363,36 +325,22 @@
       </StatusEffect>
       <LightTexture texture="Content/Lights/lightcone.png" origin="-0.07, 0.5" size="1.0,1.0" />
     </LightComponent>
+    <SkillRequirementHint identifier="weapons" level="60" />
     <Quality>
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name=".50 16Rnd Mag" identifier="asmg_16magazine" maxstacksize="16" maxstacksizecharacterinventory="8" scale="0.5" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,50ammo" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="spar-65" minamount="1" maxamount="1" spawnprobability="1"/>
-    <PreferredContainer primary="armcab" secondary="secarmcab"/>
-    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.02" />
-    <Price baseprice="330" sold="false" minleveldifficulty="0" displaynonempty="true">
-      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="1" maxavailable="4" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" />
-    </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" amount="2">
-      <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="camp6_bw" amount="1"/>
-      <RequiredItem identifier="lead" amount="4"/>
-      <RequiredItem identifier="sst_bw" amount="1"/>
-      <RequiredItem identifier="plastic" amount="2"/>
-    </Fabricate>
-    <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/SPAR-556.png" sourcerect="268,5,31,50" />
-    <Sprite texture="%ModDir%/items/AR/SPAR-556.png" depth="0.54" sourcerect="268,5,31,50" origin="0.4,0.5" />
+  <Item name=".50 LB 16Rnd Mag" identifier="50lb_16magazine_bw" maxstacksize="16" maxstacksizecharacterinventory="8" scale="0.25" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,50lbammo" impactsoundtag="impact_metal_light">
+		<Deconstruct time="1">
+			<Item identifier="smgmagazine_bw"/>
+		</Deconstruct>
+		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
+		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
     <Body width="31" height="50" density="25" />
-    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="45round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
-      <Containable items="45round_bw" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="50lbround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="50lbround_bw" />
       <StatusEffect type="OnUse" target="This" condition="-6.26" disabledeltatime="true">
-        <SpawnItem identifiers="45round_bw" spawnposition="ThisInventory" />
+        <SpawnItem identifiers="50lbround_bw" spawnposition="ThisInventory" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <Remove />
@@ -400,7 +348,7 @@
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name=".50 round" identifier="50round_bw" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
+  <Item name=".50 round" identifier="50lbround_bw" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="195,282,17,6" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="14" density="30" />
@@ -408,7 +356,7 @@
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,175" scalemultiplier="1,0.8" />
       <Attack structuredamage="1" targetforce="3" itemdamage="1" severlimbsprobability="0.25" penetration="0">
-        <Affliction identifier="gunshotwound" strength="26" />
+        <Affliction identifier="gunshotwound" strength="24" />
         <Affliction identifier="gunshotwound" strength="10" probability="0.4" />
         <Affliction identifier="bleeding" strength="16" />
         <Affliction identifier="bleeding" strength="10" probability="0.3" />
@@ -429,31 +377,20 @@
   </Item>
   <!--.45 SMG @auto-pist-->
   <Item name="AG-45 " identifier="asmg-45" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <Deconstruct time="10">
-      <Item identifier="sst_bw"/>
-      <Item identifier="amu_bw"/>
-      <Item identifier="smg_bw" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="80">
-      <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="sst_bw"/>
-      <RequiredItem identifier="amu_bw"/>
-      <RequiredItem identifier="smg_bw" />
-    </Fabricate>
     <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="0.12" barrelpos="14,6" spread="15.5" unskilledspread="35" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.105" reloadnoskill="0.20" barrelpos="14,6" spread="16.5" unskilledspread="35" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_1.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
+      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_2.ogg" type="OnUse" volume="1.5" range="3000" />
+      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_3.ogg" type="OnUse" volume="1.5" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="60.0" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
+      </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
@@ -475,32 +412,18 @@
       </StatusEffect>
       <LightTexture texture="Content/Lights/lightcone.png" origin="-0.07, 0.5" size="1.0,1.0" />
     </LightComponent>
+    <SkillRequirementHint identifier="weapons" level="40"/>
     <Quality>
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name=".45 50Rnd Mag" identifier="asmg_50magazine" maxstacksize="8" maxstacksizecharacterinventory="2" scale="0.5" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,45ammo" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="spar-65" minamount="1" maxamount="1" spawnprobability="1"/>
-    <PreferredContainer primary="armcab" secondary="secarmcab"/>
-    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.02" />
-    <Price baseprice="330" sold="false" minleveldifficulty="0" displaynonempty="true">
-      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" multiplier="1.25" />
-      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="1" maxavailable="4" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" />
-    </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="35" amount="2">
-      <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="camp6_bw" amount="1"/>
-      <RequiredItem identifier="lead" amount="4"/>
-      <RequiredItem identifier="sst_bw" amount="1"/>
-      <RequiredItem identifier="plastic" amount="2"/>
-    </Fabricate>
-    <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/SPAR-556.png" sourcerect="268,5,31,50" />
-    <Sprite texture="%ModDir%/items/AR/SPAR-556.png" depth="0.54" sourcerect="268,5,31,50" origin="0.4,0.5" />
-    <Body width="31" height="50" density="25" />
+  <Item name=".45 50Rnd Mag" identifier="45_50magazine_bw" maxstacksize="8" maxstacksizecharacterinventory="2" scale="0.25" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,45ammo" impactsoundtag="impact_metal_light">
+    <Deconstruct time="1">
+			<Item identifier="smgmagazine_bw"/>
+		</Deconstruct>
+		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
+		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+		<Body width="25" height="40" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="45round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="45round_bw" />
       <StatusEffect type="OnUse" target="This" condition="-2" disabledeltatime="true">

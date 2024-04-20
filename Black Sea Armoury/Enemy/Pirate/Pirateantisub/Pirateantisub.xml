@@ -53,7 +53,7 @@
     <Item Identifier="scrap" amount="2"/>
     <Item slot="RightHand" Identifier="rg_bw_n_e" />
     <Item slot="Card" Identifier="idcard" />
-    <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
+    <Item slot="OuterClothes" Identifier="armored_miningsuit_bw_e" />
     <Item slot="InnerClothes" Identifier="pirateclothes" />
     <Item slot="Head" Identifier="piratecaptainhat" />
   </inventory>
@@ -63,16 +63,7 @@
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand" Identifier="rg_bw_n_frag" />
     <Item slot="Card" Identifier="idcard" />
-    <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
-    <Item slot="Head" Identifier="piratecaptainhat" />
-  </inventory>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="fulguriumbatterycell" amount="2" />
-    <Item Identifier="scrap" amount="1"/>
-    <Item slot="RightHand" Identifier="rg_bw_n_emp" />
-    <Item slot="Card" Identifier="idcard" />
-    <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
+    <Item slot="OuterClothes" Identifier="armored_miningsuit_bw_e" />
     <Item slot="InnerClothes" Identifier="pirateclothes" />
     <Item slot="Head" Identifier="piratecaptainhat" />
   </inventory>

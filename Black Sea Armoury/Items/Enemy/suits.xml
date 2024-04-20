@@ -34,17 +34,17 @@
     <sprite texture="%ModDir%/BA/PR/LEG2.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.35,0.5310345" sourcerect="0,0,180,140" />
     <sprite texture="%ModDir%/BA/PR/FOOT.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.48,0.4" sourcerect="0,0,260,140" />
     <sprite texture="%ModDir%/BA/PR/FOOT.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="true" origin="0.28,0.4" sourcerect="0,0,260,140" />
-    <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="1.0" setvalue="true" disabledeltatime="true">
+    <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.8" setvalue="true" disabledeltatime="true">
         <Conditional Voltage="gt 0.5" />
         <StatValue stattype="FlowResistance" value="0.9" />
         <StatValue stattype="SwimmingSpeed" value="4.0" />
         <StatValue stattype="WalkingSpeed" value="0" />
+			<Affliction identifier="Swift" strength="10" />
     </StatusEffect>
     <StatusEffect type="OnWearing" target="Character" interval="0.9" disabledeltatime="true">
         <Affliction identifier="recoilstabilized" amount="1" />
-        <Affliction identifier="Swift" strength="10" />
     </StatusEffect>
-    <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.25" setvalue="true" disabledeltatime="true">
+    <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.1" setvalue="true" disabledeltatime="true">
         <Conditional Voltage="lte 0.5" />
     </StatusEffect>
     <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="2.2" setvalue="true" comparison="And">
@@ -840,7 +840,7 @@
     </ItemContainer>
     <aitarget maxsightrange="1500" />
   </Item>
-  <!-- Armored Helmet -->
+  <!-- Armored Helmet Nerf-->
   <Item name="" identifier="ballistichelmetbw_hide" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4" hideinmenus="true" nonplayerteaminteractable="true">
     <Sprite name="Armored helmet" texture="%ModDir%/TS/BC3.png" sourcerect="208,214,92,81" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" density="50" />

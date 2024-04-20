@@ -226,24 +226,6 @@
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character" disabledeltatime="true" comparison="and">
-        <Conditional skillrequirement="true" weapons="lt 75" />
-        <Conditional recoilstabilized="lte 0" />
-        <Affliction identifier="stun" strength="0.1" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" target="Character" disabledeltatime="true" comparison="and">
-        <Conditional skillrequirement="true" weapons="lt 50" />
-        <Conditional recoilstabilized="lte 0" />
-        <Affliction identifier="stun" strength="0.25" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" target="Character" disabledeltatime="true" comparison="and">
-        <Conditional skillrequirement="true" weapons="lt 25" />
-        <Conditional recoilstabilized="lte 0" />
-        <Affliction identifier="stun" strength="0.75" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" target="Contained">
-        <Use />
-      </StatusEffect>
       <RequiredItems items="lmgmagazine_bw_e" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="50" />
       <StatusEffect type="OnSpawn" target="This" targetitemcomponent="ItemContainer">
@@ -266,7 +248,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <!--assaultrifle from vanilla-->
-  <Item name="vanillaar" identifier="assaultrifle_bae" category="Weapon" cargocontaineridentifier="metalcrate" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
+  <Item name="vanillaar" identifier="assaultrifle_bw_e" category="Weapon" cargocontaineridentifier="metalcrate" allowasextracargo="true" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
     <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="276,63,233,62" origin="0.5,0.5" />
     <Sprite texture="Content/Items/JobGear/TalentGear.png" sourcerect="276,63,233,62" depth="0.55" origin="0.5,0.5" />
     <Body width="220" height="50" density="25" />
@@ -1524,4 +1506,50 @@
       </StatusEffect>
     </Projectile>
   </Item>
+	<Item name="disaster" identifier="lasercannon_hide" aliases="laser cannonboss" category="Equipment,weapon" Tags="energytype,mediumitem,gunsmith,weapon" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true" nonplayerteaminteractable="true">
+		<Body width="320" height="80" density="30" />
+		<Sprite texture="%ModDir%/LC/3GM.png" sourcerect="0,0,176,144" depth="0.55" />
+		<Holdable slots="RightHand" controlpose="true" holdpos="30,10" aimpos="30,10" handle1="8,-16" handle2="96,-32" holdangle="-40" msg="ItemMsgPickUpSelect" />
+		<RangedWeapon barrelpos="0,0" spread="0" reload="0.01">
+			<ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+			<StatusEffect type="OnUse" target="This" disabledeltatime="true">
+				<SpawnItem identifiers="pulselaserbolt_bw" spawnposition="ThisInventory" />
+			</StatusEffect>
+			<StatusEffect type="OnSpawn" target="This" targetitemcomponent="ItemContainer">
+				<SpawnItem identifier="pulselaserbolt_bw" spawnposition="ThisInventory" />
+			</StatusEffect>
+			<StatusEffect type="OnNotContained" target="This">
+				<Remove />
+			</StatusEffect>
+		</RangedWeapon>
+		<ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="bullet">
+			<Containable items="pulselaserbolt_bw" />
+		</ItemContainer>
+		<aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+	</Item>
+	<Item name="" identifier="pulselaserbolt_bw" category="Weapon" scale="0.5" sonarsize="2" hideinmenus="true">
+		<Sprite texture="%ModDir%/LC/3GM.png" sourcerect="143,414,113,9" depth="0.55" />
+		<Body width="170" height="10" density="20" />
+		<Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+		<Projectile characterusable="false" hitscan="true" removeonhit="true" damagedoors="true" penetration="0.5">
+			<ParticleEmitter particle="tracerpulselaser" particleamount="1" velocitymin="0" velocitymax="0"/>
+			<ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50"/>
+			<Attack structuredamage="1" targetforce="1" itemdamage="1" severlimbsprobability="1.0" penetration="0">
+				<Affliction identifier="burn" strength="0.01" />
+			</Attack>
+			<StatusEffect type="OnImpact" target="UseTarget">
+				<ParticleEmitter particle="muzzleflashpulselaser" anglemin="0" anglemax="360" particleamount="10" velocitymin="0" scalemin="0.5" scalemax="0.8" />
+				<ParticleEmitter particle="weldspark" particleamount="5" anglemin="0" anglemax="360" velocitymin="300" velocitymax="350" scalemin="1.5" scalemax="1.9" drawontop="true" colormultiplier="255,200,225,180" />
+				<ParticleEmitter particle="FlareBubbles" particleamount="3" anglemin="0" anglemax="360" velocitymin="0" velocitymax="50"/>
+				<Explosion range="50.0" ballastfloradamage="1" structuredamage="2" itemdamage="2" force="1.0" flames="false" smoke="false" sparks="false" underwaterbubble="false" flashcolor="255,0,0,255" >
+					<Affliction identifier="burn" strength="1" />
+				</Explosion>
+			</StatusEffect>
+			<StatusEffect type="OnImpact" target="UseTarget">
+				<Conditional entitytype="eq Structure"/>
+				<Conditional hastag="eq door"/>
+				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+			</StatusEffect>
+		</Projectile>
+	</Item>
 </Items>

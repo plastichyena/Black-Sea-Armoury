@@ -59,12 +59,21 @@
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
     <Item slot="InnerClothes" Identifier="pirateclothes" />
-    <Item slot="Head" Identifier="ballistichelmet1" />
+    <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
-    <Item Identifier="bw_shotgun_drum" />
+    <Item Identifier="shotgunshell" amount="12"/>
+    <Item Identifier="scrap" amount="2"/>
+    <Item slot="RightHand+LeftHand" Identifier="spsg-15-hide" />
+    <Item slot="Card" Identifier="idcard" />
+    <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
+    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="Head" Identifier="ballistichelmetbw_hide" />
+  </inventory>
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
+    <Item Identifier="shotgunshell" amount="12"/>
     <Item Identifier="scrap" amount="1"/>
-    <Item slot="RightHand+LeftHand" Identifier="grenadelauncher_bw_sge" />
+    <Item slot="RightHand+LeftHand" Identifier="spsg-4-hide" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
     <Item slot="InnerClothes" Identifier="pirateclothes" />
