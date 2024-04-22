@@ -98,7 +98,7 @@
   <Afflictiondescription.revengesquad_deffense>The only way to save a life is to suffer all the pain</Afflictiondescription.revengesquad_deffense>
 	<Afflictiondescription.revengesquad_logistic>The only way to save a life is to defend the last hope</Afflictiondescription.revengesquad_logistic>
   <talentname.apolloassistsystem_bw>Apollo Assistance System</talentname.apolloassistsystem_bw>
-  <talentdescription.apolloassistsystem_bw> When wearing Apollo, inflict additional 25% chemical burns, and after healing the wounded, the wounded will be assisted by Apollo nanobots within 60 seconds. </talentdescription.apolloassistsystem_bw>
+  <talentdescription.apolloassistsystem_bw> When wearing Apollo, deal an additional 25% chemical burns, and after healing the wounded, the wounded will be assisted by Apollo nanobots within 60 seconds. </talentdescription.apolloassistsystem_bw>
 	<talentname.circeassistsystem_bw>Circe Assist System</talentname.circeassistsystem_bw>
 	<talentdescription.circeassistsystem_bw>When wearing Circe, deal an additional 100% chemical burn and burn damage.</talentdescription.circeassistsystem_bw>
   <!--AR.xml-->
@@ -420,7 +420,7 @@
   <Afflictiondescription.X01>Damage increased by 10%,health increased by 10%.</Afflictiondescription.X01>
 	<Afflictionname.X00>Assault Armor</Afflictionname.X00>
   <Afflictiondescription.X00>Increases damage by 10%, attack speed by 20%, and health by 10%.</Afflictiondescription.X00>
-  <Afflictionname.X01D>Reactive Armor</Afflictionname.X01D>
+  <Afflictionname.X01D>Living Armor</Afflictionname.X01D>
   <Afflictiondescription.X01D>Increases damage by 10%, health by 20%, and very slowly self-repairs after receiving damage.</Afflictiondescription.X01D>
   <Afflictionname.Hammer>Self repair</Afflictionname.Hammer>
   <Afflictiondescription.Hammer>Health increased 25%,very slowly repairs itself.</Afflictiondescription.Hammer>
@@ -448,7 +448,7 @@
 	<Afflictionname.Med_sys>Battle Medic System</Afflictionname.Med_sys>
 	<Afflictiondescription.Med_sys>Increases health by 10%, enhances poison effects by 10%.</Afflictiondescription.Med_sys>
 	<Afflictionname.Apollo_sys>Battle Physician System</Afflictionname.Apollo_sys>
-	<Afflictiondescription.Apollo_sys>Increases health by 10%, boosts poison effects by 100%, and eliminates the risk of contamination when genetically merged.</Afflictiondescription.Apollo_sys>
+	<Afflictiondescription.Apollo_sys>Increases health by 10%, enhances poison effects by 25%, and eliminates the risk of contamination when genetically merged.</Afflictiondescription.Apollo_sys>
 	<Afflictionname.Circe_sys>Chemical Warfare System</Afflictionname.Circe_sys>
 	<Afflictiondescription.Circe_sys>Increases health by 10%, enhances poison and fire effects by 100%, and neutralizes toxins in the body over time.</Afflictiondescription.Circe_sys>
 	<Afflictionname.bedsidemanner_bw>Apollo Support System</Afflictionname.bedsidemanner_bw>

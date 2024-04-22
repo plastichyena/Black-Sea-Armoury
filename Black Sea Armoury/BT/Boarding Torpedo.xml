@@ -194,7 +194,7 @@
       <sound file="Content/Items/Weapons/Railgun2.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun3.ogg" range="6000" type="OnUse" />
       <StatusEffect type="OnUse" target="This" Condition="-1500" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="6" decal="explosion" decalsize="0.5" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" structuredamage="100" itemdamage="100" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Usetarget" disabledeltatime="true">

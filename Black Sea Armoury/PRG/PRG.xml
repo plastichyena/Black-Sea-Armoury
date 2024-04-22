@@ -35,7 +35,7 @@
       <Sound file="Content/Items/Weapons/HarpoonGun1.ogg" type="OnUse" range="4000" selectionmode="Random" />
       <Sound file="Content/Items/Weapons/HarpoonGun2.ogg" type="OnUse" range="4000" />
       <Sound file="Content/Items/Weapons/HarpoonGun3.ogg" type="OnUse" range="4000" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="6" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
@@ -171,7 +171,7 @@
       <sound file="Content/Items/Weapons/Railgun2.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun3.ogg" range="6000" type="OnUse" />
       <ChargeSound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" range="3000" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="6" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
       <!-- Forbidden in mortal bodies -->

@@ -15,7 +15,7 @@
       </TalentOptions>
     </SubTree>
     <!-- 专精天赋树 -->
-    <SubTree identifier="bwpl_offense" type="specialization" requires="bwpl_primary">
+    <SubTree identifier="bwpl_offense" type="specialization" requires="bwpl_primary" blocks="bwpl_defense,bwpl_logistic">
       <TalentOptions>
         <TalentOption identifier="olympian_offense" />
       </TalentOptions>
@@ -33,7 +33,7 @@
         <TalentOption identifier="warlordbw_offense" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="bwpl_defense" type="specialization" requires="bwpl_primary">
+    <SubTree identifier="bwpl_defense" type="specialization" requires="bwpl_primary" blocks="bwpl_offense,bwpl_logistic">
       <TalentOptions>
         <TalentOption identifier="olympian_defense" />
       </TalentOptions>
@@ -51,7 +51,7 @@
         <TalentOption identifier="warlordbw_deffense" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="bwpl_logistic" type="specialization" requires="bwpl_primary">
+    <SubTree identifier="bwpl_logistic" type="specialization" requires="bwpl_primary" blocks="bwpl_offense,bwpl_defense">
       <TalentOptions>
         <TalentOption identifier="olympian_logistic" />
       </TalentOptions>

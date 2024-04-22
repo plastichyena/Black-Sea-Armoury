@@ -543,15 +543,15 @@
   <missiondescription.killnuker>一群精英分裂主义分子带着核弹投奔了海盗。虽然目前还没有伤亡的报告，但需要立刻消除这一威胁。他们的机甲可以抵御大部分潜艇的武器装备，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killnuker>
   <missionsonarlabel.killnuker>海盗小队</missionsonarlabel.killnuker>
   <missionsuccess.killnuker>被盗的核武器已被妥善处理。</missionsuccess.killnuker>
-	<missionname.killbseclown>Techno Prankster</missionname.killbseclown>
-	<missiondescription.killbseclown>A rogue technology enthusiast from the Children of the Honkmother has harnessed Iron League technology purely for mischief. While their pranks are mostly harmless, this particular jest is causing serious damages on our supply lines. Find and kill him.</missiondescription.killbseclown>
-	<missionsonarlabel.killbseclown>Techno Prankster</missionsonarlabel.killbseclown>
-	<missionsuccess.killbseclown>He won't be bothering us anymore.</missionsuccess.killbseclown>
-	<missionname.clearruinskhusk>Corrupted Knight</missionname.clearruinskhusk>
-	<missiondescription.clearruinskhusk>A brainwashed genetic augmented soldier and some cultists has escaped with a cutting-edge secret suit,and fled into nearby alien ruin. Pursue him and eliminate the threat. It seems they have also been developing malicious equipment in secret collaboration with cultists.</missiondescription.clearruinskhusk>
-	<missionsuccess.clearruinskhusk>The Target have been neutralized.</missionsuccess.clearruinskhusk>
-	<missionsonarlabel.clearruinskhusk>Cultists</missionsonarlabel.clearruinskhusk>
-  <missionname.killpirates>海盗机械化部队</missionname.killpirates>
+	<missionname.killbseclown>科学怪人</missionname.killbseclown>
+	<missiondescription.killbseclown>一名来自小丑圣母的绿皮科技爱好者利用钢铁联盟技术进行恶作剧。虽然他的恶作剧大多无害，但这次特别的玩笑严重破坏了我们的航线。找到并教训他。</missiondescription.killbseclown>
+	<missionsonarlabel.killbseclown>科学怪人</missionsonarlabel.killbseclown>
+	<missionsuccess.killbseclown>他不会再给我们添麻烦了。</missionsuccess.killbseclown>
+	<missionname.clearruinskhusk>堕落骑士</missionname.clearruinskhusk>
+	<missiondescription.clearruinskhusk>一名被洗脑的基因增强士兵和一些邪教徒携带一套尖端的秘密装备逃到附近的外星废墟。追踪并消除威胁。看来他们也与邪教徒秘密合作开发恶意装备。</missiondescription.clearruinskhusk>
+	<missionsuccess.clearruinskhusk>目标已被歼灭。</missionsuccess.clearruinskhusk>
+	<missionsonarlabel.clearruinskhusk>异教徒</missionsonarlabel.clearruinskhusk>
+	<missionname.killpirates>海盗机械化部队</missionname.killpirates>
   <missiondescription.killpirates>根据我们的线报，有一群海盗机甲部队封锁了从[location1]到[location2]的通道. 让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killpirates>
   <missionsonarlabel.killpirates>海盗突击队</missionsonarlabel.killpirates>
   <missionsuccess.killpirates>海盗们已经被消灭了。这条路线应该又是安全的。</missionsuccess.killpirates>
@@ -580,17 +580,17 @@
   <missionname.coalitionattackbae>消息接入中</missionname.coalitionattackbae>
   <missiondescription.coalitionattackbae>“叛徒！你已经走到头了！叛变联盟的代价只有死亡！”</missiondescription.coalitionattackbae>
   <missionname.abandonedoutposthumansbae>恢复前哨站</missionname.abandonedoutposthumansbae>
-  <missiondescription.abandonedoutposthumansbae>Contact with [location1] was recently lost, and it's suspected to have been taken over by someone. Destroy the outpost's reactor to drive away any squatters and ensure they don't return.</missiondescription.abandonedoutposthumansbae>
-  <missionsuccess.abandonedoutposthumansbae>The squatters were driven away from the outpost successfully.</missionsuccess.abandonedoutposthumansbae>
-  <missionfailure.abandonedoutposthumansbae>反应堆摧毁失败了</missionfailure.abandonedoutposthumansbae>
+	<missiondescription.abandonedoutposthumansbae>我们最近失去了与[location1]的联系，怀疑该地点已被某人占领。摧毁哨站的反应堆，以驱逐任何擅自占据者，并确保他们不会返回。</missiondescription.abandonedoutposthumansbae>
+	<missionsuccess.abandonedoutposthumansbae>成功地将擅自占据者驱逐出哨站。</missionsuccess.abandonedoutposthumansbae>
+	<missionfailure.abandonedoutposthumansbae>反应堆摧毁失败了</missionfailure.abandonedoutposthumansbae>
   <missionheader0.abandonedoutposthumansbae>反应器已被摧毁</missionheader0.abandonedoutposthumansbae>
-  <missionmessage0.abandonedoutposthumansbae>The reactor has been destroyed. This should make sure squatters won't try to take over the outpost again. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutposthumansbae>
-  <missionname.abandonedoutpostassassinatebae>前哨站刺杀行动</missionname.abandonedoutpostassassinatebae>
-  <missiondescription.abandonedoutpostassassinatebae>Contact with [location1] was recently lost, and there have been reports about a notorious group of heavily armed outlaws having claimed it as their base. There's a bounty on the head of the group's leader's – eliminate the leader to claim the reward.</missiondescription.abandonedoutpostassassinatebae>
+	<missionmessage0.abandonedoutposthumansbae>反应堆已被摧毁。这应该能确保无人再次试图占领哨站。从哨站解除对接以完成任务。</missionmessage0.abandonedoutposthumansbae>
+	<missionname.abandonedoutpostassassinatebae>前哨站刺杀行动</missionname.abandonedoutpostassassinatebae>
+	<missiondescription.abandonedoutpostassassinatebae>我们最近失去了与[location1]的联系，有报告称一群臭名昭著的重装歹徒已将其作为基地。该团伙领袖的悬赏令已下—消灭领袖以领取奖励。</missiondescription.abandonedoutpostassassinatebae>
   <missionsuccess.abandonedoutpostassassinatebae>强盗团伙的首领已被成功消灭</missionsuccess.abandonedoutpostassassinatebae>
-	<missionfailure.abandonedoutpostassassinatebae>Eliminating the leader of the bandit group failed.</missionfailure.abandonedoutpostassassinatebae>
-	<missionheader0.abandonedoutpostassassinatebae>Bandit leader killed</missionheader0.abandonedoutpostassassinatebae>
-	<missionmessage0.abandonedoutpostassassinatebae>The leader of the bandit group has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinatebae>
+	<missionfailure.abandonedoutpostassassinatebae>消灭强盗团伙的领袖失败。</missionfailure.abandonedoutpostassassinatebae>
+	<missionheader0.abandonedoutpostassassinatebae>强盗领袖已被暗杀</missionheader0.abandonedoutpostassassinatebae>
+	<missionmessage0.abandonedoutpostassassinatebae>强盗团伙的领袖已成功被消灭。从哨站解除对接以完成任务。</missionmessage0.abandonedoutpostassassinatebae>
 	<missionname.assaultonmechlabs>突袭黑海机甲实验室[地狱难度]</missionname.assaultonmechlabs>
   <missiondescription.assaultonmechlabs>XOF传讯：摧毁位于[location1]黑海机甲实验室, 不要让我失望。任务细节：大量精锐黑海机甲守卫以及少量试验型机甲，安保力量配备了重装守卫和精确射手，请谨慎安排突袭计划，不留活口，并且摧毁该站点。</missiondescription.assaultonmechlabs>
   <missionheader0.assaultonmechlabs>黑海机甲实验室已被摧毁</missionheader0.assaultonmechlabs>

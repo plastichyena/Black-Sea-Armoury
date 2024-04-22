@@ -230,7 +230,7 @@
       <Sound file="Content/Items/Weapons/HarpoonGun1.ogg" type="OnUse" />
       <Sound file="Content/Items/Weapons/HarpoonGun2.ogg" type="OnUse" />
       <Sound file="Content/Items/Weapons/HarpoonGun3.ogg" type="OnUse" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="50.0" force="3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="4.0" />
       </StatusEffect>
       <RequiredItems items="harpoonammo" type="Contained" msg="ItemMsgSpearRequired" />
@@ -443,7 +443,7 @@
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="FlareBubbles" scalemin="1.4" scalemax="1.8" particleamount="14" anglemin="0" anglemax="360" velocitymin="0" velocitymax="50" />
       <ParticleEmitter particle="GlowDot" scalemin="1.5" scalemax="1.5" particleamount="20" anglemin="0" anglemax="360" velocitymin="0" velocitymax="0" colormultiplier="10,235,195,255" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="50.0" force="3" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="3.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">

@@ -43,7 +43,7 @@
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="10.0" force="3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
       </StatusEffect>
       <!-- Forbidden in mortal bodies -->
@@ -225,7 +225,7 @@
       <sound file="Content/Items/Weapons/Railgun1.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun2.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun3.ogg" range="6000" type="OnUse" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="6" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
@@ -321,7 +321,7 @@
       <StatusEffect type="OnImpact" target="UseTarget">
         <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
       </StatusEffect>
-      <StatusEffect type="OnImpact">
+      <StatusEffect type="OnImpact" target="UseTarget">
         <ParticleEmitter particle="bubbles" anglemin="-180" anglemax="180" particleamount="1" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="UseTarget">
@@ -369,7 +369,7 @@
       <sound file="Content/Items/Weapons/Railgun1.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun2.ogg" range="6000" type="OnUse" />
       <sound file="Content/Items/Weapons/Railgun3.ogg" range="6000" type="OnUse" />
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="6" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Contained">
@@ -457,7 +457,7 @@
       <StatusEffect type="OnUse" target="Contained">
         <Use />
       </StatusEffect>
-      <StatusEffect type="OnUse">
+      <StatusEffect type="OnUse" target="This">
         <Explosion range="10.0" force="3" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
       </StatusEffect>
       <StatusEffect type="Always" target="This" Condition="10">
