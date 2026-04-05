@@ -128,11 +128,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="2000" />
   </Item>
@@ -298,11 +298,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="4000" />
   </Item>
@@ -450,11 +450,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="1500" />
   </Item>
@@ -677,11 +677,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="1500" />
   </Item>
@@ -807,11 +807,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="1500" />
   </Item>
@@ -1368,11 +1368,11 @@
       <Containable items="railgunammo,coilgunammo,ammobox,chaingunammo,pulselaserammo" />
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-        <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
-        <TickBox text="label.lighting" IsOn="true">
-          <StatusEffect type="OnUse" target="This" IsOn="true"/>
-          <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-        </TickBox >
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="label.lighting" IsOn="true">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
       </CustomInterface>
     <aitarget maxsightrange="4000" />
   </Item>
@@ -1520,11 +1520,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="2000" />
   </Item>
@@ -1637,11 +1637,11 @@
       <Containable items="railgunammo,coilgunammo,ammobox,chaingunammo,pulselaserammo,smallitem,mediumitem" />
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="4000" />
   </Item>
@@ -1753,11 +1753,11 @@
       </SubContainer>
     </ItemContainer>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-      <GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
       <TickBox text="label.lighting" IsOn="true">
-        <StatusEffect type="OnUse" target="This" IsOn="true"/>
-        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-      </TickBox >
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
     </CustomInterface>
     <aitarget maxsightrange="1000" />
   </Item>
@@ -1869,11 +1869,11 @@
 			</SubContainer>
 		</ItemContainer>
 		<CustomInterface canbeselected="true" drawhudwhenequipped="true" allowuioverlap="true">
-			<GuiFrame relativesize="0.083,0.055" anchor="BottomCenter" relativeoffset="0.21,0.01" style="MainMenuGUIButton" hidedragicons="true" draggable="false" />
-			<TickBox text="label.lighting" IsOn="true">
-				<StatusEffect type="OnUse" target="This" IsOn="true"/>
-				<StatusEffect type="OnSecondaryUse" target="This" IsOn="false"/>
-			</TickBox >
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="label.lighting" IsOn="true">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
 		</CustomInterface>
 		<aitarget maxsightrange="1000" />
 	</Item>
