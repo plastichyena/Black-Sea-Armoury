@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Japanese" nowhitespace="false" translatedname="日本語">
+	<!--tips-->
+  <loadingscreentip>「火薬もまた薬となる」 - ヤブ医者アンディ</loadingscreentip>
+  <loadingscreentip>「このヒントを実際に読んだ人いるの？」 - アシスタントアンディ</loadingscreentip>
+  <loadingscreentip>精密狙撃ライフルはセミオートモードに切り替えることで精度が向上する場合がある - Black Sea Armoury</loadingscreentip>
+  <loadingscreentip>武器の装甲貫通力はバレル長と弾薬の種類によって大きく左右される - Black Sea Armoury</loadingscreentip>
+  <loadingscreentip>連続射撃を続けると弾の拡散が急速に広がる - Black Sea Armoury</loadingscreentip>
+  <loadingscreentip>エクソスーツを着用すると反動を軽減できる場合がある - Black Sea Armoury</loadingscreentip>
+  <loadingscreentip>スクラップからレアな素材が見つかることがある - Black Sea Armoury</loadingscreentip>
+  <label.semiautomatic>セミオート</label.semiautomatic>
+  <label.lighting>ライティングシステム</label.lighting>
   <!--Job.xml-->
   <jobName.Pilot>アイアンライダー</jobName.Pilot>
   <jobdescription.Pilot>アイアンリーグの精鋭であるアイアンライダーは、エウロパに暮す人類の守護者としての役割を担っている。</jobdescription.Pilot>
@@ -48,6 +58,159 @@
   <talentdescription.crafthighqualitylaserbw>作成するエネルギー兵器の品質が [qualitybonus] 上昇する。</talentdescription.crafthighqualitylaserbw>
   <talentname.custommachinebw>改造機器</talentname.custommachinebw>
   <talentdescription.crafthighqualityhmgbw>作成するマシンガンの品質が [qualitybonus] 上昇する。</talentdescription.crafthighqualityhmgbw>
+  <!--New Job.xml-->
+  <stattypenames.rangedspreadreduction>拡散低減</stattypenames.rangedspreadreduction>
+  <stattypenames.MedicalItemEffectivenessMultiplier>医療品効果強化</stattypenames.MedicalItemEffectivenessMultiplier>
+  <stattypenames.penetration>装甲貫通</stattypenames.penetration>
+  <stattypenames.flowresistance>流体抵抗</stattypenames.flowresistance>
+  <talenttree.bwpl_offense>殲滅の極意</talenttree.bwpl_offense>
+  <talenttree.bwpl_defense>不屈の砦</talenttree.bwpl_defense>
+  <talenttree.bwpl_logistic>戦術兵站</talenttree.bwpl_logistic>
+  <talentname.swordwarriorbw>ソードウォリアー</talentname.swordwarriorbw>
+  <talentname.olympian_offense>戦闘活性化</talentname.olympian_offense>
+  <talentname.olympian_defense>ダメージ軽減</talentname.olympian_defense>
+  <talentname.olympian_logistic>兵站保護</talentname.olympian_logistic>
+  <talentname.drsubmarinebw>野戦衛生兵</talentname.drsubmarinebw>
+  <talentname.offense_system>突撃コア</talentname.offense_system>
+  <talentname.defense_system>要塞コア</talentname.defense_system>
+  <talentname.logistic_system>兵站コア</talentname.logistic_system>
+  <talentname.revengesquad_offense>捨て身の突撃</talentname.revengesquad_offense>
+  <talentname.revengesquad_deffense>贖罪の盾</talentname.revengesquad_deffense>
+  <talentname.revengesquad_logistic>緊急対処</talentname.revengesquad_logistic>
+  <talentname.warlordbw_offense>エース</talentname.warlordbw_offense>
+  <talentname.warlordbw_deffense>装甲要塞</talentname.warlordbw_deffense>
+  <talentname.miracleworker_bw>リーダーシップ</talentname.miracleworker_bw>
+  <talentname.apolloassistsystem_bw>アポロ支援システム</talentname.apolloassistsystem_bw>
+  <talentname.circeassistsystem_bw>キルケー支援システム</talentname.circeassistsystem_bw>
+  <talentdescription.swordwarriorbw>近接武器で攻撃する際、所持している[itemname]1つにつきダメージが[powerincrease]%上昇する（最大[maxpowerincrease]%）。</talentdescription.swordwarriorbw>
+  <talentdescription.crafthighqualityswordwarriorbw>製作するロングソードの品質が[qualitybonus]上昇する。</talentdescription.crafthighqualityswordwarriorbw>
+  <talentdescription.olympian_bw>全スキルの最低値に等しい割合で、以下のステータスにボーナスを得る：</talentdescription.olympian_bw>
+  <talentdescription.steelruler_offense>メックスーツ装着時、攻撃力が[value]%上昇する。</talentdescription.steelruler_offense>
+  <talentdescription.steelruler_deffense>メックスーツ装着時、受けるダメージが[value]%減少する。</talentdescription.steelruler_deffense>
+  <talentdescription.steelruler_logist>メックスーツ装着時、移動速度が[value]%上昇する。</talentdescription.steelruler_logist>
+  <talentdescription.miracleworker_bw>メックスーツ操縦中、自身と味方に[value]%の強化を付与する。</talentdescription.miracleworker_bw>
+  <talentdescription.revengesquad_offense> 味方が瀕死の場合、‖color:gui.orange‖ダメージ‖end‖が[amount]%上昇する。この効果は味方の死亡または回復後[duration]秒間持続し、時間とともに減少する。 </talentdescription.revengesquad_offense>
+  <talentdescription.revengesquad_deffense> 味方が瀕死の場合、‖color:gui.orange‖物理ダメージ耐性‖end‖が[amount]%上昇する。この効果は味方の死亡または回復後[duration]秒間持続し、時間とともに減少する。 </talentdescription.revengesquad_deffense>
+  <talentdescription.revengesquad_logistic>味方が瀕死の場合、‖color:gui.orange‖修理速度‖end‖が[amount2]%上昇し、‖color:gui.orange‖移動速度と医療品の効果‖end‖も向上する。この効果は味方の死亡または回復後[duration]秒間持続し、時間とともに減少する。</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>ミッションを完了する度に、最大ダメージが[smallgain]%上昇する。乗員が全員生存していた場合、[largegain]%追加で上昇する（最大[maxgain]%）。 </talentdescription.warlordbw_offense>
+  <talentdescription.warlordbw_deffense>ミッションを完了する度に、最大ヘルスが[smallgain]%上昇する。乗員が全員生存していた場合、[largegain]%追加で上昇する（最大[maxgain]%）。 </talentdescription.warlordbw_deffense>
+  <talentdescription.apolloassistsystem_bw> アポロ装着時、化学火傷ダメージが25%追加される。また、負傷者を治療すると、60秒間アポロのナノボットによる支援を受ける。 </talentdescription.apolloassistsystem_bw>
+  <talentdescription.circeassistsystem_bw>キルケー装着時、化学火傷および燃焼ダメージが100%追加される。</talentdescription.circeassistsystem_bw>
+  <!--AR.xml-->
+    <entityname.spar-408>SPAR-408 特殊指定射手ライフル</entityname.spar-408>
+  <entitydescription.spar-408>高脅威目標を排除するためにアイアンアライアンスが設計した指定射手ライフル。</entitydescription.spar-408>
+  <entityname.408_7magazine_bw>SPAR-408 クラーケン 徹甲マガジン(7)</entityname.408_7magazine_bw>
+  <entitydescription.408_7magazine_bw>.408ライフル用7発マガジン。使用する徹甲弾はほとんどの生物の装甲を貫通するのに十分な性能を持つ。</entitydescription.408_7magazine_bw>
+  <entityname.408fmj_7magazine_bw>SPAR-408 クン FMJマガジン(7)</entityname.408fmj_7magazine_bw>
+  <entitydescription.408fmj_7magazine_bw>.408ライフル用7発FMJマガジン。フルメタルジャケット弾を使用し、目標内部に大きなダメージを与える。</entitydescription.408fmj_7magazine_bw>
+  <entityname.408jhp_7magazine_bw>SPAR-408 スキュラ FMJホローポイントマガジン(7)</entityname.408jhp_7magazine_bw>
+  <entitydescription.408jhp_7magazine_bw>.408ライフル用7発マガジン。フルメタルジャケットホローポイント弾を使用し、目標内部に絶大なダメージと阻止力を発揮する。</entitydescription.408jhp_7magazine_bw>
+  <entityname.spar-338>SPAR-338 特殊マシンガン</entityname.spar-338>
+  <entitydescription.spar-338>増大する怪物の脅威に対抗するためアイアンアライアンスが設計した、精密かつ致死的なマシンガン。</entitydescription.spar-338>
+  <entityname.338_24magazine_bw>SPAR-338 マガジン(24)</entityname.338_24magazine_bw>
+  <entitydescription.338_24magazine_bw>チタン製 .338ラプアマグナム 24発マガジン。</entitydescription.338_24magazine_bw>
+  <entityname.338_60magazine_bw>SPAR-338 マガジン(60)</entityname.338_60magazine_bw>
+  <entitydescription.338_60magazine_bw>制圧射撃用のチタン製 .338ラプアマグナム 拡張60発マガジン。</entitydescription.338_60magazine_bw>
+  <entityname.spar-93>SPAR-93 特殊アサルトライフル</entityname.spar-93>
+  <entitydescription.spar-93>SPAR-76の市場での大きな成功を受け、アイアンアライアンスが新たに開発した重アサルトライフル。堅牢な構造と効率的な戦闘能力を特徴とし、少数の高威力弾で素早く敵を制圧できる。</entitydescription.spar-93>
+  <entityname.93_30magazine_bw>SPAR-93 マガジン(30)</entityname.93_30magazine_bw>
+  <entitydescription.93_30magazine_bw>9.3×63mm 30発ライフルマガジン。1発1発がスレッジハンマーのような衝撃を持つ。</entitydescription.93_30magazine_bw>
+  <entityname.93ap_30magazine_bw>SPAR-93 徹甲マガジン(30)</entityname.93ap_30magazine_bw>
+  <entitydescription.93ap_30magazine_bw>特製徹甲弾を使用する9.3×63mm 30発徹甲ライフルマガジン。</entitydescription.93ap_30magazine_bw>
+  <entityname.spar-8s>SPAR-8S 特殊指定射手ライフル</entityname.spar-8s>
+  <entitydescription.spar-8s>アイアンアライアンスが設計したフルオート対応の分隊指定射手ライフル。延長バレルと改良マズルブレーキにより精度と装甲貫通力が大幅に向上している。</entitydescription.spar-8s>
+  <entityname.spar-8>SPAR-8 特殊指定射手ライフル</entityname.spar-8>
+  <entitydescription.spar-8>アイアンアライアンスが設計したフルオート指定射手ライフル。精鋭部隊に愛用されている。</entitydescription.spar-8>
+  <entityname.8_45magazine_bw>SPAR-8 マガジン(45)</entityname.8_45magazine_bw>
+  <entitydescription.8_45magazine_bw>狙撃用徹甲弾を使用するチタン製8×75mm 45発ライフルマガジン。標準モデル対応。</entitydescription.8_45magazine_bw>
+  <entityname.8_20magazine_bw>SPAR-8 マガジン(20)</entityname.8_20magazine_bw>
+  <entitydescription.8_20magazine_bw>狙撃用徹甲弾を使用するチタン製8×75mm 20発ライフルマガジン。</entitydescription.8_20magazine_bw>
+  <entityname.8ap_20magazine_bw>SPAR-8 徹甲マガジン(20)</entityname.8ap_20magazine_bw>
+  <entitydescription.8ap_20magazine_bw>特製徹甲弾を使用するチタン合金製8×75mm 20発徹甲ライフルマガジン。</entitydescription.8ap_20magazine_bw>
+  <entityname.spar-76>SPAR-76 特殊アサルトライフル</entityname.spar-76>
+  <entitydescription.spar-76>アイアンアライアンスが設計した重アサルトライフル。堅牢で耐久性が高く、数発で相手を制圧することを目的としている。</entitydescription.spar-76>
+  <entityname.762_30magazine_bw>SPAR-76 マガジン(30)</entityname.762_30magazine_bw>
+  <entitydescription.762_30magazine_bw>7.62×54mm 30発ライフルマガジン。1発1発がスレッジハンマーのような衝撃を持つ。</entitydescription.762_30magazine_bw>
+  <entityname.762ap_30magazine_bw>SPAR-76 徹甲マガジン(30)</entityname.762ap_30magazine_bw>
+  <entitydescription.762ap_30magazine_bw>チタン合金製徹甲弾を使用する7.62×54mm 30発徹甲ライフルマガジン。</entitydescription.762ap_30magazine_bw>
+  <entityname.spar-65>SPAR-65 特殊アサルトライフル</entityname.spar-65>
+  <entitydescription.spar-65>SPAR-556Aをベースに、65mm重バレルと最適化されたエルゴノミクスデザインを採用したライフル。</entitydescription.spar-65>
+  <entityname.65_50magazine_bw>SPAR-65 ドラムマガジン(50)</entityname.65_50magazine_bw>
+  <entitydescription.65_50magazine_bw>戦術チームの制圧射撃を担う6.5×52mm 50発ライフルドラムマガジン。</entitydescription.65_50magazine_bw>
+  <entityname.65ap_50magazine_bw>SPAR-65 徹甲ドラムマガジン(50)</entityname.65ap_50magazine_bw>
+  <entitydescription.65ap_50magazine_bw>チタン合金弾を使用する6.5×52mm 50発徹甲ライフルドラムマガジン。</entitydescription.65ap_50magazine_bw>
+  <entityname.spar-556a>SPAR-556A 特殊アサルトライフル</entityname.spar-556a>
+  <entitydescription.spar-556a>スチールアライアンス創設初期に設計されたアサルトライフル。後に延長バレルへのアップグレードが施された。</entitydescription.spar-556a>
+  <entityname.spar-556>SPAR-556 特殊アサルトライフル</entityname.spar-556>
+  <entitydescription.spar-556>スチールアライアンス創設初期に設計されたアサルトライフル。阻止力が不足しているとの批判がある。</entitydescription.spar-556>
+  <entityname.556_30magazine_bw>SPAR-556 マガジン(30)</entityname.556_30magazine_bw>
+  <entitydescription.556_30magazine_bw>スチールコア弾を使用する5.56×45mm 30発ライフルマガジン。</entitydescription.556_30magazine_bw>
+  <entityname.556ap_30magazine_bw>SPAR-556 徹甲マガジン(30)</entityname.556ap_30magazine_bw>
+  <entitydescription.556ap_30magazine_bw>徹甲チタン合金弾を使用する5.56×45mm 30発徹甲ライフルマガジン。</entitydescription.556ap_30magazine_bw>
+  <entityname.556_150magazine_bw>SPAR-556 ドラムマガジン(150)</entityname.556_150magazine_bw>
+  <entitydescription.556_150magazine_bw>戦術チームの制圧射撃に対応する5.56×45mm 150発ライフルドラムマガジン。</entitydescription.556_150magazine_bw>
+  <entityname.asmg-300>AG-300 特殊サブマシンガン</entityname.asmg-300>
+  <entitydescription.asmg-300>室内CQC環境に対応する戦術部隊向けの亜音速サブマシンガン。アライアンス・ロングスパイク師団の審判官に広く使用されている。</entitydescription.asmg-300>
+  <entityname.300blk_24magazine_bw>AG-300 マガジン(24)</entityname.300blk_24magazine_bw>
+  <entitydescription.300blk_24magazine_bw>優れた亜音速性能を持つ .300 BLK 24発サブマシンガンマガジン。</entitydescription.300blk_24magazine_bw>
+  <entityname.asmg-45>AG-45 サブマシンガン</entityname.asmg-45>
+  <entitydescription.asmg-45>潜水艦内部で広く使われている防衛用兵器。高い阻止力と低い反動でセキュリティ企業に愛用されている。</entitydescription.asmg-45>
+  <entityname.45_50magazine_bw>AG-45 マガジン(50)</entityname.45_50magazine_bw>
+  <entitydescription.45_50magazine_bw>クラシックで信頼性の高い .45 ACP 50発サブマシンガンマガジン。</entitydescription.45_50magazine_bw>
+  <entityname.asmg-50>AG-50 アサルトサブマシンガン</entityname.asmg-50>
+  <entitydescription.asmg-50>高充填 .510弾を使用した、制御が難しいが極めて高い阻止力を持つ火器。</entitydescription.asmg-50>
+  <entityname.50lb_16magazine_bw>AG-50 マガジン(16)</entityname.50lb_16magazine_bw>
+  <entitydescription.50lb_16magazine_bw>.510 LB 16発サブマシンガンマガジン。</entitydescription.50lb_16magazine_bw>
+  <entityname.spsg-15>SPSG-15 特殊アサルトショットガン</entityname.spsg-15>
+  <entitydescription.spsg-15>独自のリボルビングマガジン機構を持つフルオートのストックレスショットガン。15発の装弾数を誇り、室内CQBの理想的な選択肢。</entitydescription.spsg-15>
+  <entityname.spsg-4>SPSG-4 特殊「ヘビーハンマー」ショットガン</entityname.spsg-4>
+  <entitydescription.spsg-4>SPSG-4「ヘビーハンマー」ショットガンは特別設計のガストラックにより2発を瞬時に発射できるが、複雑なリセット機構が汎用性を大きく損なっている。</entitydescription.spsg-4>
+  <entityname.spsg-8>SPSG-8 特殊「リッパー」ショットガン</entityname.spsg-8>
+  <entitydescription.spsg-8>SPSG-8「リッパー」ショットガンは延長バレルと改良された自動機構により火力が強化されている。</entitydescription.spsg-8>
+  <entityname.mph_bw>4インチ多目的「スティンキー」グレネードランチャー</entityname.mph_bw>
+  <entitydescription.mph_bw>4インチ多目的「スティンキー」グレネードランチャーは、様々な状況に対応するため特別設計された4インチグレネードを発射できる。</entitydescription.mph_bw>
+  <entityname.mph_ammo_cyanide>4インチ「プルシアンブルー」グレネード</entityname.mph_ammo_cyanide>
+  <entitydescription.mph_ammo_cyanide>シアン化水素とシアン化カリウムの有毒混合物で、目標エリア内に急性シアン化物中毒を引き起こす。</entitydescription.mph_ammo_cyanide>
+  <entityname.mph_ammo_cyanide_d>4インチ「プルシアンブルー」グレネード（遅延信管）</entityname.mph_ammo_cyanide_d>
+  <entitydescription.mph_ammo_cyanide_d>シアン化水素とシアン化カリウムを組み合わせた高毒性グレネード。着弾1.5秒後に爆発する遅延信管を備える。</entitydescription.mph_ammo_cyanide_d>
+  <entityname.mph_ammo_stun>4インチ「ブラックサン」グレネード</entityname.mph_ammo_stun>
+  <entitydescription.mph_ammo_stun>強烈な閃光と爆音を発生させ目標を無力化し、麻痺剤を放出して動きを封じる。</entitydescription.mph_ammo_stun>
+  <entityname.mph_ammo_stun_d>4インチ「ブラックサン」グレネード（遅延信管）</entityname.mph_ammo_stun_d>
+  <entitydescription.mph_ammo_stun_d>強烈な閃光と爆音を発生させ目標を無力化し、麻痺剤を放出する。着弾1.5秒後に爆発する遅延信管を備える。</entitydescription.mph_ammo_stun_d>
+  <entityname.mph_ammo_radiation>4インチ「ラディアンス」グレネード</entityname.mph_ammo_radiation>
+  <entitydescription.mph_ammo_radiation>放射線雲を生成し、目標エリアを強力な放射線で汚染する。</entitydescription.mph_ammo_radiation>
+  <entityname.mph_ammo_radiation_d>4インチ「ラディアンス」グレネード（遅延信管）</entityname.mph_ammo_radiation_d>
+  <entitydescription.mph_ammo_radiation_d>放射線雲を生成し、目標エリアの物体を強力に汚染する。着弾1.5秒後に爆発する遅延信管を備える。</entitydescription.mph_ammo_radiation_d>
+  <entityname.mph_ammo_emp>4インチ「エレクトロサージ」グレネード</entityname.mph_ammo_emp>
+  <entitydescription.mph_ammo_emp>強力なEMPパルスを発生させ、全ての電気設備を無効化する。</entitydescription.mph_ammo_emp>
+  <entityname.mph_ammo_exp>4インチ「サンダークラップ」グレネード</entityname.mph_ammo_exp>
+  <entitydescription.mph_ammo_exp>爆発こそが芸術だ！</entitydescription.mph_ammo_exp>
+  <entityname.mph_ammo_exp_vt>4インチ「サンダークラップ」グレネード（VT）</entityname.mph_ammo_exp_vt>
+  <entitydescription.mph_ammo_exp_vt>爆発こそが芸術。近接信管を使用し目標付近で起爆、ランチャー自身を除く全てを切り裂くメタルストームを生成する。</entitydescription.mph_ammo_exp_vt>
+  <entityname.mph_ammo_exp_pg>4インチ「サンダークラップ」グレネード（PG）</entityname.mph_ammo_exp_pg>
+  <entitydescription.mph_ammo_exp_pg>爆発こそが芸術。時限信管を使用し指定目標地点で起爆、ランチャー自身を除く全てを切り裂くメタルストームを生成する。</entitydescription.mph_ammo_exp_pg>
+  <entityname.mph_ammo_breaching>4インチ「ブル」グレネード</entityname.mph_ammo_breaching>
+  <entitydescription.mph_ammo_breaching>FBI ブリーチング！！！</entitydescription.mph_ammo_breaching>
+  <entityname.mph_ammo_base>4インチグレネード</entityname.mph_ammo_base>
+  <entitydescription.mph_ammo_base>弾頭未搭載。それでもこれで刺されたらただでは済まない。</entitydescription.mph_ammo_base>
+  <entityname.mph_ammo_heathesh>4インチ タンデムHESHグレネード</entityname.mph_ammo_heathesh>
+  <entitydescription.mph_ammo_heathesh>HEATタンデム弾頭で装甲を貫通し、内部で榴弾を起爆させる。装甲目標とビヒモス双方に極めて有効。</entitydescription.mph_ammo_heathesh>
+  <entityname.arsenal_bw>ブラック・シー・アーセナル</entityname.arsenal_bw>
+  <entitydescription.arsenal_bw>携行型ブラック・シー・アーセナルは膨大な兵装を搭載し、強襲用スピアとしても機能する。装着時にメックへの追加出力と射撃管制システムが提供される。</entitydescription.arsenal_bw>
+  <entityname.bca_bw>複合装甲プレート</entityname.bca_bw>
+  <entitydescription.bca_bw>アイアンアライアンスが開発したこの先進複合装甲は、NERA（非爆発性反応装甲）技術を用いた多層防御を提供する。圧縮チタン合金、装甲シリカ、劣化素材、チタン金属繊維メッシュ、ゴムで構成され、爆発物や徹甲兵器の脅威に効果的に対抗する。</entitydescription.bca_bw>
+  <entityname.pta_bw>圧縮チタン</entityname.pta_bw>
+  <entitydescription.pta_bw>アイアンアライアンスが開発した最新合金。その材料特性は他の追随を許さない。ただしコストが高いため、増大する脅威に対抗するハイエンド兵器の製造にのみ使用される。</entitydescription.pta_bw>
+  <entityname.amu_bw>硬化アルミニウム合金</entityname.amu_bw>
+  <entitydescription.amu_bw>アイアン・スチールアライアンスが開発した合金。優れた放熱性能を持ち、鋼鉄に匹敵する硬度と極めて軽い重量を兼ね備え、銃のケーシング製造によく使用される。</entitydescription.amu_bw>
+  <entityname.sst_bw>硬化鋼</entityname.sst_bw>
+  <entitydescription.sst_bw>アイアンアライアンスが開発した合金。驚異的な硬度と耐久性を誇り、銃身の製造によく使用される。</entitydescription.sst_bw>
+  <entityname.camp6_bw>コンパウンド・シックス</entityname.camp6_bw>
+  <entitydescription.camp6_bw>アイアンアライアンスが開発した軍用高性能爆薬。軍用高性能爆薬の合成に使用でき、同質量においてエウロパで知られる火薬の性能を大きく上回る。開発者は前線で活躍する軍医であり、その座右の銘は「火薬もまた薬となる」とされている。</entitydescription.camp6_bw>
+  <entityname.camp7_bw>コンパウンド No.7</entityname.camp7_bw>
+  <entitydescription.camp7_bw>アイアンアライアンスが開発した軍用高性能爆薬。コンパウンド No.6の製法に現地の特産素材を加えたもので、軍用高性能爆薬の合成に使用できる。開発者は前線で活躍する軍医であり、その座右の銘は「火薬もまた薬となる」とされている。</entitydescription.camp7_bw>
+  <entityname.c6_bw>C6爆薬</entityname.c6_bw>
+  <entitydescription.c6_bw>アイアンフェデレーションが開発した軍用高性能爆薬。</entitydescription.c6_bw>
   <!--AXE.xml-->
   <entityname.PFbw>パワーコンバットシステム</entityname.PFbw>
   <entitydescription.PFbw>アイアンリーグでは全員白兵戦の訓練を受ける。</entitydescription.PFbw>
@@ -91,6 +254,14 @@
   <entitydescription.corsairar_bp>極めて高い攻撃性能を持つ実験用プロトタイプ。動作にはX01酸素セルが必要。</entitydescription.corsairar_bp>
   <entityname.armored_miningsuit_bw3>ヘラクレスMk.II</entityname.armored_miningsuit_bw3>
   <entitydescription.armored_miningsuit_bw3>ヘラクレスは兵器プラットフォームとして優れているが、その機動性の低さから素早い敵に翻弄されることがあった。そこで再設計が行われ、弾薬管理システムと装填補助装置が取り除かれ、より強力な推進システムが搭載された。それでもまだ信じられないほど機動性が低いものの、少なくとも日が暮れるまでには目的地に到達できるようになった。</entitydescription.armored_miningsuit_bw3>
+  <entityname.apollo_bw>アポロ</entityname.apollo_bw>
+  <entitydescription.apollo_bw>大量の医療物資を携行し、戦場を素早く移動できる軽量野戦衛生メック。医療・研究に大きなボーナスを提供する。</entitydescription.apollo_bw>
+  <entityname.circe_bw>キルケー</entityname.circe_bw>
+  <entitydescription.circe_bw>大量の医療物資を携行し、戦場を素早く移動できる軽量化学戦メック。毒と燃焼への優れた耐性を持つ。</entitydescription.circe_bw>
+  <entityname.armored_hardsuit_bw_med>X01 戦闘装甲（戦闘衛生兵）</entityname.armored_hardsuit_bw_med>
+  <entitydescription.armored_hardsuit_bw_med>X01酸素セルで駆動する多目的軍事装甲。自動健康監視システムを搭載している。</entitydescription.armored_hardsuit_bw_med>
+  <entityname.pio_bw_med>パイオニア モデルII</entityname.pio_bw_med>
+  <entitydescription.pio_bw_med>医療支援に特化した装甲スーツ。酸素タンクで動作する。</entitydescription.pio_bw_med>
   <!--Shield.xml-->
   <entityname.bwapc>リバースエンジニアリングエイリアンパワーセル</entityname.bwapc>
   <entitydescription.bwapc>人間が作り出したエイリアンパワーセル</entitydescription.bwapc>
@@ -155,6 +326,8 @@
   <entitydescription.lmgmagazine_bw2>生体金属により無限の弾薬を実現したが、威力が半減してしまっている。</entitydescription.lmgmagazine_bw2>
   <entityname.lmg_bw>タクティカルLMG</entityname.lmg_bw>
   <entitydescription.lmg_bw>信頼性の高い自動小銃で、ソフトターゲットに効果的。連結型7.62mmマガジンを使用する。</entitydescription.lmg_bw>
+  <entityname.HMG1_mag_bw_h>14.5mm 弾薬箱 100発</entityname.HMG1_mag_bw_h>
+  <entitydescription.HMG1_mag_bw_h>旧式の高貫通弾。</entitydescription.HMG1_mag_bw_h>
   <!--PRG.xml-->
   <entityname.battlecannon_bw>アックスロケットキャノン</entityname.battlecannon_bw>
   <entitydescription.battlecannon_bw>HEロケットを発射する重砲。ロケット弾を使用する。</entitydescription.battlecannon_bw>
@@ -255,6 +428,33 @@
   <Afflictionname.sup3>アサルトサポートシステム</Afflictionname.sup3>
   <Afflictiondescription.sup3>攻撃速度が20%、ヘルスが25%、物理ダメージ耐性が15%増加する。</Afflictiondescription.sup3>
   <entityname.railgunshellbw2>空の弾頭</entityname.railgunshellbw2>
+  <Afflictionname.commnetbw>指揮ネットワーク</Afflictionname.commnetbw>
+  <Afflictionname.Hercules>要塞建築家</Afflictionname.Hercules>
+  <Afflictiondescription.Hercules>修理速度が25%、ヘルスが25%上昇する。</Afflictiondescription.Hercules>
+  <Afflictionname.Hercules2>要塞建築家</Afflictionname.Hercules2>
+  <Afflictiondescription.Hercules2>修理速度が25%、ヘルスが25%上昇し、受ける物理ダメージが15%減少する。</Afflictiondescription.Hercules2>
+  <Afflictionname.DEFbw3>追加装甲</Afflictionname.DEFbw3>
+  <Afflictiondescription.DEFbw3>ヘルスが50%上昇し、受ける物理ダメージが30%減少し、攻撃速度が20%上昇する。</Afflictiondescription.DEFbw3>
+  <Afflictionname.X00>強襲装甲</Afflictionname.X00>
+  <Afflictiondescription.X00>ダメージが10%、攻撃速度が20%、ヘルスが10%上昇する。</Afflictiondescription.X00>
+  <Afflictionname.X01D>生体装甲</Afflictionname.X01D>
+  <Afflictiondescription.X01D>ダメージが10%、ヘルスが20%上昇し、ダメージを受けた後、非常にゆっくりと自己修復する。</Afflictiondescription.X01D>
+  <Afflictionname.Med_sys>戦闘衛生システム</Afflictionname.Med_sys>
+  <Afflictiondescription.Med_sys>ヘルスが10%上昇し、毒の効果が10%強化される。</Afflictiondescription.Med_sys>
+  <Afflictionname.Apollo_sys>戦闘医師システム</Afflictionname.Apollo_sys>
+  <Afflictiondescription.Apollo_sys>ヘルスが10%上昇し、毒の効果が25%強化され、遺伝子合成時の汚染リスクがなくなる。</Afflictiondescription.Apollo_sys>
+  <Afflictionname.Circe_sys>化学戦システム</Afflictionname.Circe_sys>
+  <Afflictiondescription.Circe_sys>ヘルスが10%上昇し、毒および炎の効果が100%強化され、時間とともに体内の毒素が中和される。</Afflictiondescription.Circe_sys>
+  <Afflictionname.bedsidemanner_bw>アポロ・サポートシステム</Afflictionname.bedsidemanner_bw>
+  <Afflictiondescription.bedsidemanner_bw> 移動速度が10%上昇し、物理ダメージが10%減少する。効果中は痛みによる死亡が発生しない。 </Afflictiondescription.bedsidemanner_bw>
+  <Afflictionname.sup4>アーセナル・サポートシステム</Afflictionname.sup4>
+  <Afflictiondescription.sup4> 攻撃速度が20%、ヘルスが25%上昇し、物理ダメージが20%減少する。 </Afflictiondescription.sup4>
+  <Afflictionname.revengesquad_offense>復讐の願い</Afflictionname.revengesquad_offense>
+  <Afflictionname.revengesquad_deffense>守護の願い</Afflictionname.revengesquad_deffense>
+  <Afflictionname.revengesquad_logistic>整備の願い</Afflictionname.revengesquad_logistic>
+  <Afflictiondescription.revengesquad_offense>命を救う唯一の方法は、別の命を奪うことだ。</Afflictiondescription.revengesquad_offense>
+  <Afflictiondescription.revengesquad_deffense>命を救う唯一の方法は、全ての苦痛を受け入れることだ。</Afflictiondescription.revengesquad_deffense>
+  <Afflictiondescription.revengesquad_logistic>命を救う唯一の方法は、最後の希望を守ることだ。</Afflictiondescription.revengesquad_logistic>
   <!--Enemy Characters equipments-->
   <entityname.corsairar_bw_e>コルセア海賊仕様</entityname.corsairar_bw_e>
   <entityname.armored_miningsuit_bw_e>強化型マイニングアーマー</entityname.armored_miningsuit_bw_e>
@@ -304,6 +504,29 @@
   <character.Cultistdevoter>カルティストデヴォーター</character.Cultistdevoter>
   <character.Cultistzealot>カルティストジーロット</character.Cultistzealot>
   <character.Technoprankster>テクノプランクスター</character.Technoprankster>
+  <character.Coalitioneyeofear>フィア・アイ</character.Coalitioneyeofear>
+  <character.Pirateantisub_emp>パイレーツアンチサブ</character.Pirateantisub_emp>
+  <character.Piratecommando>パイレーツコマンドー</character.Piratecommando>
+  <character.Piratecommando2>パイレーツコマンドー</character.Piratecommando2>
+  <character.Piratecommandopod>パイレーツコマンドーポッド</character.Piratecommandopod>
+  <character.Piratedismantlerpod>パイレーツディスマントラーポッド</character.Piratedismantlerpod>
+  <character.Pirateenforcer>パイレーツエンフォーサー</character.Pirateenforcer>
+  <character.Pirateenforcerpod>パイレーツエンフォーサーポッド</character.Pirateenforcerpod>
+  <character.Pirategunner2>パイレーツガンナー</character.Pirategunner2>
+  <character.Pirategunnerpod>パイレーツガンナーポッド</character.Pirategunnerpod>
+  <character.Pirateheavy>パイレーツヘビー</character.Pirateheavy>
+  <character.Pirateheavypod>パイレーツヘビーポッド</character.Pirateheavypod>
+  <character.Piratemarksmanpod>パイレーツマークスマンポッド</character.Piratemarksmanpod>
+  <character.Piraterecruits>パイレーツリクルート</character.Piraterecruits>
+  <character.Piraterecruitspod>パイレーツリクルートポッド</character.Piraterecruitspod>
+  <character.Piraterepressor>パイレーツリプレッサー</character.Piraterepressor>
+  <character.Piraterepressorpod>パイレーツリプレッサーポッド</character.Piraterepressorpod>
+  <character.Pirateriflemanpod>パイレーツライフルマンポッド</character.Pirateriflemanpod>
+  <character.Piratescavengerpod>パイレーツスカベンジャーポッド</character.Piratescavengerpod>
+  <character.Piratesharpshooterpod>パイレーツシャープシューターポッド</character.Piratesharpshooterpod>
+  <character.Piratetyrant>パイレーツタイラント</character.Piratetyrant>
+  <character.Piratetyrantpod>パイレーツタイラントポッド</character.Piratetyrantpod>
+  <character.Pirateveteranpod>パイレーツベテランポッド</character.Pirateveteranpod>
   <!--Mission text-->
   <missionheader.killtarget>ターゲットを破壊</missionheader.killtarget>
   <missionmessage.killmessage>ターゲットは破壊された。洞窟の外に移動して報酬を受け取れ。</missionmessage.killmessage>
@@ -359,4 +582,46 @@
   <missionfailure.abandonedoutpostassassinatebae>盗賊団のリーダーの排除は失敗した。</missionfailure.abandonedoutpostassassinatebae>
   <missionheader0.abandonedoutpostassassinatebae>盗賊リーダーの排除完了</missionheader0.abandonedoutpostassassinatebae>
   <missionmessage0.abandonedoutpostassassinatebae>盗賊団のリーダーの排除に成功した。前哨基地から離脱し、ミッションを完了せよ。</missionmessage0.abandonedoutpostassassinatebae>
+  <missionname.assaultonmechlabs>ブラック・シー・メカラボへの強襲 [地獄級難易度]</missionname.assaultonmechlabs>
+  <missiondescription.assaultonmechlabs>XOF通信：[location1]に位置するブラック・シー・メカラボを破壊せよ。失望させるな。任務詳細：多数の精鋭ブラック・シー・メカ兵士と数機の試作メカが駐留している。警備部隊は重警備員と狙撃手で構成されている。強襲を慎重に計画し、生存者を残さず施設を破壊せよ。</missiondescription.assaultonmechlabs>
+  <missionheader0.assaultonmechlabs> ブラック・シー・メカラボが破壊された</missionheader0.assaultonmechlabs>
+  <missionmessage0.assaultonmechlabs> ブラック・シー・メカラボが破壊された。XOFは貴様の働きに満足している。精鋭部隊が到着する前に撤退し、痕跡を残すな。</missionmessage0.assaultonmechlabs>
+  <missionsuccess.assaultonmechlabs> 強襲成功</missionsuccess.assaultonmechlabs>
+  <missionfailure.assaultonmechlabs> 強襲失敗</missionfailure.assaultonmechlabs>
+
+  <missionname.assaultoncoalitionstation>連合秘密基地への強襲 [地獄級難易度]</missionname.assaultoncoalitionstation>
+  <missiondescription.assaultoncoalitionstation>[location1]に位置する施設を破壊せよ。施設はアライアンス・シールドチームが配備されているが、ジャベリンチームからの支援を受ける可能性もある。</missiondescription.assaultoncoalitionstation>
+  <missionheader0.assaultoncoalitionstation>連合秘密基地が破壊された</missionheader0.assaultoncoalitionstation>
+  <missionmessage0.assaultoncoalitionstation>連合秘密基地が破壊された。信頼できる情報によると、近くのジャベリンチームが支援に向かっている。</missionmessage0.assaultoncoalitionstation>
+
+  <missionname.assaultonseparatismstation>分離派基地への強襲 [極限難易度]</missionname.assaultonseparatismstation>
+  <missiondescription.assaultonseparatismstation>[location1]に位置する施設を破壊せよ。この基地はサイレンチームの補給拠点となっている。破壊して分離主義者の補給線を断ち切れ。</missiondescription.assaultonseparatismstation>
+  <missionheader0.assaultonseparatismstation>分離派基地が破壊された</missionheader0.assaultonseparatismstation>
+  <missionmessage0.assaultonseparatismstation>補給線が断ち切られた。</missionmessage0.assaultonseparatismstation>
+
+  <missionname.assaultonstation>海賊基地への強襲 [極限難易度]</missionname.assaultonstation>
+  <missiondescription.assaultonstation>[location1]に位置する施設を破壊せよ。基地は海賊に占拠されている。エリアを制圧せよ。</missiondescription.assaultonstation>
+  <missionheader0.assaultonstation>基地が破壊された</missionheader0.assaultonstation>
+  <missionmessage0.assaultonstation>我が艦船はこの水路を安全に通過できるようになった。</missionmessage0.assaultonstation>
+
+  <missionname.purgestation_small>小規模海賊前哨基地の制圧</missionname.purgestation_small>
+  <missiondescription.purgestation_small>[location1]に位置する海賊基地を破壊せよ。武装した海賊の一団に占拠されている。前哨基地を制圧せよ。なお、海賊は限定的なアサルトライフル火力しか持たないが、メックや精密・重火器の存在も考えられる。</missiondescription.purgestation_small>
+  <missionheader0.purgestation_small>前哨基地を制圧した</missionheader0.purgestation_small>
+  <missionmessage0.purgestation_small>我が艦船はこの水路を安全に通過できるようになった。</missionmessage0.purgestation_small>
+
+  <missionname.purgestation_small_2>精鋭小規模海賊前哨基地の制圧</missionname.purgestation_small_2>
+  <missiondescription.purgestation_small_2>[location1]に位置する海賊基地を破壊せよ。武装した海賊の一団に占拠されている。前哨基地を制圧せよ。注意：海賊は多数の自動小銃を装備しており、数機のメックと精密・重火器の存在も確認されている。</missiondescription.purgestation_small_2>
+
+  <missionname.huntingground_eyeofear>フィア・アイ 解き放たれる</missionname.huntingground_eyeofear>
+  <missiondescription.huntingground_eyeofear>暴走した機械生命体が深海で制御を失い、全ての目標を攻撃している。このまま放置すれば近隣の新拠点建設が複雑化し、既存拠点にも影響を及ぼす可能性がある。</missiondescription.huntingground_eyeofear>
+  <missionheader0.huntingground_eyeofears>目標排除完了</missionheader0.huntingground_eyeofears>
+  <missionmessage0.huntingground_eyeofears>フィア・アイが死亡し、水路が安全になった。</missionmessage0.huntingground_eyeofears>
+  <missionsuccess.huntingground_eyeofears>フィア・アイが死亡し、水路が安全になった。</missionsuccess.huntingground_eyeofears>
+  <missionfailure.huntingground_eyeofears>フィア・アイが依然としてエリアを支配しており、住民の生活に影響を与えている。</missionfailure.huntingground_eyeofears>
+
+  <missionname.kill_eyeofear>AIクライシス</missionname.kill_eyeofear>
+  <missiondescription.kill_eyeofear>暴走したアライアンスの兵器がこの水路を封鎖している。複数の連絡途絶が報告されており、脅威を即座に排除する必要がある。この兵器は潜水艦の小口径兵装ではほとんど効果がなく、攻撃時には特殊弾を発射する。また、ドローンと乗船ポッドを展開して作戦を妨害する。</missiondescription.kill_eyeofear>
+  <missionsonarlabel.kill_eyeofear>フィア・アイ</missionsonarlabel.kill_eyeofear>
+  <missionsuccess.kill_eyeofear>暴走した兵器が無力化された。回収を待て。</missionsuccess.kill_eyeofear>
+
 </infotexts>
