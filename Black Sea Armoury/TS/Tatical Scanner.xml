@@ -94,6 +94,19 @@
   <!-- Mech Suit Locker -->
   <Item name="" identifier="divingsuitlockerbw" tags="container,divingsuitcontainer,divingsuitcontainerhorizontal,securecontainer" pickdistance="50" scale="0.6">
     <Sprite name="Large Diving Suit Locker Horizontal" texture="%ModDir%/TS/DivingSuitLocker.png" depth="0.84" sourcerect="0,0,260,340" origin="0.5,0.5" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" >
+      <RequiredSkill identifier="mechanical" level="35" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="fpgacircuit" amount="1" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="steel" />
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" MsgWhenDropped="ItemMsgPickupSelect" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem items="wrench,deattachtool" excludeditems="multitool" type="Equipped" />
+    </Holdable>
     <Powered powerconsumption="10" currpowerconsumption="10" isactive="true">
       <GuiFrame relativesize="0.18,0.15" minsize="350,160" maxsize="420,192" anchor="Center" relativeoffset="0,-0.1" style="ItemUI" msg="ItemMsgInteractSelect" />
     </Powered>
@@ -142,8 +155,8 @@
     <InventoryIcon texture="%ModDir%/TS/BC4.png" sourcerect="0,0,64,64" />
     <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="0,340,164,228" depth="0.6" />
     <Body radius="40" height="60" density="40" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
-    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,explosiondamage" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,lacerations" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -199,6 +212,7 @@
     <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
     <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn" texture="%ModDir%/TS/Scabbard.png" sourcerect="0,0,700,200" depth="0.55" origin="0.7,0.1" canbehiddenbyotherwearables="false" rotation="30" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.28" />
@@ -232,6 +246,7 @@
     <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
     <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn2" texture="%ModDir%/Boarding Shield/shieldB.png" sourcerect="0,0,200,452" depth="0.56" origin="0.3,0.4" canbehiddenbyotherwearables="false" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.35" />
@@ -264,6 +279,7 @@
     <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
     <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn" texture="%ModDir%/TS/Scabbard.png" sourcerect="0,0,700,200" depth="0.55" origin="0.7,0.1" canbehiddenbyotherwearables="false" rotation="30" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.28" />
@@ -306,7 +322,8 @@
     <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="0,0,164,228" />
     <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="0,0,164,228" depth="0.6" />
     <Body radius="40" height="60" density="40" />
-    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,explosiondamage" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,lacerations" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -529,7 +546,8 @@
     <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
     <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
-    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Security Vest" texture="%ModDir%/TS/Tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <SkillModifier skillidentifier="weapons" skillvalue="15" />
       <SkillModifier skillidentifier="mechanical" skillvalue="10" />

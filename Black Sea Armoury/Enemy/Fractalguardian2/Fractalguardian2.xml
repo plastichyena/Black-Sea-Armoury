@@ -120,7 +120,7 @@
       <Item identifier="alientrinket3" />
       <Item identifier="relic_bw" />
     </inventory>
-    <StatusEffect type="OnActive">
+    <StatusEffect type="OnActive" target="This">
       <Conditional HealthPercentage="lte 30" />
       <Affliction identifier="internaldamage" strength="0.4" />
       <Affliction identifier="strengthen" strength="50" />
