@@ -548,7 +548,8 @@
   <!-- Relic Fragment -->
   <Item name="" identifier="relic_bw" category="Material" maxstacksize="32" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="false">
     <PreferredContainer primary="ruinstorage,ruinstoragesmall" minamount="0" maxamount="1" spawnprobability="0.075" />
-    <PreferredContainer primary="ruinstoragelarge" minamount="0" maxamount="1" spawnprobability="0.15" />
+    <PreferredContainer primary="ruinstoragelarge" minamount="1" maxamount="1" spawnprobability="0.10" />
+    <PreferredContainer primary="ruintreasure" minamount="1" maxamount="2" spawnprobability="0.10" />
     <Price baseprice="300" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.0" sold="false" />
       <Price locationtype="city" multiplier="1.0" sold="false" />
