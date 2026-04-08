@@ -29,7 +29,7 @@
     <InventoryIcon texture="%ModDir%/LC/LC.png" sourcerect="0,0,352,144" />
     <Sprite texture="%ModDir%/LC/LC.png" sourcerect="0,0,352,144" depth="0.55" />
     <Body width="320" height="80" density="30" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="30,10" aimpos="30,10" handle1="8,-16" handle2="96,-32" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="30,10" aimpos="30,10" handle1="8,-16" handle2="96,-32" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="400"/>
     <RangedWeapon holdtrigger="true" maxchargetime="1.0" barrelpos="165,22" spread="1" unskilledspread="17" combatPriority="50" drawhudwhenequipped="true" crosshairscale="0.2" reload="1.5">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -209,7 +209,7 @@
       <RequiredItem identifier="amu_bw" amount="4" />
       <RequiredItem identifier="pta_bw" amount="4"/>
       <RequiredItem identifier="dementonite"/>
-      <RequiredItem identifier="fpgacircuit" amount="2"/>/>
+      <RequiredItem identifier="fpgacircuit" amount="2"/>
     </Fabricate>
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Autoshogun Worn" texture="%ModDir%/LC/ESG.png" sourcerect="0,0,280,124" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.5" />
@@ -217,7 +217,7 @@
     <InventoryIcon texture="%ModDir%/LC/ESG.png" sourcerect="0,0,280,124" />
     <Sprite texture="%ModDir%/LC/ESG.png" sourcerect="0,0,300,124" depth="0.55" />
     <Body width="300" height="124" density="40" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="35,-10" handle1="-15,-6" handle2="26,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="35,-10" handle1="-15,-6" handle2="26,7" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
     <RangedWeapon reload="4.0" barrelpos="220,13" spread="0" unskilledspread="8" combatPriority="50" drawhudwhenequipped="true" crosshairscale="0.2" maxchargetime="0.5">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
@@ -361,7 +361,7 @@
     <InventoryIcon texture="%ModDir%/LC/ESG2.png" sourcerect="0,0,280,124" />
     <Sprite texture="%ModDir%/LC/ESG2.png" sourcerect="0,0,300,124" depth="0.55" />
     <Body width="300" height="124" density="40" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="35,-10" handle1="-15,-6" handle2="26,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="35,-10" handle1="-15,-6" handle2="26,7" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
     <RangedWeapon reload="4.0" barrelpos="220,13" spread="0" unskilledspread="8" combatPriority="50" drawhudwhenequipped="true" crosshairscale="0.2" maxchargetime="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />

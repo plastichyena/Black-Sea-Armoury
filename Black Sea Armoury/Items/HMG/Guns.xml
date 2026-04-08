@@ -25,7 +25,7 @@
     </Wearable>
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon barrelpos="270,26" spread="3" unskilledspread="16" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.23">
+    <RangedWeapon barrelpos="270,26" spread="3" unskilledspread="16" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.23" cameraaimoffset="300">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <Sound file="Content/Items/Weapons/ExplosionSmall1.ogg" type="OnUse" range="6000" selectionmode="Random" />
@@ -108,7 +108,7 @@
       <RequiredItem identifier="amu_bw" amount="6" />
       <RequiredItem identifier="pta_bw" mincondition="2.5" usecondition="true"/>
       <RequiredItem identifier="plastic" amount="2"/>
-      <RequiredItem identifier="rubber" amount="2"/>/>
+      <RequiredItem identifier="rubber" amount="2"/>
     </Fabricate>
     <InventoryIcon texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
@@ -116,7 +116,7 @@
       <sprite name="CG Worn" texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
     </Wearable>
     <Body width="72" height="40" density="50" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="200"/>
     <RangedWeapon barrelpos="270,26" spread="10" unskilledspread="30" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.25">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />

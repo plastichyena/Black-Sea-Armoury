@@ -97,8 +97,8 @@
   <talentdescription.apolloassistsystem_bw> アポロ装着時、化学火傷ダメージが25%追加される。また、負傷者を治療すると、60秒間アポロのナノボットによる支援を受ける。 </talentdescription.apolloassistsystem_bw>
   <talentdescription.circeassistsystem_bw>キルケー装着時、化学火傷および燃焼ダメージが100%追加される。</talentdescription.circeassistsystem_bw>
   <!--AR.xml-->
-    <entityname.spar-408>SPAR-408 特殊指定射手ライフル</entityname.spar-408>
-  <entitydescription.spar-408>高脅威目標を排除するためにアイアンアライアンスが設計した指定射手ライフル。</entitydescription.spar-408>
+    <entityname.spar-408>SPAR-408 特殊指定マークスマンライフル</entityname.spar-408>
+  <entitydescription.spar-408>高脅威目標を排除するためにアイアンアライアンスが設計した指定マークスマンライフル。</entitydescription.spar-408>
   <entityname.408_7magazine_bw>SPAR-408 クラーケン 徹甲マガジン(7)</entityname.408_7magazine_bw>
   <entitydescription.408_7magazine_bw>.408ライフル用7発マガジン。使用する徹甲弾はほとんどの生物の装甲を貫通するのに十分な性能を持つ。</entitydescription.408_7magazine_bw>
   <entityname.408fmj_7magazine_bw>SPAR-408 クン FMJマガジン(7)</entityname.408fmj_7magazine_bw>
@@ -117,10 +117,10 @@
   <entitydescription.93_30magazine_bw>9.3×63mm 30発ライフルマガジン。1発1発がスレッジハンマーのような衝撃を持つ。</entitydescription.93_30magazine_bw>
   <entityname.93ap_30magazine_bw>SPAR-93 徹甲マガジン(30)</entityname.93ap_30magazine_bw>
   <entitydescription.93ap_30magazine_bw>特製徹甲弾を使用する9.3×63mm 30発徹甲ライフルマガジン。</entitydescription.93ap_30magazine_bw>
-  <entityname.spar-8s>SPAR-8S 特殊指定射手ライフル</entityname.spar-8s>
-  <entitydescription.spar-8s>アイアンアライアンスが設計したフルオート対応の分隊指定射手ライフル。延長バレルと改良マズルブレーキにより精度と装甲貫通力が大幅に向上している。</entitydescription.spar-8s>
-  <entityname.spar-8>SPAR-8 特殊指定射手ライフル</entityname.spar-8>
-  <entitydescription.spar-8>アイアンアライアンスが設計したフルオート指定射手ライフル。精鋭部隊に愛用されている。</entitydescription.spar-8>
+  <entityname.spar-8s>SPAR-8S 特殊指定マークスマンライフル</entityname.spar-8s>
+  <entitydescription.spar-8s>アイアンアライアンスが設計したフルオート対応の分隊指定マークスマンライフル。延長バレルと改良マズルブレーキにより精度と装甲貫通力が大幅に向上している。</entitydescription.spar-8s>
+  <entityname.spar-8>SPAR-8 特殊指定マークスマンライフル</entityname.spar-8>
+  <entitydescription.spar-8>アイアンアライアンスが設計したフルオート指定マークスマンライフル。精鋭部隊に愛用されている。</entitydescription.spar-8>
   <entityname.8_45magazine_bw>SPAR-8 マガジン(45)</entityname.8_45magazine_bw>
   <entitydescription.8_45magazine_bw>狙撃用徹甲弾を使用するチタン製8×75mm 45発ライフルマガジン。標準モデル対応。</entitydescription.8_45magazine_bw>
   <entityname.8_20magazine_bw>SPAR-8 マガジン(20)</entityname.8_20magazine_bw>
