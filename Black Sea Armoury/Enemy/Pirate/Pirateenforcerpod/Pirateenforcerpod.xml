@@ -15,8 +15,8 @@
 		<target Tag="wall" State="Attack" Priority="20" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Sweep" PrioritizeSubCenter="False" SweepDistance="1000" SweepStrength="5" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0"/>
 		<target Tag="sonar" State="Attack" Priority="10" ReactDistance="0" AttackDistance="5000" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Sweep" PrioritizeSubCenter="False" SweepDistance="1500" SweepStrength="5" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
 	</ai>
-  <sound File="%ModDir%/items/Dropod/warning.ogg" State="Idle" Range="3000" Volume="1" Tags="" />
-  <sound File="%ModDir%/items/Dropod/warning.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Items/Dropod/warning.ogg" State="Idle" Range="3000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Items/Dropod/warning.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
   <StatusEffect type="OnDeath" target="This">
     <SpawnCharacter speciesname="Pirateenforcer" count="1" spread="4" />
     <Remove />

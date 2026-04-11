@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Mechno's and Duke's Maddened Black Sea Armory1.7.2" modversion="1.7.2" corepackage="False" steamworkshopid="2891792017" gameversion="0.20.16.1">
+<contentpackage name="Mechno's and Duke's Maddened Black Sea Armory1.7.3" modversion="1.7.3" corepackage="False" steamworkshopid="2891792017" gameversion="1.12.6.2">
   <Jobs file="%ModDir%/Job/Content/Jobs.xml" />
   <TalentTrees file="%ModDir%/Job/Content/TalentTrees.xml" />
   <Talents file="%ModDir%/Job/TalentsBP.xml" />
   <Afflictions file="%ModDir%/Job/AfflictionsBP.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
-  <Item file="%ModDir%/items/HMG/Guns.xml" />
+  <Item file="%ModDir%/Items/HMG/Guns.xml" />
   <Item file="%ModDir%/LMG/Guns.xml" />
   <Item file="%ModDir%/PRG/PRG.xml" />
   <Item file="%ModDir%/BA/BA.xml" />
   <Item file="%ModDir%/LC/Laser Cannon.xml" />
   <Item file="%ModDir%/BT/Boarding Torpedo.xml" />
-  <Item file="%ModDir%/items/SMG/Guns.xml" />
+  <Item file="%ModDir%/Items/SMG/Guns.xml" />
   <Item file="%ModDir%/SG/SG.xml" />
   <Item file="%ModDir%/AXE/AXE.xml" />
   <Item file="%ModDir%/TS/Tatical Scanner.xml" />
   <Item file="%ModDir%/Boarding Shield/Shield.xml" />
-  <Item file="%ModDir%/items/AR/AR.xml" />
+  <Item file="%ModDir%/Items/AR/AR.xml" />
   <Afflictions file="%ModDir%/Skill/Afflictions.xml" />
   <Text file="%ModDir%/Language/English.xml" />
   <Text file="%ModDir%/Language/TraditionalChinese.xml" />

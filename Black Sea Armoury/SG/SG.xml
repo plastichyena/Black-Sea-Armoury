@@ -176,10 +176,8 @@
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="1" amount="1">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="steel" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="steel" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="lead" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="lead" mincondition="1" usecondition="true" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="2" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" amount="2"/>
       <RequiredItem identifier="plastic" mincondition="1" usecondition="true" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/SG/SGS.png" sourcerect="0,0,36,64" origin="0.5,0.5" />
@@ -214,8 +212,7 @@
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="1" amount="1">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="steel" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="uex" mincondition="1" usecondition="true" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
       <RequiredItem identifier="uex" mincondition="1" usecondition="true" />
       <RequiredItem identifier="uex" mincondition="1" usecondition="true" />
       <RequiredItem identifier="plastic" mincondition="1" usecondition="true" />

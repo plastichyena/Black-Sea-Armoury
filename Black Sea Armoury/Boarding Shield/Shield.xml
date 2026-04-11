@@ -68,7 +68,7 @@
     <AiTarget soundrange="2000" />
   </Item>
   <!-- Black Sea Arsenal -->  
-  <Item name="黑海武库" identifier="arsenal_bw" aliases="shield, boarding shiled, backpack" scale="0.35" category="Equipment,gunsmith" description="" tags="mediumitem,toolbelt" waterproof="true" impactsoundtag="impact_metal_heavy" health="2000" damagedbyprojectiles="true">
+  <Item name="" identifier="arsenal_bw" aliases="shield, boarding shiled, backpack" scale="0.35" category="Equipment,gunsmith" description="" tags="mediumitem,toolbelt" waterproof="true" impactsoundtag="impact_metal_heavy" health="2000" damagedbyprojectiles="true">
     <Fabricate suitablefabricators="fabricator" requiredtime="50" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="100" />
       <RequiredItem identifier="bca_bw" amount="2" />
@@ -154,7 +154,7 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="50" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="50" />
       <RequiredItem identifier="pta_bw" amount ="1"/>
-      <RequiredItem identifier="sst_bw" amount ="4"/>
+      <RequiredItem identifier="sst_bw" amount ="2"/>
       <RequiredItem identifier="amu_bw" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="1">

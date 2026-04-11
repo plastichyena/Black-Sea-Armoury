@@ -2,8 +2,8 @@
 <Items>
   <!--monster-->
   <Item name="AG-300 " identifier="asmg-300-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light"  hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.11" barrelpos="14,6" spread="16" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
@@ -29,8 +29,8 @@
     <aitarget sightrange="2000" soundrange="3000" fadeouttime="5" />
   </Item>
   <Item name="AG-45 " identifier="asmg-45-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.12" barrelpos="14,6" spread="15.5"  combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
@@ -56,8 +56,8 @@
     <aitarget sightrange="2000" soundrange="3000" fadeouttime="5" />
   </Item>
   <Item name="AG-50" identifier="asmg-50-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.18" barrelpos="14,6" spread="22"  combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
@@ -84,8 +84,8 @@
   </Item>
   <!-- SMG Bullet (Bullet for 7.62mm Magazine) -->
   <Item name="Smg Round" identifier="smground_bw" category="Weapon" subcategory="Black Sea Armoury" interactthroughwalls="true" tags="smgammotype,smallitem,round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="4">
@@ -128,13 +128,14 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="35" amount ="6">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="magnesium" />
-      <RequiredItem identifier="lead" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" />
+      <RequiredItem tag="munition_jacket" description="fabricationdescription.munition_jacket" />
       <RequiredItem identifier="steel"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/SMG/smg mag.png" sourcerect="0,0,36,44" />
-    <Sprite texture="%ModDir%/items/SMG/smg mag.png" depth="0.54" sourcerect="0,0,36,44" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/smg mag.png" sourcerect="0,0,36,44" />
+    <Sprite texture="%ModDir%/Items/SMG/smg mag.png" depth="0.54" sourcerect="0,0,36,44" origin="0.5,0.5" />
     <Body width="30" height="40" density="50" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="smground_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="smground_bw" />
@@ -167,8 +168,8 @@
       <Item identifier="steel"/>
       <Item identifier="amu_bw"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.15" barrelpos="14,6" spread="14" unskilledspread="24" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
@@ -207,15 +208,15 @@
   </Item>
   <!--.300BLK SMG @apc300/MCX RATTLER LT-->
   <Item name="AG-300 " identifier="asmg-300" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.11" reloadnoskill="0.18" barrelpos="14,6" spread="16" unskilledspread="32" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-      <Sound file="%ModDir%/items/SMG/Sounds/AG-300-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="2000" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/SMG/Sounds/AG-300-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="2000" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="60.0" force="1.1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
       </StatusEffect>
@@ -249,8 +250,8 @@
 		<Deconstruct time="1">
 			<Item identifier="smgmagazine_bw"/>
 		</Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="419,0,40,76" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="419,0,40,76" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
     <Body width="20" height="38" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="300blkround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="300blkround_bw" />
@@ -292,15 +293,15 @@
   </Item>
   <!--.50 LB SMG @Desert Eagle-->
   <Item name="AG-50" identifier="asmg-50" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.18" reloadnoskill="0.26" barrelpos="14,6" spread="18" unskilledspread="40" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-      <Sound file="%ModDir%/items/SMG/Sounds/AG-50-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/SMG/Sounds/AG-50-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="8.0" />
       </StatusEffect>
@@ -334,8 +335,8 @@
 		<Deconstruct time="1">
 			<Item identifier="smgmagazine_bw"/>
 		</Deconstruct>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="476,0,50,80" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
     <Body width="31" height="50" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="50lbround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="50lbround_bw" />
@@ -377,17 +378,17 @@
   </Item>
   <!--.45 SMG @auto-pist-->
   <Item name="AG-45 " identifier="asmg-45" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.105" reloadnoskill="0.20" barrelpos="14,6" spread="16.5" unskilledspread="35" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_1.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
-      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_2.ogg" type="OnUse" volume="1.5" range="3000" />
-      <Sound file="%ModDir%/items/SMG/Sounds/AG-45-01ROUND-Analog_3.ogg" type="OnUse" volume="1.5" range="3000" />
+      <Sound file="%ModDir%/Items/SMG/Sounds/AG-45-01ROUND-Analog_1.ogg" type="OnUse" volume="1.5" range="3000" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/SMG/Sounds/AG-45-01ROUND-Analog_2.ogg" type="OnUse" volume="1.5" range="3000" />
+      <Sound file="%ModDir%/Items/SMG/Sounds/AG-45-01ROUND-Analog_3.ogg" type="OnUse" volume="1.5" range="3000" />
       <StatusEffect type="OnUse" target="This">
         <Explosion range="60.0" force="1" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
       </StatusEffect>
@@ -421,8 +422,8 @@
     <Deconstruct time="1">
 			<Item identifier="smgmagazine_bw"/>
 		</Deconstruct>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="476,0,50,80" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
 		<Body width="25" height="40" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="45round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="45round_bw" />

@@ -2,8 +2,8 @@
 <Items>
   <!--monster-->
   <Item name="SPAR-408 DMR" identifier="spar-408ap-hide" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_heavy" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
 		<Body width="311" height="74" density="50" />
 		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
     <!--60 rounds per minute-->
@@ -11,7 +11,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="8" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
@@ -31,8 +31,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-408 DMR" identifier="spar-408fmj-hide" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_heavy" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
 		<Body width="311" height="74" density="50" />
 		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect"/>
     <!--60 rounds per minute-->
@@ -40,7 +40,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="8" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
@@ -60,8 +60,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-408 DMR" identifier="spar-408jhp-hide" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_heavy" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
 		<Body width="311" height="74" density="50" />
 		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect"/>
     <!--60 rounds per minute-->
@@ -69,7 +69,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="8" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
@@ -89,8 +89,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-338 MG" identifier="spar-338-hide" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,636,471,142" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,636,471,142" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,636,471,142" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,636,471,142" depth="0.55" origin="0.5,0.5" />
 		<Body width="236" height="71" density="60" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="45,-20" aimpos="71,6" handle1="-110,-15" handle2="-25,-8" holdangle="-30"/>
     <!--500 rounds per minute-->
@@ -98,7 +98,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-338-01ROUND-Analog.ogg" type="OnUse" range="6000" volume="1.8" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-338-01ROUND-Analog.ogg" type="OnUse" range="6000" volume="1.8" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This" disabledeltatime="true">
         <SpawnItem identifiers="338round_bw" spawnposition="ThisInventory" />
       </StatusEffect>
@@ -127,8 +127,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-8 SDMR" identifier="spar-8s-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,504,555,124" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,504,555,124" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" depth="0.55" origin="0.5,0.5" />
 		<Body width="277" height="69" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="65,-15" aimpos="85,8" handle1="-90,-25" handle2="-78,10" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
     <!--600 rounds per minute-->
@@ -170,8 +170,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-8 DMR" identifier="spar-8-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,368,494,124" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,368,494,124" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" depth="0.55" origin="0.5,0.5" />
 		<Body width="238" height="62" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-15" aimpos="72,8" handle1="-74,-25" handle2="-34,10" holdangle="-50" msg="ItemMsgPickUpSelect"/>
     <!--600 rounds per minute-->
@@ -179,7 +179,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-8-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-8-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
@@ -209,8 +209,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="SPAR-65 AR" identifier="spar-65-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light"  hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,219,466,141" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,219,466,141" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,219,466,141" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,219,466,141" depth="0.55" origin="0.5,0.5" />
 		<Body width="233" height="70" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <!--600 rounds per minute-->
@@ -218,7 +218,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-65-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-65-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
@@ -251,8 +251,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="spar-556a AR" identifier="spar-556a-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light"  hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,110,454,108" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,110,454,108" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,110,454,108" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,110,454,108" depth="0.55" origin="0.5,0.5" />
 		<Body width="227" height="54" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,5" handle1="-82,-26" handle2="-25,2" holdpos="76,-10" holdangle="-40" msg="ItemMsgPickUpSelect"/>
     <!--600 rounds per minute-->
@@ -260,7 +260,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
@@ -290,8 +290,8 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <Item name="spar-556C AR" identifier="spar-556-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon" Scale="0.25" impactsoundtag="impact_metal_light"  hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,0,404,108" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,0,403,108" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,0,404,108" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,0,403,108" depth="0.55" origin="0.5,0.5" />
 		<Body width="202" height="54" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-57,-26" handle2="0,2" holdpos="61,-10" holdangle="-40" msg="ItemMsgPickUpSelect"/>
     <!--857 rounds per minute-->
@@ -299,7 +299,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="150.0" force="1.5" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
       </StatusEffect>
@@ -417,8 +417,8 @@
     <SkillRequirementHint identifier="weapons" level="50" />
   </Item>
 	<Item name="SPAR-76 AR" identifier="spar-76-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon,spar_76" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,993,468,120" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,993,468,120" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,993,468,120" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,993,468,120" depth="0.55" origin="0.5,0.5" />
 		<Body width="234" height="60" density="50" />
 		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="55,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
 		<!--480 rounds per minute-->
@@ -426,9 +426,9 @@
 			<Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
 			<CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
 			<ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-			<Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_1.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
-			<Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_2.ogg" type="OnUse" range="3000" volume="1.5"/>
-			<Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_3.ogg" type="OnUse" range="3000" volume="1.5"/>
+			<Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_1.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+			<Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_2.ogg" type="OnUse" range="3000" volume="1.5"/>
+			<Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_3.ogg" type="OnUse" range="3000" volume="1.5"/>
 			<StatusEffect type="OnNotContained" target="This">
 				<Remove />
 			</StatusEffect>
@@ -477,8 +477,8 @@
 		<aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
 	</Item>
 	<Item name="SPAR-93 AR" identifier="spar-93-hide" category="Weapon" cargocontaineridentifier="metalcrate" subcategory="Black Sea Armoury" tags="mediumitem,weapon,gun,gunsmith,mountableweapon,spar_93" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,1121,477,147" origin="0.5,0.5" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,1121,477,147" depth="0.55" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,1121,477,147" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,1121,477,147" depth="0.55" origin="0.5,0.5" />
 		<Body width="238" height="73" density="50" />
 		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="55,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
 		<!--480 rounds per minute-->
@@ -486,7 +486,7 @@
 			<Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
 			<CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
 			<ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-			<Sound file="%ModDir%/items/AR/Sounds/SPAR-93-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+			<Sound file="%ModDir%/Items/AR/Sounds/SPAR-93-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
 			<StatusEffect type="OnNotContained" target="This">
 				<Remove />
 			</StatusEffect>
@@ -559,8 +559,8 @@
       <Item identifier="sst_bw" />
       <Item identifier="rubber" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
     <Body width="311" height="74" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect">
       <!--semi_auto-->
@@ -579,7 +579,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-408-01ROUND-Analog.ogg" type="OnUse" range="8000" volume="2"/>
       <StatusEffect type="OnUse" target="This">
         <Explosion range="100.0" force="8" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="9.0" />
       </StatusEffect>
@@ -744,13 +744,12 @@
       <RequiredSkill identifier="weapons" level="60" />
       <RequiredItem identifier="camp7_bw" amount="1"/>
       <RequiredItem identifier="sst_bw" amount="2"/>
-      <RequiredItem identifier="lead" amount="4"/>
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" amount="2" />
       <RequiredItem identifier="amu_bw" />
     </Fabricate>
     <Deconstruct time="15">
       <Item identifier="amu_bw" mincondition="0.95" />
       <Item identifier="sst_bw" mincondition="0.95"/>
-      <Item identifier="lead" amount="2" mincondition="0.95"/>
     </Deconstruct>
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="208,88,29,37" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="37" density="25" />
@@ -939,8 +938,8 @@
       <Item identifier="amu_bw"/>
       <Item identifier="rubber" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,636,471,142" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,636,471,142" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,636,471,142" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,636,471,142" depth="0.55" origin="0.5,0.5" />
     <Body width="236" height="71" density="60" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="45,-20" aimpos="71,6" handle1="-110,-15" handle2="-25,-8" holdangle="-30"/>
     <!--500 rounds per minute-->
@@ -948,7 +947,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-338-01ROUND-Analog.ogg" type="OnUse" range="6000" volume="1.8" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-338-01ROUND-Analog.ogg" type="OnUse" range="6000" volume="1.8" selectionmode="Random"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.6" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -1039,16 +1038,16 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="35">
       <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="camp6_bw" />
-      <RequiredItem identifier="steel" amount="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="2"/>
       <RequiredItem identifier="amu_bw" />
       <RequiredItem identifier="titaniumaluminiumalloy" />
     </Fabricate>
     <Deconstruct time="15">
-      <Item identifier="steel" mincondition="0.95" />
+      <Item identifier="camp6_bw" mincondition="0.95" />
       <Item identifier="amu_bw" mincondition="0.95" />
       <Item identifier="titaniumaluminiumalloy" mincondition="0.95"/>
     </Deconstruct>
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
     <Body width="22" height="36" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="338round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="338round_bw" />
@@ -1075,17 +1074,17 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="35">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="camp6_bw" amount="2.5"/>
-      <RequiredItem identifier="steel" amount="5"/>
-      <RequiredItem identifier="amu_bw" amount="2.5"/>
-      <RequiredItem identifier="titaniumaluminiumalloy" amount="2.5"/>
+      <RequiredItem identifier="camp6_bw" amount="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+      <RequiredItem identifier="amu_bw" amount="2"/>
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="1"/>
     </Fabricate>
     <Deconstruct time="15">
-      <Item identifier="steel" mincondition="0.95" amount="2"/>
+      <Item identifier="camp6_bw" mincondition="0.95" amount="2"/>
       <Item identifier="amu_bw" mincondition="0.95" amount="2"/>
       <Item identifier="titaniumaluminiumalloy" mincondition="0.95" amount="2"/>
     </Deconstruct>
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
     <Body width="22" height="36" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="338round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="338round_bw" />
@@ -1140,16 +1139,16 @@
 		<Fabricate suitablefabricators="fabricator" requiredtime="35">
 			<RequiredSkill identifier="weapons" level="40" />
 			<RequiredItem identifier="camp6_bw" />
-			<RequiredItem identifier="steel" amount="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="2"/>
 			<RequiredItem identifier="amu_bw" />
 			<RequiredItem identifier="pta_bw" />
 		</Fabricate>
 		<Deconstruct time="15">
-			<Item identifier="steel" mincondition="0.95" />
+			<Item identifier="camp6_bw" mincondition="0.95" />
 			<Item identifier="amu_bw" mincondition="0.95" />
 			<Item identifier="pta_bw" mincondition="0.95"/>
 		</Deconstruct>
-		<Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="607,0,44,71" depth="0.55" origin="0.5,0.5" />
 		<Body width="22" height="36" density="25" />
 		<ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="338apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
 			<Containable items="338apround_bw" />
@@ -1213,8 +1212,8 @@
       <Item identifier="amu_bw"/>
       <Item identifier="pta_bw"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,1121,477,147" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,1121,477,147" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,1121,477,147" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,1121,477,147" depth="0.55" origin="0.5,0.5" />
     <Body width="238" height="73" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="55,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <!--410 rounds per minute-->
@@ -1222,7 +1221,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-93-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-93-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.7" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -1332,13 +1331,13 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="30">
       <RequiredSkill identifier="weapons" level="60" />
       <RequiredItem identifier="camp6_bw"/>
-      <RequiredItem identifier="lead" amount="2"/>
-      <RequiredItem identifier="steel" amount ="4"/>
-      <RequiredItem identifier="sst_bw" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" amount="2" />
+      <RequiredItem identifier="sst_bw" amount ="1"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="775,0,55,107" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="775,0,55,107" origin="0.4,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="775,0,55,107" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="775,0,55,107" origin="0.4,0.5" />
     <Body width="27" height="53" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="93round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="93round_bw" />
@@ -1393,12 +1392,12 @@
 			<RequiredSkill identifier="weapons" level="60" />
 			<RequiredItem identifier="camp6_bw"/>
 			<RequiredItem identifier="pta_bw"/>
-			<RequiredItem identifier="steel" amount ="4"/>
-			<RequiredItem identifier="sst_bw" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+			<RequiredItem identifier="sst_bw" amount ="1"/>
 		</Fabricate>
 		<Deconstruct time="15"/>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="775,0,55,107" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="775,0,55,107" origin="0.4,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="775,0,55,107" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="775,0,55,107" origin="0.4,0.5" />
 		<Body width="27" height="53" density="25" />
 		<ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="93apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
 			<Containable items="93apround_bw" />
@@ -1433,8 +1432,8 @@
       <Item identifier="amu_bw"/>
       <Item identifier="spar-8"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,504,555,124" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,504,555,124" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" depth="0.55" origin="0.5,0.5" />
     <Body width="277" height="69" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="65,-15" aimpos="85,8" handle1="-90,-25" handle2="-78,10" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="500">
       <!--semi_auto-->
@@ -1450,7 +1449,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-8S-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-8S-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.6" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -1638,7 +1637,7 @@
       <RequiredSkill identifier="weapons" level="65" />
       <RequiredItem identifier="sst_bw" amount="4" />
       <RequiredItem identifier="amu_bw" amount="2" />
-      <RequiredItem identifier="pta_bw" mincondition="0.5" usecondition="true"/>
+      <RequiredItem identifier="pta_bw" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
     <Deconstruct time="35">
@@ -1646,8 +1645,8 @@
       <Item identifier="sst_bw" amount="2" />
       <Item identifier="amu_bw" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,368,494,124" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,368,494,124" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" depth="0.55" origin="0.5,0.5" />
     <Body width="238" height="62" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-15" aimpos="72,8" handle1="-74,-25" handle2="-34,10" holdangle="-50" msg="ItemMsgPickUpSelect" />
     <!--600 rounds per minute-->
@@ -1655,7 +1654,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-8-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-8-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.7" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -1741,12 +1740,12 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="30" amount="2">
       <RequiredSkill identifier="weapons" level="60" />
       <RequiredItem identifier="camp6_bw"/>
-      <RequiredItem identifier="steel" amount ="4"/>
-      <RequiredItem identifier="sst_bw" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+      <RequiredItem identifier="sst_bw" amount ="1"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="542,0,49,90" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="542,0,49,90" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
     <Body width="25" height="45" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="8round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="8round_bw" />
@@ -1774,12 +1773,12 @@
 			<RequiredSkill identifier="weapons" level="60" />
 			<RequiredItem identifier="camp6_bw"/>
 			<RequiredItem identifier="pta_bw"/>
-			<RequiredItem identifier="steel" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="2"/>
 			<RequiredItem identifier="sst_bw"/>
 		</Fabricate>
 		<Deconstruct time="15"/>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="542,0,49,90" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="542,0,49,90" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
 		<Body width="25" height="45" density="25" />
 		<ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="8apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
 			<Containable items="8apround_bw" />
@@ -1807,16 +1806,16 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="35">
       <RequiredSkill identifier="weapons" level="65" />
       <RequiredItem identifier="camp6_bw"/>
-      <RequiredItem identifier="steel" amount ="4"/>
-      <RequiredItem identifier="sst_bw" amount ="2"/>
-      <RequiredItem identifier="plastic" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+      <RequiredItem identifier="sst_bw" amount ="1"/>
+      <RequiredItem identifier="plastic" amount ="1"/>
     </Fabricate>
     <Deconstruct time="15">
       <Item identifier="steel" amount ="1" mincondition="0.95"/>
       <Item identifier="sst_bw" amount ="1" mincondition="0.95"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="542,0,49,90" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="542,0,49,90" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="542,0,49,90" origin="0.4,0.5" />
     <Body width="25" height="45" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="8round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="8round_bw" />
@@ -1907,8 +1906,8 @@
       <Item identifier="amu_bw"/>
       <Item identifier="pta_bw"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,993,468,120" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,993,468,120" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,993,468,120" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,993,468,120" depth="0.55" origin="0.5,0.5" />
     <Body width="234" height="60" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="55,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <!--400 rounds per minute-->
@@ -1916,9 +1915,9 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_1.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_2.ogg" type="OnUse" range="3000" volume="1.5"/>
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-76-01ROUND-Analog_3.ogg" type="OnUse" range="3000" volume="1.5"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_1.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_2.ogg" type="OnUse" range="3000" volume="1.5"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-76-01ROUND-Analog_3.ogg" type="OnUse" range="3000" volume="1.5"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.7" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -2054,13 +2053,13 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="30">
       <RequiredSkill identifier="weapons" level="60" />
       <RequiredItem identifier="camp6_bw"/>
-      <RequiredItem identifier="lead" amount="2"/>
-      <RequiredItem identifier="steel" amount ="4"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
       <RequiredItem identifier="sst_bw" amount ="1"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="667,0,92,108" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="667,0,92,108" origin="0.4,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="667,0,92,108" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="667,0,92,108" origin="0.4,0.5" />
     <Body width="46" height="54" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="762round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="762round_bw" />
@@ -2088,12 +2087,12 @@
 			<RequiredSkill identifier="weapons" level="60" />
 			<RequiredItem identifier="camp6_bw"/>
 			<RequiredItem identifier="titanium"/>
-			<RequiredItem identifier="steel" amount ="4"/>
-			<RequiredItem identifier="sst_bw" amount ="2"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
+			<RequiredItem identifier="sst_bw" amount ="1"/>
 		</Fabricate>
 		<Deconstruct time="15"/>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="667,0,92,108" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="667,0,92,108" origin="0.4,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="667,0,92,108" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="667,0,92,108" origin="0.4,0.5" />
 		<Body width="46" height="54" density="25" />
 		<ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="762apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
 			<Containable items="762apround_bw" />
@@ -2134,8 +2133,8 @@
       <Item identifier="titaniumaluminiumalloy"/>
       <Item identifier="spar-556"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,219,466,141" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,219,466,141" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,219,466,141" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,219,466,141" depth="0.55" origin="0.5,0.5" />
     <Body width="233" height="70" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-10" aimpos="70,5" handle1="-92,-10" handle2="-55,2" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <!--600 rounds per minute-->
@@ -2143,7 +2142,7 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/SPAR-65-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/SPAR-65-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.8" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -2277,15 +2276,14 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="50" amount="2">
       <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="camp6_bw" amount="2"/>
-      <RequiredItem identifier="lead" amount="6"/>
+      <RequiredItem identifier="camp6_bw" amount="1"/>
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" amount="4"/>
       <RequiredItem identifier="sst_bw" amount="1"/>
-      <RequiredItem identifier="steel" amount="2"/>
-      <RequiredItem identifier="plastic" amount="2"/>
+      <RequiredItem identifier="plastic" amount="1"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="476,0,50,80" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
     <Body width="25" height="40" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="65round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="65round_bw" />
@@ -2312,13 +2310,13 @@
 		<Fabricate suitablefabricators="fabricator" requiredtime="50" amount="1">
 			<RequiredSkill identifier="weapons" level="60" />
 			<RequiredItem identifier="camp6_bw" amount="1"/>
-			<RequiredItem identifier="titanium" amount="2"/>
-			<RequiredItem identifier="sst_bw" amount="2"/>
+			<RequiredItem identifier="titanium" amount="1"/>
+			<RequiredItem identifier="sst_bw" amount="1"/>
 			<RequiredItem identifier="plastic" amount="1"/>
 		</Fabricate>
 		<Deconstruct time="15"/>
-		<InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
-		<Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="476,0,50,80" />
+		<Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
 		<Body width="25" height="40" density="25" />
 		<ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="65apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
 			<Containable items="65apround_bw" />
@@ -2350,8 +2348,8 @@
     <Deconstruct time="35">
       <Item identifier="spar-556"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,110,454,108" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,110,454,108" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,110,454,108" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,110,454,108" depth="0.55" origin="0.5,0.5" />
     <Body width="227" height="54" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,5" handle1="-82,-26" handle2="-25,2" holdpos="76,-10" holdangle="-40" msg="ItemMsgPickUpSelect">
       <!--semi_auto-->
@@ -2367,9 +2365,9 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" frequencymultiplier="0.8"/>
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" frequencymultiplier="1.2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" frequencymultiplier="0.8"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556a-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" frequencymultiplier="1.2"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.8" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -2564,8 +2562,8 @@
       <Item identifier="sst_bw" amount="1" />
       <Item identifier="amu_bw" amount="1" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="0,0,404,108" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" sourcerect="0,0,403,108" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,0,404,108" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,0,403,108" depth="0.55" origin="0.5,0.5" />
     <Body width="202" height="54" density="50" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-57,-26" handle2="0,2" holdpos="61,-10" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <!--857 rounds per minute-->
@@ -2573,9 +2571,9 @@
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" frequencymultiplier="0.8"/>
-      <Sound file="%ModDir%/items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" frequencymultiplier="1.2"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" range="3000" volume="1.5" selectionmode="Random"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" frequencymultiplier="0.8"/>
+      <Sound file="%ModDir%/Items/AR/Sounds/spar-556-01ROUND-Analog.ogg" type="OnUse" volume="1.5" range="3000" frequencymultiplier="1.2"/>
       <StatusEffect type="OnSecondaryUse" target="Character" SpeedMultiplier="0.8" setvalue="true">
         <Conditional recoilstabilized="lte 0" />
       </StatusEffect>
@@ -2649,13 +2647,13 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="35" amount="2">
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="magnesium"/>
-      <RequiredItem identifier="lead"/>
-      <RequiredItem identifier="steel" amount="2"/>
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" />
+      <RequiredItem identifier="steel" amount="1"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="419,0,40,76" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="419,0,40,76" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
     <Body width="20" height="38" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="556round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="556round_bw" />
@@ -2686,8 +2684,8 @@
       <RequiredItem identifier="titanium"/>
     </Fabricate>
     <Deconstruct time="15"/>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="419,0,40,76" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="419,0,40,76" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="419,0,40,76" origin="0.5,0.5" />
     <Body width="19" height="32" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="556apround_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="556apround_bw" />
@@ -2715,16 +2713,15 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="50">
       <RequiredSkill identifier="weapons" level="50" />
-      <RequiredItem identifier="magnesium" amount="3"/>
-      <RequiredItem identifier="lead" amount="3"/>
-      <RequiredItem identifier="steel" amount="5"/>
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" amount="3" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" amount="3"/>
+      <RequiredItem identifier="steel" amount="3"/>
     </Fabricate>
     <Deconstruct time="15">
-      <Item identifier="lead" mincondition="0.95" amount="2"/>
-      <Item identifier="steel" mincondition="0.95" amount="2"/>
+      <Item identifier="steel" mincondition="0.95" amount="3"/>
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/AR/AR.png" sourcerect="476,0,50,80" />
-    <Sprite texture="%ModDir%/items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="476,0,50,80" />
+    <Sprite texture="%ModDir%/Items/AR/AR.png" depth="0.54" sourcerect="476,0,50,80" origin="0.5,0.5" />
     <Body width="25" height="40" density="25" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="556round_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="556round_bw" />

@@ -33,8 +33,8 @@
     </Explosion>
     <Affliction identifier="explosiondamage" strength="1000" />
   </StatusEffect>
-  <sound File="%ModDir%/items/Dropod/warning.ogg" State="Idle" Range="3000" Volume="1" Tags="" />
-  <sound File="%ModDir%/items/Dropod/warning.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Items/Dropod/warning.ogg" State="Idle" Range="3000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Items/Dropod/warning.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
   <damageemitter drawontop="True" Particle="blackgib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="10" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <bloodemitter Particle="blackblood" AngleMin="1" AngleMax="2" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <bloodemitter Particle="blackwaterblood" AngleMin="1" AngleMax="2" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />

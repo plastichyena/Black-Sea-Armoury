@@ -520,7 +520,7 @@
     </Item>
   <!-- Mining Armor increased resistance a little-->
   <Item name="" identifier="armored_miningsuit_bw3_e" aliases="worker hardsuit" category="Equipment" tags="diving,provocative,divinggear_wearableindoors,deepdiving,divingsuit,mech" scale="0.5" fireproof="true" description="" allowdroppingonswap="true" impactsoundtag="impact_metal_heavy" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="SYSP.png" sourcerect="0,0,256,256" />
+    <InventoryIcon texture="%ModDir%/BA/SYSP.png" sourcerect="0,0,256,256" />
     <Sprite name="Diving Suit Item" texture="%ModDir%/BA/MA3.png" sourcerect="0,0,320,320" depth="0.55" origin="0.5,0.52" />
     <ContainedSprite name="Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/BA/A02.png" sourcerect="12,30,77,209" depth="0.55" origin="-0.12,-0.13" />
     <ContainedSprite name="Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/BA/MA3.png" sourcerect="0,0,320,520" depth="0.55" origin="0.5,0.52" />

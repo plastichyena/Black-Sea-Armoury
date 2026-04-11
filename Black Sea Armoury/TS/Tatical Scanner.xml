@@ -59,9 +59,10 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true" amount="4">
         <RequiredSkill identifier="weapons" level="45" />
-        <RequiredItem identifier="magnesium" />
-        <RequiredItem identifier="physicorium" />
-        <RequiredItem identifier="titaniumaluminiumalloy" />
+        <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+        <RequiredItem tag="advmunition_tip" description="fabricationdescription.advmunition_tip" />
+        <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+        <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
       </Fabricate>
       <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="166,430,43,43" origin="0.5,0.5" />
       <Sprite texture="Content/Items/Jobgear/TalentGear.png" sourcerect="3,118,24,9" depth="0.55" origin="0.5,0.5" />
@@ -152,8 +153,15 @@
       <RequiredItem identifier="physicorium" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="pta_bw" />
+      <RequiredItem identifier="amu_bw" />
+      <RequiredItem identifier="sst_bw" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
     <InventoryIcon texture="%ModDir%/TS/BC4.png" sourcerect="0,0,64,64" />
-    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="0,340,164,228" depth="0.6" />
+    <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="0,340,164,228" depth="0.6" />
     <Body radius="40" height="60" density="40" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
@@ -167,7 +175,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.6" probabilitymultiplier="0.6" damagesound="LimbArmor" />
       <SkillModifier skillidentifier="mechanical" skillvalue="5" />
       <SkillModifier skillidentifier="electrical" skillvalue="5" />
-      <sprite name="shellbagbw" texture="%ModDir%/TS/tatical.png" sourcerect="0,340,164,228" limb="Torso" depthlimb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" origin="0.65,0.37">
+      <sprite name="shellbagbw" texture="%ModDir%/TS/Tatical.png" sourcerect="0,340,164,228" limb="Torso" depthlimb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" origin="0.65,0.37">
         <LightComponent range="200.0" lightcolor="250,224,165,255" powerconsumption="10" IsOn="true" allowingameediting="false">
           <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
@@ -209,12 +217,12 @@
       <RequiredItem identifier="bandolierbw2" />
       <RequiredItem identifier="bandolierbw3" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
-    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+      <sprite name="Security Vest" texture="%ModDir%/TS/Tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn" texture="%ModDir%/TS/Scabbard.png" sourcerect="0,0,700,200" depth="0.55" origin="0.7,0.1" canbehiddenbyotherwearables="false" rotation="30" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.28" />
       <sprite name="Worn2" texture="%ModDir%/Boarding Shield/shieldB.png" sourcerect="0,0,200,452" depth="0.56" origin="0.3,0.4" canbehiddenbyotherwearables="false" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.35" />
       <SkillModifier skillidentifier="weapons" skillvalue="15" />
@@ -243,12 +251,12 @@
       <RequiredItem identifier="shield_bw" />
       <RequiredItem identifier="bandolierbw" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
-    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+      <sprite name="Security Vest" texture="%ModDir%/TS/Tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn2" texture="%ModDir%/Boarding Shield/shieldB.png" sourcerect="0,0,200,452" depth="0.56" origin="0.3,0.4" canbehiddenbyotherwearables="false" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.35" />
       <SkillModifier skillidentifier="weapons" skillvalue="15" />
       <SkillModifier skillidentifier="mechanical" skillvalue="10" />
@@ -276,12 +284,17 @@
       <RequiredItem identifier="mudraptorshell" />
       <RequiredItem identifier="bandolierbw" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
-    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="pta_bw" />
+      <RequiredItem identifier="bandolierbw" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="Security Vest" texture="%ModDir%/TS/tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+      <sprite name="Security Vest" texture="%ModDir%/TS/Tatical.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
       <sprite name="Worn" texture="%ModDir%/TS/Scabbard.png" sourcerect="0,0,700,200" depth="0.55" origin="0.7,0.1" canbehiddenbyotherwearables="false" rotation="30" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.28" />
       <SkillModifier skillidentifier="weapons" skillvalue="15" />
       <SkillModifier skillidentifier="mechanical" skillvalue="10" />
@@ -319,8 +332,16 @@
       <RequiredItem identifier="physicorium" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/TS/tatical.png" sourcerect="0,0,164,228" />
-    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="0,0,164,228" depth="0.6" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="35">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="bca_bw" />
+      <RequiredItem identifier="pta_bw" />
+      <RequiredItem identifier="sst_bw" />
+      <RequiredItem identifier="amu_bw" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="0,0,164,228" />
+    <Sprite texture="%ModDir%/TS/Tatical.png" sourcerect="0,0,164,228" depth="0.6" />
     <Body radius="40" height="60" density="40" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
@@ -332,7 +353,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.6" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.6" probabilitymultiplier="0.6" damagesound="LimbArmor" />
-      <sprite name="shellshield" texture="%ModDir%/TS/tatical.png" sourcerect="0,0,164,228" limb="Torso" depthlimb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" origin="0.65,0.6">
+      <sprite name="shellshield" texture="%ModDir%/TS/Tatical.png" sourcerect="0,0,164,228" limb="Torso" depthlimb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" origin="0.65,0.6">
         <LightComponent range="200.0" lightcolor="250,224,165,255" powerconsumption="10" IsOn="true" allowingameediting="false">
           <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
@@ -586,11 +607,11 @@
       <RequiredItem identifier="fulgurium" />
       <RequiredItem identifier="headset" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/TS/tatical ScannerAtlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
-    <Sprite name="Medical Headset" texture="%ModDir%/TS/tatical Scanner.png" sourcerect="0,0,76,80" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/TS/Tatical ScannerAtlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite name="Medical Headset" texture="%ModDir%/TS/Tatical Scanner.png" sourcerect="0,0,76,80" origin="0.5,0.5" />
     <Body width="70" height="14" density="30" />
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
-      <sprite name="Medical Headset Wearable" texture="%ModDir%/TS/tatical Scanner.png" limb="Head" inheritlimbdepth="true" inherittexturescale="true" sourcerect="0,0,75,78" origin="0.55,0.85" />
+      <sprite name="Medical Headset Wearable" texture="%ModDir%/TS/Tatical Scanner.png" limb="Head" inheritlimbdepth="true" inherittexturescale="true" sourcerect="0,0,75,78" origin="0.55,0.85" />
       <SkillModifier skillidentifier="weapons" skillvalue="10" />
       <SkillModifier skillidentifier="mechanical" skillvalue="10" />
       <SkillModifier skillidentifier="electrical" skillvalue="10" />
@@ -685,10 +706,9 @@
   <Item name="" identifier="revolverammobw" scale="0.5" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" linkable="true" description="" tags="smallitem,revolverammobw,gunsmith" impactsoundtag="impact_metal_light" maxstacksize="10">
     <Fabricate suitablefabricators="fabricator" requiredtime="1" amount="2">
       <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="steel" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="lead" />
-      <RequiredItem identifier="magnesium" />
-      <RequiredItem identifier="magnesium" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" amount="2"/>
     </Fabricate>
     <InventoryIcon texture="%ModDir%/LC/gun clip.png" sourcerect="0,0,36,48" depth="0.55" />
     <Sprite texture="%ModDir%/LC/gun clip.png" sourcerect="0,0,36,48" origin="0.5,0.5" />
@@ -707,8 +727,8 @@
   </Item>
   <!-- 14.5mm Normal Bullet (Bullet for 14.5mm Round Clip) -->
   <Item name="round1" identifier="revolverroundbw" category="Weapon" subcategory="Black Sea Armoury" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverroundbw,gunsmith,pistolammoitem" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="True">
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true">
@@ -737,9 +757,10 @@
   <Item name="" identifier="revolverammobw2" scale="0.5" category="Weapon" subcategory="Black Sea Armoury" cargocontaineridentifier="metalcrate" linkable="true" description="" tags="smallitem,revolverammobw2,gunsmith" impactsoundtag="impact_metal_light" maxstacksize="10">
     <Fabricate suitablefabricators="fabricator" requiredtime="1" amount="2">
       <RequiredSkill identifier="weapons" level="75" />
-      <RequiredItem identifier="steel" mincondition="1" usecondition="true" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" amount="2"/>
       <RequiredItem identifier="c4block" mincondition="1" usecondition="true" />
-      <RequiredItem identifier="magnesium" amount="2"/>
     </Fabricate>
     <InventoryIcon texture="%ModDir%/LC/gun clip2.png" sourcerect="0,0,36,48" depth="0.55" />
     <Sprite texture="%ModDir%/LC/gun clip2.png" sourcerect="0,0,36,48" origin="0.5,0.5" />
@@ -758,8 +779,8 @@
   </Item>
   <!-- 14.5mm Concussion Bullet (Bullet for 14.5mm Concussion Round Clip) -->
   <Item name="round2" identifier="revolverroundbw2" category="Weapon" subcategory="Black Sea Armoury" maxstacksize="24" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverroundbw2,gunsmith,pistolammoitem" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="True">
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun round2.png" sourcerect="0,0,36,8" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun round2.png" sourcerect="0,0,36,8" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true">
@@ -816,8 +837,8 @@
   </Item>
   <!-- 14.5mm Flare Bullet (Bullet for 14.5mm Flare Round Clip) -->
   <Item name="round3" identifier="revolverroundbw3" category="Weapon" subcategory="Black Sea Armoury" maxstacksize="24" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverroundbw3,pistolammoitem" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="True">
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun round3.png" sourcerect="0,0,4,4" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round3.png" sourcerect="0,0,4,4" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun round3.png" sourcerect="0,0,4,4" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round3.png" sourcerect="0,0,4,4" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" launchimpulse="18.0">

@@ -169,8 +169,8 @@
   </Item>
   <!-- CQB SMG enemy-->
   <Item name="cqbsmg" identifier="smg_bw_e" category="Equipment" description="" cargocontaineridentifier="metalcrate" tags="smgtype,smallitem,weapon,gun,gunsmith" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,72" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/SMG/SMG.png" sourcerect="0,00,180,70" depth="0.55" origin="0.5,0.5" />
     <Body width="140" height="60" density="50" />
     <Holdable slots="RightHand,LeftHand" controlpose="true" aimpos="70,5" handle1="-25,-7" msg="ItemMsgPickUpSelect" />
     <RangedWeapon reload="0.15" barrelpos="14,6" spread="8" unskilledspread="18" combatPriority="40" drawhudwhenequipped="true" crosshairscale="0.2">
@@ -606,10 +606,10 @@
   </Item>
     <!-- Sickle HMG enemy-->
   <Item name="sickle" identifier="HMG1_bw_e" category="Equipment" description="" cargocontaineridentifier="metalcrate" tags="mgtype,mediumitem,weapon,gun,gunsmith" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
     </Wearable>
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
@@ -659,10 +659,10 @@
   </Item>
   <!-- Revolution (Sickle HMG upgrade) for enemy-->
   <Item name="revolution" identifier="HMG1_bp6_e" category="Equipment" description="" cargocontaineridentifier="metalcrate" tags="mgtype,mediumitem,weapon,gun,gunsmith" Scale="0.25" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
-    <InventoryIcon texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
     </Wearable>
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
@@ -775,10 +775,10 @@
   <!-- Experimental Chaingun for enemy -->
   <Item name="chaingun" identifier="minichaingun_bw_e" category="Equipment" description="" cargocontaineridentifier="metalcrate" tags="mgtype,mediumitem,weapon,gun,gunsmith" Scale="0.2" impactsoundtag="impact_metal_light" hideinmenus="true" nonplayerteaminteractable="true">
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.2" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.2" />
     </Wearable>
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <RangedWeapon barrelpos="250,13" spread="1" unskilledspread="16" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.05">

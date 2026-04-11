@@ -22,15 +22,15 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
         <RequiredSkill identifier="mechanical" level="80" />
-        <RequiredItem identifier="rubber" amount="2"/>
-        <RequiredItem identifier="ballisticfiber" amount="2" />
+        <RequiredItem identifier="rubber" amount="1"/>
+        <RequiredItem identifier="ballisticfiber" amount="1" />
         <RequiredItem identifier="depletedfuel" amount="1"/>
         <RequiredItem identifier="pta_bw" amount="1"/>
         <RequiredItem identifier="silicon" amount="1"/>
       </Fabricate>
       <Deconstruct time="10">
-        <Item identifier="rubber"  amount="2" copycondition="true" />
-        <Item identifier="ballisticfiber"  amount="2" copycondition="true" />
+        <Item identifier="rubber"  amount="1" copycondition="true" />
+        <Item identifier="ballisticfiber"  amount="1" copycondition="true" />
         <Item identifier="pta_bw"  amount="1" copycondition="true" />
       </Deconstruct>
       <InventoryIcon texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="180,7,52,25" origin="0.5,0.5" />
@@ -57,13 +57,13 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="15">
         <RequiredSkill identifier="mechanical" level="80" />
-        <RequiredItem identifier="titaniumaluminiumalloy" amount="2"/>
-        <RequiredItem identifier="steel" amount="2" />
+        <RequiredItem identifier="titaniumaluminiumalloy" amount="1"/>
+        <RequiredItem identifier="steel" amount="1" />
         <RequiredItem identifier="physicorium" mincondition="0.5" usecondition="true"/>
       </Fabricate>
       <Deconstruct time="10">
-        <Item identifier="titaniumaluminiumalloy"  amount="2" copycondition="true" />
-        <Item identifier="steel"  amount="2" copycondition="true" />
+        <Item identifier="titaniumaluminiumalloy"  amount="1" copycondition="true" />
+        <Item identifier="steel"  amount="1" copycondition="true" />
       </Deconstruct>
       <InventoryIcon texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="4,7,52,25" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="4,7,52,25" depth="0.55" origin="0.5,0.5" />
@@ -120,12 +120,12 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="5">
         <RequiredSkill identifier="mechanical" level="40" />
-        <RequiredItem identifier="steel" amount="2"/>
+        <RequiredItem identifier="steel" amount="1"/>
         <RequiredItem identifier="silicon" mincondition="0.25" usecondition="true"/>
         <RequiredItem identifier="titanium" mincondition="0.25" usecondition="true"/>
       </Fabricate>
       <Deconstruct time="5">
-        <Item identifier="steel"  amount="2" copycondition="true" />
+        <Item identifier="steel"  amount="1" copycondition="true" />
       </Deconstruct>
       <InventoryIcon texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="122,7,52,25" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Materials/CraftingElements1.png" sourcerect="122,7,52,25" depth="0.55" origin="0.5,0.5" />
@@ -152,8 +152,7 @@
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
         <RequiredSkill identifier="weapons" level="70" />
         <RequiredSkill identifier="mechanical" level="60" />
-        <RequiredItem identifier="potassium" />
-        <RequiredItem identifier="magnesium"/>
+        <RequiredItem tag="munition_propulsion" amount="2" description="fabricationdescription.munition_propulsion" />
         <RequiredItem identifier="aluminium"/>
         <RequiredItem identifier="c4block" mincondition="0.25" usecondition="true"/>
       </Fabricate>
@@ -201,8 +200,7 @@
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
         <RequiredSkill identifier="weapons" level="70" />
         <RequiredSkill identifier="mechanical" level="60" />
-        <RequiredItem identifier="potassium"/>
-        <RequiredItem identifier="magnesium"/>
+        <RequiredItem tag="munition_propulsion" amount="2" description="fabricationdescription.munition_propulsion" />
         <RequiredItem identifier="aluminium"/>
         <RequiredItem identifier="ic4block" mincondition="0.25" usecondition="true"/>
       </Fabricate>

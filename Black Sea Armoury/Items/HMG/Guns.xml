@@ -18,10 +18,10 @@
       <RequiredItem identifier="physicorium" />
       <RequiredItem identifier="HMG1_bw" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/6G.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
     </Wearable>
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
@@ -106,14 +106,14 @@
       <RequiredSkill identifier="weapons" level="80" />
       <RequiredItem identifier="sst_bw" amount="8" />
       <RequiredItem identifier="amu_bw" amount="6" />
-      <RequiredItem identifier="pta_bw" mincondition="2.5" usecondition="true"/>
+      <RequiredItem identifier="pta_bw" amount="2"/>
       <RequiredItem identifier="plastic" amount="2"/>
       <RequiredItem identifier="rubber" amount="2"/>
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/HMG1.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.25" />
     </Wearable>
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="200"/>
@@ -183,8 +183,8 @@
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
     <Deconstruct time="1"></Deconstruct>
-    <InventoryIcon texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="Any,RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" hitscan="true" spread="4" removeonhit="false" maxtargetstohit="2">
@@ -227,20 +227,20 @@
       <Price storeidentifier="merchantmine" multiplier="1.25" />
     </Price>
     <Deconstruct time="20">
-      <Item identifier="sst_bw" amount="4" mincondition="0.95"/>
+      <Item identifier="sst_bw" amount="2" mincondition="0.95"/>
       <Item identifier="amu_bw" amount="2" mincondition="0.95"/>
-      <Item identifier="pta_bw" amount="2" mincondition="0.95"/>
+      <Item identifier="pta_bw" amount="1" mincondition="0.95"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="40">
       <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="camp6_bw" amount="4"/>
+      <RequiredItem identifier="camp6_bw" amount="2"/>
       <RequiredItem identifier="pta_bw" amount="2"/>
-      <RequiredItem identifier="sst_bw" amount="8"/>
-      <RequiredItem identifier="amu_bw" amount="4"/>
-      <RequiredItem identifier="steel" amount="2"/>
+      <RequiredItem identifier="sst_bw" amount="2"/>
+      <RequiredItem identifier="amu_bw" amount="2"/>
+      <RequiredItem identifier="steel" amount="1"/>
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
     <Body width="30" height="40" density="50" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="HMG1_ammo_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="HMG1_ammo_bw" />
@@ -272,14 +272,14 @@
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="40">
       <RequiredSkill identifier="weapons" level="60" />
-      <RequiredItem identifier="camp6_bw" amount="2"/>
+      <RequiredItem identifier="camp6_bw" amount="1"/>
       <RequiredItem identifier="pta_bw"/>
-      <RequiredItem identifier="sst_bw" amount="4"/>
-      <RequiredItem identifier="amu_bw" amount="2"/>
+      <RequiredItem identifier="sst_bw" amount="1"/>
+      <RequiredItem identifier="amu_bw" amount="1"/>
       <RequiredItem identifier="steel" amount="1"/>
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/14.5 ammo box.png" sourcerect="0,0,95,72" depth="0.55" />
     <Body width="30" height="40" density="50" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="HMG1_ammo_bw" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
       <Containable items="HMG1_ammo_bw" />
@@ -322,10 +322,10 @@
       <RequiredItem identifier="thermalartifact" />
     </Fabricate>
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="CG Worn" texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.2" />
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.2" />
     </Wearable>
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
     <Body width="72" height="40" density="50" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <RangedWeapon barrelpos="250,13" spread="6.5" unskilledspread="16" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.05">
@@ -405,21 +405,21 @@
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
     <Deconstruct time="10">
-      <RequiredItem identifier="physicorium" amount="2" mincondition="0.1" copycondition="true"/>
-      <RequiredItem identifier="sst_bw" amount="6" mincondition="0.1" copycondition="true"/>
-      <RequiredItem identifier="amu_bw" amount="2" mincondition="0.1" copycondition="true"/>
+      <Item identifier="physicorium" amount="1" mincondition="0.1" copycondition="true"/>
+      <Item identifier="sst_bw" amount="2" mincondition="0.1" copycondition="true"/>
+      <Item identifier="amu_bw" amount="2" mincondition="0.1" copycondition="true"/>
       <Item identifier="plastic" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="30">
       <RequiredSkill identifier="weapons" level="80" />
-      <RequiredItem identifier="physicorium" amount="2"/>
-      <RequiredItem identifier="camp6_bw" amount="4"/>
-      <RequiredItem identifier="sst_bw" amount="8"/>
-      <RequiredItem identifier="amu_bw" amount="4"/>
-      <RequiredItem identifier="plastic" amount="2"/>
+      <RequiredItem identifier="physicorium" amount="1"/>
+      <RequiredItem identifier="camp6_bw" amount="2"/>
+      <RequiredItem identifier="sst_bw" amount="2"/>
+      <RequiredItem identifier="amu_bw" amount="2"/>
+      <RequiredItem identifier="plastic" amount="1"/>
     </Fabricate>
-    <Sprite texture="%ModDir%/items/HMG/chain gun ammo box.png" depth="0.54" sourcerect="0,0,95,72" origin="0.5,0.5" />
-    <ContainedSprite allowedcontainertags="weapon" texture="%ModDir%/items/HMG/chain gun ammo box.png" depth="0.54" sourcerect="0,0,96,72" origin="0.5,0.5">
+    <Sprite texture="%ModDir%/Items/HMG/chain gun ammo box.png" depth="0.54" sourcerect="0,0,95,72" origin="0.5,0.5" />
+    <ContainedSprite allowedcontainertags="weapon" texture="%ModDir%/Items/HMG/chain gun ammo box.png" depth="0.54" sourcerect="0,0,96,72" origin="0.5,0.5">
       <StatusEffect type="Always" target="This" targetitemcomponent="ContainedSprite" setvalue="true" sourcerect="0,0,95,70">
         <Conditional condition="eq 0" />
       </StatusEffect>
@@ -440,8 +440,8 @@
   </Item>
   <!-- Chaingun Bullet -->
   <Item name="Experimental Chaingun Round" identifier="chaingun_round_bw" category="Misc" interactthroughwalls="true" tags="smallitem,round,hmgammotype,mountableweapon" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true" nonplayerteaminteractable="True">
-    <InventoryIcon texture="%ModDir%/items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
-    <Sprite texture="%ModDir%/items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun round.png" sourcerect="0,0,36,8" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun round2.png" sourcerect="0,0,36,9" origin="0.5,0.5" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" hitscan="true" spread="6" maxtargetstohit="2" removeonhit="false">
@@ -470,5 +470,93 @@
       <StatusEffect type="OnImpact" target="UseTarget" targetidentifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" Stuck="-0.66" Condition="-0.66" />
       <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="0.95" />
     </Projectile>
+  </Item>
+    <!-- Experimental Chaingun test-->
+  <Item name="" identifier="testminichaingun_bw" category="Weapon" subcategory="Black Sea Armoury" description="" cargocontaineridentifier="metalcrate" tags="mgtype,mediumitem,weapon,gun,gunsmith" Scale="0.2" impactsoundtag="impact_metal_light">
+    <Price baseprice="3000" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false" />
+      <Price locationtype="city" multiplier="1.2" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="0.9" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="physicorium" />
+      <Item identifier="physicorium" />
+      <Item identifier="incendium" />
+      <Item identifier="flamerunique" />
+    </Deconstruct>
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="CG Worn" texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.9" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" limb="Torso" ignorelimbscale="true" scale="0.2" />
+    </Wearable>
+    <InventoryIcon texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/HMG/chaingun.png" sourcerect="0,0,640,280" depth="0.55" origin="0.5,0.5" />
+    <Body width="72" height="40" density="50" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="140,-120" aimpos="160,-120" handle1="-60,-6" handle2="120,7" holdangle="-40" msg="ItemMsgPickUpSelect" >
+  <StatusEffect type="OnUse" target="This" tags="spin_trigger" duration="0.05" stackable="false" />
+
+  <StatusEffect type="OnUse" target="This" ReloadTimer="0.05" setvalue="true" comparison="and">
+    <Conditional reload="gt 0.35" />
+  </StatusEffect>
+
+  <StatusEffect type="OnActive" target="This" reload="-0.75" comparison="and">
+    <Conditional hasstatustag="spin_trigger" />
+    <Conditional reload="gt 0.13" />
+  </StatusEffect>
+
+  <StatusEffect type="OnActive" target="This" reload="0.13" setvalue="true" comparison="and">
+    <Conditional hasstatustag="spin_trigger" />
+    <Conditional reload="lt 0.13" />
+  </StatusEffect>
+
+  <StatusEffect type="OnActive" target="This" reload="1.0" setvalue="true" comparison="and">
+    <Conditional hasstatustag="neq spin_trigger" />
+    <Conditional reload="lt 0.99" />
+  </StatusEffect>
+    </Holdable>
+    <RangedWeapon barrelpos="250,13" spread="6.5" unskilledspread="16" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="1.0" holdtrigger="true">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <StatusEffect type="OnUse" target="This">
+        <Explosion range="25.0" force="1.5" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="10.0" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character" SpeedMultiplier="0.7" setvalue="true" />
+      
+      <StatusEffect type="Always" target="This" Condition="20">
+        <Conditional condition="gt 0" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Sound file="Content/Items/Weapons/ShotgunLoad1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad2.ogg" type="OnUse" range="3000" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad3.ogg" type="OnUse" range="3000" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="100" disabledeltatime="true" delay="2.6" stackable="false" />
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="chaingun_ammo_bw" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="50" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="bullet">
+      <Containable items="chaingun_ammo_bw" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+    <LightComponent range="500.0" lightcolor="250,224,165,255" powerconsumption="10" IsOn="true" flicker="0.1">
+      <StatusEffect type="Always" target="This,Character" Voltage="1.0" setvalue="true">
+        <Conditional IsDead="false" />
+      </StatusEffect>
+      <LightTexture texture="Content/Lights/lightcone.png" origin="-0.07, 0.5" size="1.0,1.0" />
+    </LightComponent>
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.1" />
+    </Quality>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
 </Items>
