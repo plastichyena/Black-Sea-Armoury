@@ -187,9 +187,6 @@
     <Deconstruct time="5">
       <Item identifier="uex" />
       <Item identifier="uex" />
-      <Item identifier="uex" />
-      <Item identifier="uex" />
-      <Item identifier="uex" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="1">
       <RequiredSkill identifier="weapons" level="30" />
