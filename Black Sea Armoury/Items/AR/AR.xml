@@ -5,7 +5,7 @@
 		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
 		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
 		<Body width="311" height="74" density="50" />
-		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
+		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect"/>
     <!--60 rounds per minute-->
     <RangedWeapon reload="2" holdtrigger="true" barrelpos="220,13" spread="1.5" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.22">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
@@ -34,7 +34,7 @@
 		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
 		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
 		<Body width="311" height="74" density="50" />
-		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect"/>
+		<Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect" />
     <!--60 rounds per minute-->
     <RangedWeapon reload="2"  oldtrigger="true" barrelpos="220,13" spread="1.5" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.22">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
@@ -130,7 +130,7 @@
 		<InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" origin="0.5,0.5" />
 		<Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,504,555,124" depth="0.55" origin="0.5,0.5" />
 		<Body width="277" height="69" density="50" />
-		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="65,-15" aimpos="85,8" handle1="-90,-25" handle2="-78,10" holdangle="-40" msg="ItemMsgPickUpSelect" cameraaimoffset="500"/>
+		<Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="65,-15" aimpos="85,8" handle1="-90,-25" handle2="-78,10" holdangle="-40" msg="ItemMsgPickUpSelect"/>
     <!--600 rounds per minute-->
     <RangedWeapon reload="0.2" holdtrigger="true" barrelpos="220,13" spread="5.8" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
@@ -562,7 +562,7 @@
     <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" />
     <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,811,623,148" depth="0.55" />
     <Body width="311" height="74" density="50" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect">
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,0" aimpos="80,0" handle1="-156,-26" handle2="-40,-20" holdangle="-30" msg="ItemMsgPickUpSelect" cameraaimoffset="400">
       <!--semi_auto-->
       <StatusEffect type="OnUse" target="This" ReloadTimer="0.4" setvalue="true">
         <Conditional hasstatustag="trigger_hold" />
@@ -1445,7 +1445,7 @@
       </StatusEffect>
     </Holdable>
     <!--600 rounds per minute-->
-    <RangedWeapon reload="0.2" reloadnoskill="0.55" reloadskillrequirement="65" holdtrigger="true" barrelpos="277,2" spread="8" unskilledspread="25" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.2" reloadnoskill="0.55" reloadskillrequirement="65" holdtrigger="true" barrelpos="277,2" spread="8" unskilledspread="25" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2" >
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />
@@ -1648,9 +1648,9 @@
     <InventoryIcon texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/AR/AR.png" sourcerect="0,368,494,124" depth="0.55" origin="0.5,0.5" />
     <Body width="238" height="62" density="50" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-15" aimpos="72,8" handle1="-74,-25" handle2="-34,10" holdangle="-50" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="60,-15" aimpos="72,8" handle1="-74,-25" handle2="-34,10" holdangle="-50" msg="ItemMsgPickUpSelect" cameraaimoffset="400"/>
     <!--600 rounds per minute-->
-    <RangedWeapon reload="0.12" reloadnoskill="0.22" reloadskillrequirement="65" holdtrigger="true" barrelpos="238,2" spread="8" unskilledspread="25" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+    <RangedWeapon reload="0.12" reloadnoskill="0.22" reloadskillrequirement="65" holdtrigger="true" barrelpos="238,2" spread="8" unskilledspread="25" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2" >
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
       <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
       <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="4.0,4.0" colormultiplier="255,200,200,200" />

@@ -85,7 +85,7 @@
   <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when piloting a mech.</talentdescription.miracleworker_bw>
   <talentdescription.revengesquad_offense> When a alloy is dying, you get [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
   <talentdescription.revengesquad_deffense> When a alloy is dying, you get [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
-	<talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]%的‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
+	<talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]% ‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
   <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
   <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life.  If all crew members survive, increase the maximum life of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
   <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
@@ -370,6 +370,7 @@
   <entitydescription.c6_bw>A military high explosive developed by the Iron Federation. </entitydescription.c6_bw>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>Apron</entityname.divingsuitlockerbw>
+  <entitydescription.shellbagbw>Safely stores mech suits.</entitydescription.shellbagbw>
   <entityname.shellbagbw>Dreadnought Support System</entityname.shellbagbw>
   <entitydescription.shellbagbw>Infantry support bag design for boarding battle,can not take high water pressure.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellbagbw>
   <entityname.shellshieldbw>Dreadnought PCIA</entityname.shellshieldbw>

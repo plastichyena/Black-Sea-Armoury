@@ -362,6 +362,7 @@
   <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>エプロン</entityname.divingsuitlockerbw>
+  <entitydescription.shellbagbw>Safely stores mech suits.</entitydescription.shellbagbw>
   <entityname.shellbagbw>ドレッドノートサポートシステム</entityname.shellbagbw>
   <entitydescription.shellbagbw>船内での戦闘を行う歩兵向けの補助装備。高い水圧には耐えられない。動作にはX01酸素セルが必要。</entitydescription.shellbagbw>
   <entityname.shellshieldbw>ドレッドノートPCIA</entityname.shellshieldbw>

@@ -23,7 +23,7 @@
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
         <RequiredSkill identifier="mechanical" level="80" />
         <RequiredItem identifier="rubber" amount="1"/>
-        <RequiredItem identifier="ballisticfiber" amount="1" />
+        <RequiredItem identifier="ballisticfiber" amount="2" />
         <RequiredItem identifier="depletedfuel" amount="1"/>
         <RequiredItem identifier="pta_bw" amount="1"/>
         <RequiredItem identifier="silicon" amount="1"/>
@@ -57,8 +57,8 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="15">
         <RequiredSkill identifier="mechanical" level="80" />
-        <RequiredItem identifier="titaniumaluminiumalloy" amount="1"/>
-        <RequiredItem identifier="steel" amount="1" />
+        <RequiredItem identifier="titaniumaluminiumalloy" amount="2"/>
+        <RequiredItem identifier="steel" amount="2" />
         <RequiredItem identifier="physicorium" mincondition="0.5" usecondition="true"/>
       </Fabricate>
       <Deconstruct time="10">
@@ -120,7 +120,7 @@
       </Price>
       <Fabricate suitablefabricators="fabricator" requiredtime="5">
         <RequiredSkill identifier="mechanical" level="40" />
-        <RequiredItem identifier="steel" amount="1"/>
+        <RequiredItem identifier="steel" amount="2"/>
         <RequiredItem identifier="silicon" mincondition="0.25" usecondition="true"/>
         <RequiredItem identifier="titanium" mincondition="0.25" usecondition="true"/>
       </Fabricate>

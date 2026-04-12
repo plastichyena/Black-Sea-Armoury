@@ -918,6 +918,7 @@
       </Abilities>
     </AbilityGroupInterval>
     <AddedRecipe itemidentifier="pio_bw2" />
+    <AddedRecipe itemidentifier="depletedfuel"/>
   </Talent>
   <Talent identifier="gunsmithbw">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,3" sheetelementsize="128,128" />

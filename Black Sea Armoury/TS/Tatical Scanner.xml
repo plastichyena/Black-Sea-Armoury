@@ -93,8 +93,8 @@
     </Item>
   </Override>
   <!-- Mech Suit Locker -->
-  <Item name="" identifier="divingsuitlockerbw" tags="container,divingsuitcontainer,divingsuitcontainerhorizontal,securecontainer" pickdistance="50" scale="0.6">
-    <Sprite name="Large Diving Suit Locker Horizontal" texture="%ModDir%/TS/DivingSuitLocker.png" depth="0.84" sourcerect="0,0,260,340" origin="0.5,0.5" />
+  <Item name="" identifier="divingsuitlockerbw" tags="container,divingsuitcontainer,divingsuitcontainerhorizontal,securecontainer" pickdistance="50" scale="0.6" GrabWhenSelected="true" impactsoundtag="impact_metal_heavy">
+    <Sprite name="Large Diving Suit Locker Horizontal" texture="%ModDir%/TS/DivingSuitLocker.png" depth="0.84" sourcerect="0,0,260,340" origin="0.5,0.5" canflipx="false"/>
     <Fabricate suitablefabricators="fabricator" requiredtime="30" >
       <RequiredSkill identifier="mechanical" level="35" />
       <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
@@ -105,6 +105,7 @@
       <Item identifier="steel" />
       <Item identifier="titaniumaluminiumalloy" />
     </Deconstruct>
+    <Body width="260" height="340" density="80" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" MsgWhenDropped="ItemMsgPickupSelect" PickingTime="5.0" aimpos="85,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem items="wrench,deattachtool" excludeditems="multitool" type="Equipped" />
     </Holdable>
@@ -125,14 +126,14 @@
       <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
       <input name="power_in" displayname="connection.powerin" />
     </ConnectionPanel>
-    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="132,-245" iteminterval="0,-65" canbeselected="true" msg="ItemMsgInteractSelect">
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="0,-75" iteminterval="0,-65" canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
       <Containable items="mech" />
     </ItemContainer>
   </Item>
   <!-- Dreadnought Support System -->
-  <Item name="" identifier="shellbagbw" category="Equipment" tags="smallitem,clothing,gunsmith" impactsoundtag="impact_metal_light" description="" scale="0.5" allowasextracargo="true">
+  <Item name="" identifier="shellbagbw" category="Equipment" tags="clothing,gunsmith" impactsoundtag="impact_metal_light" description="" scale="0.5" allowasextracargo="true">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="1000" soldeverywhere="false" canbespecial="false">
       <Price locationtype="outpost" sold="false" />
@@ -143,7 +144,6 @@
     </Price>
     <Deconstruct time="10">
       <Item identifier="mudraptorshell" />
-      <Item identifier="physicorium" />
       <Item identifier="fpgacircuit" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="30">
@@ -309,7 +309,7 @@
     </ItemContainer>
   </Item>
   <!-- Dreadnought PCIA -->
-  <Item name="" identifier="shellshieldbw" category="Equipment" tags="smallitem,clothing,gunsmith" impactsoundtag="impact_metal_light" description="" scale="0.5" allowasextracargo="true">
+  <Item name="" identifier="shellshieldbw" category="Equipment" tags="clothing,gunsmith" impactsoundtag="impact_metal_light" description="" scale="0.5" allowasextracargo="true">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="2000" soldeverywhere="false" canbespecial="false">
       <Price locationtype="outpost" sold="false" />
@@ -337,7 +337,7 @@
       <RequiredItem identifier="bca_bw" />
       <RequiredItem identifier="pta_bw" />
       <RequiredItem identifier="sst_bw" />
-      <RequiredItem identifier="amu_bw" />
+      <RequiredItem identifier="shellbagbw" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/TS/Tatical.png" sourcerect="0,0,164,228" />
@@ -400,6 +400,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
+    <Deconstruct time="20">
+    </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
       <RequiredItem identifier="titaniumaluminiumalloy" />
@@ -424,6 +426,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
+    <Deconstruct time="20">
+    </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
       <RequiredItem identifier="titaniumaluminiumalloy" />
@@ -514,6 +518,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
+    <Deconstruct time="20">
+    </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
       <RequiredItem identifier="titaniumaluminiumalloy" />
@@ -557,6 +563,8 @@
       <Price locationtype="military" multiplier="0.9" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
+    <Deconstruct time="20">
+    </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
       <RequiredItem identifier="titaniumaluminiumalloy" />

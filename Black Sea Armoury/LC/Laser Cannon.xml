@@ -284,7 +284,7 @@
       <RequiredItem identifier="physicorium"/>
       <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
       <RequiredItem identifier="camp7_bw"/>
-      <RequiredItem identifier="sst_bw" amount="1"/>
+      <RequiredItem identifier="sst_bw" amount="4"/>
       <RequiredItem identifier="titaniumaluminiumalloy" amount="1"/>
     </Fabricate>
     <InventoryIcon texture="%ModDir%/LC/sgun clip.png" sourcerect="0,0,36,48" depth="0.55" />

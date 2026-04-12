@@ -154,7 +154,7 @@
     <Fabricate suitablefabricators="fabricator" requiredtime="50" requiresrecipe="True">
       <RequiredSkill identifier="weapons" level="50" />
       <RequiredItem identifier="pta_bw" amount ="1"/>
-      <RequiredItem identifier="sst_bw" amount ="2"/>
+      <RequiredItem identifier="sst_bw" amount ="4"/>
       <RequiredItem identifier="amu_bw" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="1">
