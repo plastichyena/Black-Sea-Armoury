@@ -585,7 +585,6 @@
         <Affliction identifier="sup1" strength="10" />
       </StatusEffect>
     </Wearable>
-    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="12">
       <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter,bandolier,tacsupbag,weapon" />
     </ItemContainer>
