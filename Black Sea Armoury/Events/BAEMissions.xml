@@ -18,7 +18,7 @@
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,768,256,256" color="214,50,48"/>
     <LocationType from="Military" to="None"/>
     <LocationType from="Military" to="AnyOutpost"/>
-    <message header="missionheader.killtarget" text="missionmessage.killnuker"/>
+    <message header="missionheader.killtarget" text="missionmessage.killmessage"/>
   </MonsterMission>
 
   <MonsterMission
@@ -40,7 +40,7 @@
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,768,256,256" color="214,50,48"/>
     <LocationType from="Military" to="None"/>
     <LocationType from="Military" to="AnyOutpost"/>
-    <message header="missionheader.killtarget" text="missionmessage.killnuker"/>
+    <message header="missionheader.killtarget" text="missionmessage.killmessage"/>
   </MonsterMission>
 
   <MonsterMission
