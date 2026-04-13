@@ -400,7 +400,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <Deconstruct time="20">
+    <Deconstruct time="10">
+      <RequiredItem identifier="ballisticfiber" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
@@ -426,7 +427,7 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <Deconstruct time="20">
+    <Deconstruct time="10">
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
@@ -518,7 +519,7 @@
       <Price locationtype="military" multiplier="1" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <Deconstruct time="20">
+    <Deconstruct time="10">
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
@@ -563,7 +564,7 @@
       <Price locationtype="military" multiplier="0.9" minavailable="1" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <Deconstruct time="20">
+    <Deconstruct time="10">
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="25">
       <RequiredSkill identifier="weapons" level="45" />
