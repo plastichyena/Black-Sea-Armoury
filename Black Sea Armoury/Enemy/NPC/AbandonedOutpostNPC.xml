@@ -694,7 +694,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item identifier="rum" />
 				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -718,7 +718,7 @@
 			<ItemSet commonness="1">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item identifier="rum" />
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
@@ -735,7 +735,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item identifier="rum" />
         <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
@@ -750,7 +750,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item identifier="rum" />
         <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
@@ -767,7 +767,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -785,7 +785,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -805,7 +805,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
 				<Item identifier="lasercannon_bw">
@@ -823,7 +823,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item identifier="rum" />
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -840,7 +840,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item identifier="rum" />
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -859,7 +859,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-65">
@@ -875,7 +875,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-76">
@@ -893,7 +893,7 @@
       <ItemSet commonness="4">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-556">
@@ -909,7 +909,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-556a">
@@ -927,7 +927,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item identifier="rum" />
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -946,7 +946,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
 				<Item identifier="spsg-8">
@@ -965,7 +965,7 @@
 			<ItemSet commonness="4">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
 				<Item identifier="spsg-4" amount="4">
@@ -984,7 +984,7 @@
 			<ItemSet commonness="4">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
 				<Item identifier="spsg-15" amount="15">
@@ -1005,7 +1005,7 @@
       <ItemSet commonness="4">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-556">
@@ -1024,7 +1024,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-556a">
@@ -1045,7 +1045,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-65">
@@ -1064,7 +1064,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
         <Item identifier="spar-76">
@@ -1085,7 +1085,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1100,7 +1100,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1117,7 +1117,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1132,7 +1132,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1149,7 +1149,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1169,7 +1169,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
 					<Item identifier="oxygentank" />
@@ -1190,7 +1190,7 @@
       <ItemSet commonness="4">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -1207,7 +1207,7 @@
       <ItemSet commonness="4">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -1227,7 +1227,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -1244,7 +1244,7 @@
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="bodyarmor" equip="true"/>
@@ -1263,7 +1263,7 @@
       <ItemSet commonness="4">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
           <Item identifier="oxygentank" />
@@ -1278,7 +1278,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
@@ -1294,7 +1294,7 @@
       <ItemSet commonness="6">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="corsairar_bw_e" equip="true" >
           <Item identifier="oxygentank" />
@@ -1311,7 +1311,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="armored_miningsuit_bw_e" equip="true">
 					<Item identifier="fulguriumbatterycell" />
@@ -1327,7 +1327,7 @@
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="ballistichelmet1" equip="true" />
-        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="separatistcommoner3" equip="true" />
         <Item identifier="headset" equip="true" showpreview="false"/>
         <Item slot="OuterClothes" identifier="armored_hardsuit_bw2" equip="true" >
           <Item identifier="oxygen_cell_bw" />
@@ -1347,7 +1347,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="armored_miningsuit_bw_e" equip="true">
 					<Item identifier="fulguriumbatterycell" />
@@ -1362,7 +1362,7 @@
 			<ItemSet commonness="2">
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="ballistichelmet1" equip="true" />
-				<Item identifier="pirateclothes" equip="true" />
+				<Item identifier="separatistcommoner3" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
 				<Item slot="OuterClothes" identifier="armored_hardsuit_bw2" equip="true" >
 					<Item identifier="oxygen_cell_bw" />

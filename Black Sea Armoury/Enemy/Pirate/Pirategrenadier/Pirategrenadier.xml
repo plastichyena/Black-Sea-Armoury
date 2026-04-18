@@ -47,13 +47,19 @@
     <target damagethreshold="0" tag="leucocyte" state="Avoid" priority="80" reactdistance="1500" attackdistance="0" />
     <SwarmBehavior mindistfromclosest="400" maxdistfromcenter="1000" cohesion="0.5" />
   </ai>
-<inventory arrowslot="9" Slots="Card, Head, Bag, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
+  <StatusEffect type="OnDeconstructed" target="Character">
+    <SpawnItem identifiers="carbon" spawnposition="ThisInventory" count="1" probablity="1" />
+    <SpawnItem identifiers="poop" spawnposition="ThisInventory" count="2" probablity="1" />
+    <SpawnItem identifiers="antibloodloss2" spawnposition="ThisInventory" count="1" probablity="0.1" />
+    <SpawnItem identifiers="sst_bw" spawnposition="ThisInventory" count="1" probablity="0.1" />
+  </StatusEffect>
+  <inventory arrowslot="9" Slots="Card, Head, Bag, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="bw_grenade_drum" />
     <Item Identifier="scrap" amount="2"/>
     <Item slot="RightHand+LeftHand" Identifier="grenadelauncher_bw_ge" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmet1" />
     <Item slot="Bag" Identifier="grenadelauncher" />
   </inventory>
@@ -64,7 +70,7 @@
     <Item slot="RightHand+LeftHand" Identifier="grenadelauncher_bw_ge" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmet1" />
     <Item slot="Bag" Identifier="grenadelauncher" />
   </inventory>

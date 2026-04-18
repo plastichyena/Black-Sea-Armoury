@@ -7,7 +7,7 @@
   <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <gibemitter Particle="heavygib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
-  <health Vitality="500" DoesBleed="True" CrushDepth="20000" UseHealthWindow="False" BleedingReduction="0.5" BurnReduction="0.5" ConstantHealthRegeneration="1" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="0" EmpVulnerability="0" ApplyAfflictionColors="True">
+  <health Vitality="500" DoesBleed="True" CrushDepth="20000" UseHealthWindow="False" BleedingReduction="0.5" BurnReduction="0.5" ConstantHealthRegeneration="0.5" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="0" EmpVulnerability="0" ApplyAfflictionColors="True">
     <Limb name="Head">
       <VitalityMultiplier type="damage" multiplier="2.0" />
     </Limb>
@@ -50,6 +50,12 @@
       <Affliction identifier="stun" amount="5.0"/>
       <ParticleEmitter particle="ElectricShock" distancemin="0" distancemax="200" particleamount="5" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" />
       <sound file="Content/Items/Weapons/WEAPONS_electricalDischarge1.ogg" range="500" />
+    </StatusEffect>
+    <StatusEffect type="OnDeconstructed" target="Character">
+    <SpawnItem identifiers="carbon" spawnposition="ThisInventory" count="1" probablity="1" />
+    <SpawnItem identifiers="poop" spawnposition="ThisInventory" count="2" probablity="1" />
+    <SpawnItem identifiers="antibloodloss2" spawnposition="ThisInventory" count="1" probablity="0.1" />
+    <SpawnItem identifiers="relic_bw" spawnposition="ThisInventory" count="1" probablity="0.1" />
     </StatusEffect>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="5">
     <Item slot="LeftHand" Identifier="rg_bw_n_funk" />

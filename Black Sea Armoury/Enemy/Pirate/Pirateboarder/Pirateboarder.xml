@@ -51,6 +51,12 @@
     <target damagethreshold="0" tag="leucocyte" state="Avoid" priority="80" reactdistance="1500" attackdistance="0" />
     <SwarmBehavior mindistfromclosest="400" maxdistfromcenter="1000" cohesion="0.5" />
   </ai>
+  <StatusEffect type="OnDeconstructed" target="Character">
+    <SpawnItem identifiers="carbon" spawnposition="ThisInventory" count="1" probablity="1" />
+    <SpawnItem identifiers="poop" spawnposition="ThisInventory" count="2" probablity="1" />
+    <SpawnItem identifiers="antibloodloss2" spawnposition="ThisInventory" count="1" probablity="0.1" />
+    <SpawnItem identifiers="amu_bw" spawnposition="ThisInventory" count="1" probablity="0.05" />
+  </StatusEffect>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="6">
     <Item Identifier="smgmagazine_bw" />
     <Item Identifier="scrap" amount="1"/>
@@ -58,7 +64,7 @@
     <Item slot="LeftHand" Identifier="smg_bw_e" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
@@ -69,7 +75,7 @@
     <Item slot="LeftHand" Identifier="smg_bw_e" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
@@ -78,7 +84,7 @@
     <Item slot="RightHand+LeftHand" Identifier="spar-556a-hide" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
@@ -87,7 +93,7 @@
     <Item slot="RightHand+LeftHand" Identifier="spar-556-hide" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="pio_bw2_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1">
@@ -98,7 +104,7 @@
     <Item slot="LeftHand" Identifier="smg_bw_e" />
     <Item slot="Card" Identifier="idcard" />
     <Item slot="OuterClothes" Identifier="corsairar_bw_e" />
-    <Item slot="InnerClothes" Identifier="pirateclothes" />
+    <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
 </Character>
