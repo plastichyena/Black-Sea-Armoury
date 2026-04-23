@@ -283,7 +283,7 @@
   <entityname.cell_bw>閉鎖式循環型セル</entityname.cell_bw>
   <entitydescription.cell_bw>エイリアンの技術が組み込まれたこのバッテリーは、ハンマー、コルセア、パイオニアに対して無限の動力を供給する。</entitydescription.cell_bw>
   <!--Boarding Torpedo.xml-->
-  <entityname.boarding_torpedo_bw>ボーディングとるぴーど</entityname.boarding_torpedo_bw>
+  <entityname.boarding_torpedo_bw>ボーディングトルピード</entityname.boarding_torpedo_bw>
   <entitydescription.boarding_torpedo_bw>先鋒は赤だ、ウワアアア!</entitydescription.boarding_torpedo_bw>
   <entityname.jetscooterbw>エンジニアリングモーター</entityname.jetscooterbw>
   <entitydescription.jetscooterbw>重メック用の補助動力。</entitydescription.jetscooterbw>

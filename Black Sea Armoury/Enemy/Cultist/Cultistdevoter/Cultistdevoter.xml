@@ -49,7 +49,7 @@
     <SpawnItem identifiers="carbon" spawnposition="ThisInventory" count="1" probablity="1" />
     <SpawnItem identifiers="poop" spawnposition="ThisInventory" count="2" probablity="1" />
     <SpawnItem identifiers="antibloodloss2" spawnposition="ThisInventory" count="1" probablity="0.1" />
-    <SpawnItem identifiers="amu_bw" spawnposition="ThisInventory" count="1" probablity="0.1" />
+    <SpawnItem identifiers="pta_bw" spawnposition="ThisInventory" count="1" probablity="0.1" />
   </StatusEffect>
   <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1">
     <Item slot="RightHand" Identifier="handcannonbwhusk_e" />
