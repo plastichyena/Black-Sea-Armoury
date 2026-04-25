@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <Job identifier="Pilot" maxnumber="99" minkarma="50" uicolor="0.43,0.57,0.43" vitalitymodifier="20" pricemultiplier="3.0" idlebehavior="Patrol">
+  <Job identifier="Pilot" maxnumber="99" minkarma="50" initialcount="1" uicolor="0.43,0.57,0.43" vitalitymodifier="20" pricemultiplier="3.0" idlebehavior="Patrol">
     <Jobicon>
       <sprite texture="%ModDir%/Job/SR.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
