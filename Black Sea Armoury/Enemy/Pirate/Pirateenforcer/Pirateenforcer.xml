@@ -67,7 +67,7 @@
     <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
     <Item Identifier="shotgunshell" amount="12"/>
     <Item Identifier="scrap" amount="2"/>
     <Item slot="RightHand+LeftHand" Identifier="spsg-15-hide" />
@@ -76,7 +76,7 @@
     <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
     <Item Identifier="shotgunshell" amount="12"/>
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand+LeftHand" Identifier="spsg-4-hide" />

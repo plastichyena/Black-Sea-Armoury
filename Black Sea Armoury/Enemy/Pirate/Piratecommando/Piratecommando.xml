@@ -66,7 +66,7 @@
     <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="6">
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="6">
     <Item Identifier="45_50magazine_bw" />
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand+LeftHand" Identifier="asmg-45-hide" />
@@ -76,7 +76,7 @@
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
 
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
     <Item Identifier="556_150magazine_bw" />
     <Item Identifier="scrap" amount="1"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-556-hide" />
@@ -85,7 +85,7 @@
     <Item slot="InnerClothes" Identifier="separatistcommoner3" />
     <Item slot="Head" Identifier="ballistichelmetbw_hide" />
   </inventory>
-  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
+  <inventory arrowslot="9" Slots="Card, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="4">
     <Item Identifier="65_50magazine_bw" />
     <Item Identifier="scrap" amount="2"/>
     <Item slot="RightHand+LeftHand" Identifier="spar-65-hide" />
