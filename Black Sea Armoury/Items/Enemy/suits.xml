@@ -87,6 +87,7 @@
     <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
     <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.8" damagesound="LimbArmor" />
     <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.6" probabilitymultiplier="0.75" damagesound="LimbArmor" />
+    <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0" autoinject="true">
     <Containable items="none" />
@@ -188,6 +189,7 @@
         <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.8" damagesound="LimbArmor" />
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.7" probabilitymultiplier="0.75" damagesound="LimbArmor" />
+        <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
         <Containable items="none" />
@@ -289,7 +291,8 @@
           <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.75" probabilitymultiplier="0.75" damagesound="LimbArmor" />
         <SkillModifier skillidentifier="mechanical" skillvalue="20" />
         <SkillModifier skillidentifier="electrical" skillvalue="20" />
-        </Wearable>
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />        
+    </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
         <Containable items="none" />
         <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="1,93,120,29" origin="0.5,0.45" />
@@ -391,6 +394,7 @@
         <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.45" damagesound="LimbArmor" />
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.55" probabilitymultiplier="0.55" damagesound="LimbArmor" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
         <Containable items="none" />
@@ -498,6 +502,7 @@
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.45" damagesound="LimbArmor" />
         <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.55" probabilitymultiplier="0.55" damagesound="LimbArmor" />
         <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
         <Containable items="none" />
@@ -583,6 +588,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.15" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.35" probabilitymultiplier="0.35" damagesound="LimbArmor" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <aitarget maxsightrange="4000" />
   </Item>
@@ -734,6 +740,7 @@
       <StatusEffect type="OnNotContained" target="This">
         <Remove />
       </StatusEffect>
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />

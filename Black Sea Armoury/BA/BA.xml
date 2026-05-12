@@ -116,6 +116,7 @@
       <SkillModifier skillidentifier="medical" skillvalue="-10" />
       <SkillModifier skillidentifier="mechanical" skillvalue="-10" />
       <SkillModifier skillidentifier="electrical" skillvalue="-10" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -283,6 +284,7 @@
       <SkillModifier skillidentifier="medical" skillvalue="-20" />
       <SkillModifier skillidentifier="mechanical" skillvalue="-10" />
       <SkillModifier skillidentifier="electrical" skillvalue="-10" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -435,6 +437,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.55" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.55" probabilitymultiplier="0.55" damagesound="LimbArmor" />
       <SkillModifier skillidentifier="weapons" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -658,6 +661,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.45" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.45" probabilitymultiplier="0.45" damagesound="LimbArmor" />
       <SkillModifier skillidentifier="weapons" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -788,6 +792,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.55" probabilitymultiplier="0.55" damagesound="LimbArmor" />
       <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
       <SkillModifier skillidentifier="weapons" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -960,6 +965,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0" probabilitymultiplier="0" damagesound="LimbArmor" />
       <StatusHUD drawhudwhenequipped="true" overlaycolor="0,255,255,120" range="4500" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -1113,6 +1119,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.6" probabilitymultiplier="0.6" damagesound="LimbArmor" />
       <SkillModifier skillidentifier="mechanical" skillvalue="20" />
       <SkillModifier skillidentifier="electrical" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -1238,6 +1245,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.75" probabilitymultiplier="0.75" damagesound="LimbArmor" />
       <SkillModifier skillidentifier="mechanical" skillvalue="20" />
       <SkillModifier skillidentifier="electrical" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -1363,6 +1371,7 @@
       <SkillModifier skillidentifier="medical" skillvalue="-20" />
       <SkillModifier skillidentifier="mechanical" skillvalue="-10" />
       <SkillModifier skillidentifier="electrical" skillvalue="-10" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="20" maxstacksize="1" keepopenwhenequipped="false" movableframe="true" containedstateindicatorstyle="ammo">
       <Containable items="railgunammo,coilgunammo,ammobox,chaingunammo,pulselaserammo" />
@@ -1501,6 +1510,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="paralysis" damagemultiplier="0.45" probabilitymultiplier="0.45" damagesound="LimbArmor" />
       <StatusHUD drawhudwhenequipped="true" overlaycolor="0,255,255,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
       <SkillModifier skillidentifier="weapons" skillvalue="40"/>
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -1632,6 +1642,7 @@
 			<SkillModifier skillidentifier="mechanical" skillvalue="10" />
 			<SkillModifier skillidentifier="electrical" skillvalue="10" />
       <SkillModifier skillidentifier="medical" skillvalue="-20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="20" maxstacksize="1" keepopenwhenequipped="false" movableframe="true" containedstateindicatorstyle="ammo">
       <Containable items="railgunammo,coilgunammo,ammobox,chaingunammo,pulselaserammo,smallitem,mediumitem" />
@@ -1731,6 +1742,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="poison" damagemultiplier="0.2" probabilitymultiplier="0.5" damagesound="LimbArmor" />
       <StatusHUD drawhudwhenequipped="true" overlaycolor="0,255,255,120" range="3000" thermalgoggles="false" showdeadcharacters="true" showtexts="true" />
       <SkillModifier skillidentifier="medical" skillvalue="40" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
@@ -1847,7 +1859,8 @@
 			<damagemodifier armorsector="0.0,360.0" afflictiontypes="poison" damagemultiplier="0.1" probabilitymultiplier="0.5" damagesound="LimbArmor" />
 			<StatusHUD drawhudwhenequipped="true" overlaycolor="0,255,255,120" range="3000" thermalgoggles="false" showdeadcharacters="true" showtexts="true" />
 			<SkillModifier skillidentifier="medical" skillvalue="40" />
-		</Wearable>
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
+    </Wearable>
 		<ItemContainer capacity="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
 			<Containable items="none" />
 			<SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="0,96,120,24" />
@@ -1991,6 +2004,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="poison" damagemultiplier="0.2" probabilitymultiplier="0.5" damagesound="LimbArmor" />
       <StatusHUD drawhudwhenequipped="true" overlaycolor="0,255,255,120" range="3000" thermalgoggles="false" showdeadcharacters="true" showtexts="true" />
       <SkillModifier skillidentifier="medical" skillvalue="20" />
+      <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
     </Wearable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
