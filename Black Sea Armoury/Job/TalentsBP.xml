@@ -805,9 +805,6 @@
     <Description tag="talentdescription.unlockrecipe">
       <Replace tag="[itemname]" value="entityname.armored_miningsuit_bw2" color="gui.orange"/>
     </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.armored_miningsuit_bw3" color="gui.orange"/>
-    </Description>
     <Description tag="talentdescription.stonewallbw">
       <Replace tag="[physicaldamagereduction]" value="20" color="gui.green" />
       <Replace tag="[stunresistance]" value="20" color="gui.green" />
@@ -850,6 +847,9 @@
     </AbilityGroupInterval>
   </Talent>
   <Talent identifier="warlordbw_deffense">
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.armored_miningsuit_bw3" color="gui.orange"/>
+    </Description>
     <Description tag="talentdescription.additionalstattype">
       <Replace tag="[stattype]" value="stattypenames.flowresistance" color="gui.orange" />
       <Replace tag="[amount]" value="100" color="gui.green" />
