@@ -95,8 +95,8 @@
   <inventory arrowslot="9" Slots="Card, Head, Bag, InnerClothes, OuterClothes, LeftHand, RightHand, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="1">
     <Item Identifier="cigar" />
     <Item Identifier="rum" />
-    <Item Identifier="oxygen_cell_bw" amount="2"/>
-    <Item Identifier="scrap" amount="4"/>
+    <Item Identifier="oxygen_cell_bw"/>
+    <Item Identifier="scrap" amount="8"/>
     <Item slot="RightHand" Identifier="prg_bw_e" />
     <Item slot="LeftHand" Identifier="lasercannon_bw_e" />
     <Item slot="Bag" Identifier="bandolierbw3" />
