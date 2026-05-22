@@ -126,7 +126,7 @@
       <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
       <input name="power_in" displayname="connection.powerin" />
     </ConnectionPanel>
-    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="0,-75" iteminterval="0,-65" canbeselected="true" msg="ItemMsgInteractSelect">
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="132,-245" iteminterval="0,-65" canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
       <Containable items="mech" />
